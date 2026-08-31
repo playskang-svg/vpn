@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Rss, Shield, Lock, FileText, CheckCircle2 } from 'lucide-react';
+import { Shield, Lock, FileText, CheckCircle2 } from 'lucide-react';
 import { Language } from '../types';
 import { Logo } from './Logo';
 
@@ -146,14 +146,7 @@ export const Footer: React.FC<FooterProps> = ({ lang, onNavClick, onOpenDeals })
               : '© 2026 VPN Good Choice. All rights reserved. Expert verification for digital safety.'}
           </p>
           <div className="flex items-center gap-6">
-            <button 
-              title="RSS Feed"
-              onClick={() => alert(lang === 'ko' ? '최신 보안 뉴스 피드가 활성화되었습니다.' : 'Latest security news feed subscribed.')}
-              className="text-[#444748] hover:text-[#614abf] transition-colors cursor-pointer"
-            >
-              <Rss className="w-4 h-4" />
-            </button>
-            <button 
+            <button
               title="Verified Shield"
               onClick={() => alert(lang === 'ko' ? 'VPN Good Choice SSL 256비트 암호화 연결 보호 중' : 'VPN Good Choice SSL 256-bit secure connection.')}
               className="text-[#444748] hover:text-[#614abf] transition-colors cursor-pointer"
