@@ -2,6 +2,7 @@
 title: "'노로그(No-Logs) 정책'이란 정확히 무엇인가요?"
 description: "VPN 업체들이 강조하는 '노로그 정책'이 실제로 무엇을 의미하는지, 어떻게 검증되는지, 선택 시 무엇을 확인해야 하는지 설명합니다."
 date: 2026-08-29
+thumbnail: /info/thumbnails/no-logs-policy-explained.png
 ---
 
 VPN을 비교하다 보면 거의 모든 업체가 "노로그 정책(No-Logs Policy)"을 내세웁니다. 하지만 이 말이 정확히 무엇을 보장하는지, 그리고 어떻게 사실인지 확인할 수 있는지는 잘 알려져 있지 않습니다.
