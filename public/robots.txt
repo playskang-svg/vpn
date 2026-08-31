@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://vpn.adbles.com/sitemap.xml
+Sitemap: https://vpn.adbles.com/info/sitemap-info.xml

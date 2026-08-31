@@ -40,6 +40,17 @@ jobs:
         # so assets are rooted at "/" rather than a GitHub Pages "/<repo>/" path.
         run: npm run build
 
+      - name: Install info/ dependencies
+        run: npm ci
+        working-directory: info
+
+      - name: Build info/ (static content pages, vpn.adbles.com/info/)
+        # Must run AFTER the main "Build" step above: Vite empties the whole
+        # dist/ dir on build, while Astro's outDir (../dist/info) only cleans
+        # its own subfolder — building info/ first would get wiped out.
+        run: npm run build
+        working-directory: info
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 

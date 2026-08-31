@@ -1,0 +1,93 @@
+---
+import Logo from '../components/Logo.astro';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+  path: string; // e.g. "/info/" or "/info/why-you-need-a-vpn/"
+  isArticle?: boolean;
+  publishedDate?: Date;
+}
+
+const { title, description, path, isArticle = false, publishedDate } = Astro.props;
+const canonicalUrl = new URL(path, 'https://vpn.adbles.com').toString();
+const ogImage = new URL('/info/og-image.png', 'https://vpn.adbles.com').toString();
+---
+
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title} | VPN Good Choice</title>
+    <meta name="description" content={description} />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#614abf" />
+    <link rel="canonical" href={canonicalUrl} />
+
+    <link rel="icon" type="image/svg+xml" href="/info/favicon.svg" />
+    <link rel="apple-touch-icon" href="/info/apple-touch-icon.png" />
+    <link rel="manifest" href="/info/site.webmanifest" />
+
+    <meta property="og:type" content={isArticle ? 'article' : 'website'} />
+    <meta property="og:site_name" content="VPN Good Choice" />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:locale" content="ko_KR" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    {isArticle && publishedDate && (
+      <script type="application/ld+json" set:html={JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        headline: title,
+        description,
+        datePublished: publishedDate.toISOString(),
+        author: { '@type': 'Organization', name: 'VPN Good Choice' },
+        publisher: {
+          '@type': 'Organization',
+          name: 'VPN Good Choice',
+          logo: { '@type': 'ImageObject', url: 'https://vpn.adbles.com/icon-512.png' },
+        },
+        mainEntityOfPage: canonicalUrl,
+        image: ogImage,
+        inLanguage: 'ko-KR',
+      })} />
+    )}
+  </head>
+  <body class="bg-[#f9f9f9] text-[#1a1c1c] antialiased font-['Inter'] min-h-screen flex flex-col">
+    <header class="border-b border-[#E0E0E0] bg-white/90 backdrop-blur-xl sticky top-0 z-30">
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+        <Logo />
+        <nav class="flex items-center gap-4 text-sm font-semibold text-[#444748]">
+          <a href="/info/" class="hover:text-[#614abf] transition-colors">전체 글</a>
+          <a href="/" class="hover:text-[#614abf] transition-colors">VPN 순위 보기</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="flex-1 w-full max-w-3xl mx-auto px-4 sm:px-6 py-10 sm:py-14">
+      <slot />
+    </main>
+
+    <footer class="border-t border-[#E0E0E0] py-8 mt-auto">
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 text-xs text-[#747878] flex flex-col sm:flex-row justify-between items-center gap-3">
+        <p>© 2026 VPN Good Choice. 모든 권리 보유.</p>
+        <a href="/" class="font-semibold text-[#614abf] hover:underline">← VPN Good Choice 홈으로</a>
+      </div>
+    </footer>
+  </body>
+</html>
