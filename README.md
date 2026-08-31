@@ -77,3 +77,9 @@ npm run dev       # http://localhost:4321
 - 제휴(어필리에이트) 아웃바운드 링크에는 `rel="sponsored"` 적용
 - 이미지 지연 로딩(`loading="lazy"`), 첫 번째 랭킹 카드만 우선 로드(`fetchPriority`)로 Core Web Vitals 최적화
 - `/info/*`: 완전한 정적 HTML(JS 실행 불필요), 글마다 `Article` JSON-LD, `info/public/sitemap-info.xml` — `robots.txt`에 두 sitemap 모두 등록됨
+- `naver-site-verification` 메타태그 (네이버 서치어드바이저 소유권 확인)
+
+### 검색엔진 색인 요청
+
+- **네이버 / Bing / Yandex / Seznam / Yep — 자동화됨**: 배포 워크플로(`.github/workflows/deploy.yml`)의 `deploy` job이 사이트가 실제로 라이브된 직후 [IndexNow](https://www.indexnow.org/) 프로토콜로 두 sitemap의 모든 URL을 `https://api.indexnow.org/indexnow`에 POST합니다. IndexNow는 하나의 엔드포인트로 참여 검색엔진 전체에 전파되는 공개 프로토콜이며, 네이버는 2023년부터 공식 참여 중입니다. 소유권 확인 키 파일은 `public/513f7c8cc7ea6d4ce1e2836095e03a6e.txt`(도메인 루트에 그대로 배포됨). 이 단계는 실패해도 배포 자체를 막지 않으며(`continue-on-error: true`), 실제 결과는 Actions 로그의 "Notify IndexNow" 스텝에서 확인 가능합니다.
+- **Google — 수동**: Google은 IndexNow 미참여, 그리고 일반 콘텐츠(블로그 글 등)에 쓸 수 있는 색인 요청 API가 공식적으로 없습니다(Indexing API는 채용공고/라이브방송 전용이며 일반 콘텐츠에 쓰면 스팸으로 간주됨). 새 글을 더 빨리 색인시키고 싶다면 [Google Search Console](https://search.google.com/search-console) → URL 검사 → 해당 URL 입력 → "색인 생성 요청"을 글마다 수동으로 눌러주는 것이 유일한 공식 경로입니다.
