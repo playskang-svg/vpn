@@ -8,11 +8,13 @@ interface Props {
   path: string; // e.g. "/info/" or "/info/why-you-need-a-vpn/"
   isArticle?: boolean;
   publishedDate?: Date;
+  /** Per-post thumbnail (e.g. "/info/thumbnails/slug.png"). Falls back to the generic OG image. */
+  image?: string;
 }
 
-const { title, description, path, isArticle = false, publishedDate } = Astro.props;
+const { title, description, path, isArticle = false, publishedDate, image } = Astro.props;
 const canonicalUrl = new URL(path, 'https://vpn.adbles.com').toString();
-const ogImage = new URL('/info/og-image.png', 'https://vpn.adbles.com').toString();
+const ogImage = new URL(image ?? '/info/og-image.png', 'https://vpn.adbles.com').toString();
 ---
 
 <!doctype html>
