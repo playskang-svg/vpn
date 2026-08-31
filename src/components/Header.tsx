@@ -34,7 +34,7 @@ export const Header: React.FC<HeaderProps> = ({
 
   return (
     <header className="fixed top-0 w-full z-50 bg-white/90 backdrop-blur-xl border-b border-[#E0E0E0]/80 shadow-[0_1px_8px_rgba(0,0,0,0.04)]">
-      <div className="h-20 max-w-[1200px] mx-auto px-4 lg:px-10 flex items-center justify-between">
+      <div className="h-16 md:h-20 max-w-[1200px] mx-auto px-4 lg:px-10 flex items-center justify-between gap-2">
         {/* Brand Logo */}
         <div 
           onClick={() => { onNavClick('best-vpns'); }}
@@ -72,7 +72,7 @@ export const Header: React.FC<HeaderProps> = ({
         </nav>
 
         {/* Actions Area */}
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-1.5 sm:gap-3 shrink-0">
           {/* Language Switcher */}
           <button
             onClick={onToggleLang}

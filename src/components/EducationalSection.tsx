@@ -76,7 +76,7 @@ export const EducationalSection: React.FC<EducationalSectionProps> = ({ lang }) 
       {/* Guide Detail Modal */}
       {guideModalOpen && (
         <div className="fixed inset-0 z-50 bg-black/60 backdrop-blur-xs flex items-center justify-center p-4">
-          <div className="bg-white rounded-2xl max-w-2xl w-full max-h-[85vh] overflow-y-auto p-6 md:p-8 shadow-2xl border border-[#E0E0E0]">
+          <div className="bg-white rounded-2xl max-w-2xl w-full max-h-[85dvh] overflow-y-auto p-6 md:p-8 shadow-2xl border border-[#E0E0E0]">
             <div className="flex justify-between items-center pb-4 border-b border-[#E0E0E0] mb-6">
               <h3 className="font-['Hanken_Grotesk'] text-2xl font-bold text-[#111111]">
                 {lang === 'ko' ? 'VPN 개인정보 보호 핵심 체크리스트' : 'VPN Privacy & Security Master Guide'}

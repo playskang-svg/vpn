@@ -1,0 +1,25 @@
+{
+  "name": "VPN Good Choice - 최고의 유료 VPN 추천",
+  "short_name": "VPN Good Choice",
+  "description": "당사 내부 전문가들이 주요 기능을 분석하여 선정한 최고의 유료 VPN 비교 및 추천 가이드",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "lang": "ko",
+  "theme_color": "#614abf",
+  "background_color": "#f9f9f9",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

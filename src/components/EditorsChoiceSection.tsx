@@ -60,13 +60,14 @@ export const EditorsChoiceSection: React.FC<EditorsChoiceSectionProps> = ({
                   <a
                     href={vpn.dealUrl}
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="sponsored noopener noreferrer"
                     title={`${vpn.name} 공식 사이트 방문`}
                     className="h-14 w-full flex items-center justify-center mb-3 group/logo cursor-pointer"
                   >
                     <img
                       src={vpn.compactLogoUrl || vpn.logoUrl}
                       alt={vpn.name}
+                      loading="lazy"
                       className="h-12 w-auto object-contain transition-transform group-hover/logo:scale-105"
                     />
                   </a>
@@ -122,7 +123,7 @@ export const EditorsChoiceSection: React.FC<EditorsChoiceSectionProps> = ({
                     id={`btn-choice-visit-${vpn.id}`}
                     href={vpn.dealUrl}
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="sponsored noopener noreferrer"
                     className={`flex-1 py-2.5 px-3 rounded-lg font-['Inter'] text-[13px] font-bold transition-all flex items-center justify-center gap-1.5 cursor-pointer ${
                       isFirst
                         ? 'bg-[#111111] hover:bg-[#2f3131] text-white shadow-xs'

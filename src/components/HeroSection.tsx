@@ -78,7 +78,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
         </div>
 
         {/* Filter Pills */}
-        <div className="flex flex-wrap items-center justify-center gap-1.5 w-full sm:w-auto">
+        <div className="flex sm:flex-wrap items-center justify-start sm:justify-center gap-1.5 w-full sm:w-auto overflow-x-auto sm:overflow-visible pb-1 sm:pb-0">
           {categories.map((cat) => {
             const isSelected = selectedCategory === cat.id;
             return (
@@ -86,7 +86,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                 key={cat.id}
                 id={`cat-btn-${cat.id}`}
                 onClick={() => onSelectCategory(cat.id)}
-                className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all cursor-pointer ${
+                className={`shrink-0 whitespace-nowrap px-3 py-1.5 rounded-lg text-xs font-semibold transition-all cursor-pointer ${
                   isSelected
                     ? 'bg-[#111111] text-white shadow-xs'
                     : 'bg-white text-[#444748] border border-[#E0E0E0] hover:border-[#614abf] hover:text-[#614abf]'

@@ -1,0 +1,44 @@
+<svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="vgcShieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#614abf" />
+      <stop offset="50%" stop-color="#7e65e6" />
+      <stop offset="100%" stop-color="#432c9e" />
+    </linearGradient>
+    <linearGradient id="vgcCheckGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00E676" />
+      <stop offset="100%" stop-color="#00C853" />
+    </linearGradient>
+  </defs>
+
+  <path
+    d="M20 3L34 7.8V17.5C34 26.2 28 34.2 20 37C12 34.2 6 26.2 6 17.5V7.8L20 3Z"
+    fill="url(#vgcShieldGrad)"
+  />
+  <path
+    d="M20 5.5L31.5 9.5V17.5C31.5 24.8 26.5 31.6 20 34C13.5 31.6 8.5 24.8 8.5 17.5V9.5L20 5.5Z"
+    stroke="white"
+    stroke-width="0.75"
+    stroke-opacity="0.3"
+    fill="none"
+  />
+  <circle cx="20" cy="13" r="1.75" fill="white" fill-opacity="0.9" />
+  <circle cx="14" cy="20" r="1.5" fill="white" fill-opacity="0.7" />
+  <circle cx="26" cy="20" r="1.5" fill="white" fill-opacity="0.7" />
+  <path
+    d="M14 20L20 13L26 20"
+    stroke="white"
+    stroke-width="1"
+    stroke-opacity="0.4"
+    stroke-dasharray="1.5 1.5"
+  />
+  <circle cx="20" cy="24" r="7.5" fill="#111111" />
+  <circle cx="20" cy="24" r="6.8" fill="url(#vgcCheckGrad)" />
+  <path
+    d="M16.5 24L18.8 26.3L23.5 21.6"
+    stroke="white"
+    stroke-width="1.8"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>

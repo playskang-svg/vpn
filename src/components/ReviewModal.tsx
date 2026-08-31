@@ -21,20 +21,21 @@ export const ReviewModal: React.FC<ReviewModalProps> = ({
 
   return (
     <div className="fixed inset-0 z-50 bg-black/60 backdrop-blur-xs flex items-center justify-center p-3 sm:p-6 overflow-y-auto">
-      <div className="bg-white rounded-2xl max-w-3xl w-full max-h-[90vh] overflow-y-auto shadow-2xl border border-[#E0E0E0] flex flex-col">
+      <div className="bg-white rounded-2xl max-w-3xl w-full max-h-[90dvh] overflow-y-auto shadow-2xl border border-[#E0E0E0] flex flex-col">
         {/* Header */}
         <div className="p-6 border-b border-[#E0E0E0] flex items-center justify-between sticky top-0 bg-white/95 backdrop-blur-xs z-20">
           <div className="flex items-center gap-4">
             <a
               href={vpn.dealUrl}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="sponsored noopener noreferrer"
               title={`${vpn.name} 공식 사이트 방문`}
               className="group/logo cursor-pointer"
             >
-              <img 
-                src={vpn.compactLogoUrl || vpn.logoUrl} 
-                alt={vpn.name} 
+              <img
+                src={vpn.compactLogoUrl || vpn.logoUrl}
+                alt={vpn.name}
+                loading="lazy"
                 className="h-10 w-auto object-contain transition-transform group-hover/logo:scale-105"
               />
             </a>
@@ -170,7 +171,7 @@ export const ReviewModal: React.FC<ReviewModalProps> = ({
             <a
               href={vpn.dealUrl}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="sponsored noopener noreferrer"
               className="py-2.5 px-5 bg-[#614abf] hover:bg-[#4930a6] text-white rounded-lg font-bold text-sm flex items-center justify-center gap-2 shadow-xs cursor-pointer flex-1 sm:flex-initial"
             >
               <span>{lang === 'ko' ? `${vpn.name} 공식 사이트 방문` : 'Visit Official Site'}</span>
