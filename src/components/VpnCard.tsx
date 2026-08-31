@@ -5,6 +5,8 @@ import { VpnItem, Language } from '../types';
 interface VpnCardProps {
   vpn: VpnItem;
   lang: Language;
+  /** First card in the ranked list — loaded eagerly since it's likely the LCP element. */
+  priority?: boolean;
   onOpenReview: (vpn: VpnItem) => void;
   onOpenDeal: (vpn: VpnItem) => void;
   isSaved: boolean;
@@ -14,6 +16,7 @@ interface VpnCardProps {
 export const VpnCard: React.FC<VpnCardProps> = ({
   vpn,
   lang,
+  priority = false,
   onOpenReview,
   onOpenDeal,
   isSaved,
@@ -57,14 +60,16 @@ export const VpnCard: React.FC<VpnCardProps> = ({
         <a 
           href={vpn.dealUrl}
           target="_blank"
-          rel="noopener noreferrer"
+          rel="sponsored noopener noreferrer"
           title={`${vpn.name} 공식 사이트 방문`}
           className="h-20 w-36 flex items-center justify-center my-2 cursor-pointer group/logo"
         >
           {imageLoaded ? (
-            <img 
-              src={vpn.logoUrl} 
+            <img
+              src={vpn.logoUrl}
               alt={`${vpn.name} logo`}
+              loading={priority ? 'eager' : 'lazy'}
+              fetchPriority={priority ? 'high' : 'auto'}
               className="max-h-16 max-w-32 object-contain transition-transform duration-300 group-hover/logo:scale-105"
               onError={() => setImageLoaded(false)}
             />
@@ -144,7 +149,7 @@ export const VpnCard: React.FC<VpnCardProps> = ({
           id={`btn-visit-${vpn.id}`}
           href={vpn.dealUrl}
           target="_blank"
-          rel="noopener noreferrer"
+          rel="sponsored noopener noreferrer"
           className="w-full py-3 px-4 bg-[#614abf] hover:bg-[#4930a6] text-white rounded-lg font-['Inter'] text-[14px] font-bold transition-all flex items-center justify-center gap-2 group/btn shadow-xs shadow-[#614abf]/20 active:scale-98 cursor-pointer"
         >
           <span>{lang === 'ko' ? `${vpn.name} 방문하기` : 'Visit Site'}</span>

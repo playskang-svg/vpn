@@ -12,15 +12,15 @@ export const Logo: React.FC<LogoProps> = ({
   variant = 'light'
 }) => {
   const iconDimensions = {
-    sm: 'w-7 h-7',
-    md: 'w-9 h-9',
-    lg: 'w-11 h-11'
+    sm: 'w-6 h-6 sm:w-7 sm:h-7',
+    md: 'w-7 h-7 sm:w-9 sm:h-9',
+    lg: 'w-9 h-9 sm:w-11 sm:h-11'
   }[size];
 
   const textSizes = {
-    sm: 'text-[18px]',
-    md: 'text-[22px]',
-    lg: 'text-[26px]'
+    sm: 'text-[15px] sm:text-[18px]',
+    md: 'text-[17px] sm:text-[22px]',
+    lg: 'text-[20px] sm:text-[26px]'
   }[size];
 
   return (
@@ -99,7 +99,7 @@ export const Logo: React.FC<LogoProps> = ({
           </span>
           <span className="w-1.5 h-1.5 rounded-full bg-[#00C853] inline-block animate-pulse" />
         </div>
-        <span className={`text-[10px] font-semibold tracking-wider uppercase ${
+        <span className={`hidden sm:inline text-[10px] font-semibold tracking-wider uppercase ${
           variant === 'dark' ? 'text-[#a1a1aa]' : 'text-[#747878]'
         }`}>
           Verified Security Guide

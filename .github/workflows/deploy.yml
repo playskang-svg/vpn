@@ -36,7 +36,9 @@ jobs:
         run: npm run lint
 
       - name: Build
-        run: npm run build -- --base=/vpn/
+        # Served from the vpn.adbles.com custom domain (see public/CNAME),
+        # so assets are rooted at "/" rather than a GitHub Pages "/<repo>/" path.
+        run: npm run build
 
       - name: Setup Pages
         uses: actions/configure-pages@v5

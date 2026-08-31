@@ -45,9 +45,10 @@ export const DealModal: React.FC<DealModalProps> = ({
           </div>
 
           <div className="h-16 flex items-center justify-center mb-2">
-            <img 
-              src={vpn.logoUrl} 
-              alt={vpn.name} 
+            <img
+              src={vpn.logoUrl}
+              alt={vpn.name}
+              loading="lazy"
               className="max-h-12 w-auto object-contain"
             />
           </div>
@@ -119,7 +120,7 @@ export const DealModal: React.FC<DealModalProps> = ({
         <a
           href={vpn.dealUrl}
           target="_blank"
-          rel="noopener noreferrer"
+          rel="sponsored noopener noreferrer"
           onClick={() => onClose()}
           className="w-full py-3.5 bg-[#614abf] hover:bg-[#4930a6] text-white rounded-lg font-bold text-sm flex items-center justify-center gap-2 shadow-md shadow-[#614abf]/20 transition-all cursor-pointer"
         >

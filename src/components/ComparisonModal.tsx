@@ -21,7 +21,7 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
 
   return (
     <div className="fixed inset-0 z-50 bg-black/60 backdrop-blur-xs flex items-center justify-center p-2 sm:p-4 overflow-y-auto">
-      <div className="bg-white rounded-2xl max-w-5xl w-full max-h-[92vh] overflow-y-auto shadow-2xl border border-[#E0E0E0] flex flex-col">
+      <div className="bg-white rounded-2xl max-w-5xl w-full max-h-[92dvh] overflow-y-auto shadow-2xl border border-[#E0E0E0] flex flex-col">
         {/* Modal Header */}
         <div className="p-6 border-b border-[#E0E0E0] flex items-center justify-between sticky top-0 bg-white/95 backdrop-blur-xs z-20">
           <div>
@@ -41,12 +41,19 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
           </button>
         </div>
 
+        {/* Mobile swipe hint */}
+        <p className="sm:hidden px-4 pt-3 text-[11px] text-[#747878] flex items-center gap-1">
+          <span>←</span>
+          <span>{lang === 'ko' ? '좌우로 스크롤하여 전체 비교표를 확인하세요' : 'Swipe sideways to see the full comparison'}</span>
+          <span>→</span>
+        </p>
+
         {/* Comparison Table */}
         <div className="p-4 sm:p-6 overflow-x-auto">
           <table className="w-full min-w-[700px] border-collapse text-left text-sm">
             <thead>
               <tr className="border-b-2 border-[#E0E0E0]">
-                <th className="p-4 font-['Hanken_Grotesk'] text-base font-bold text-[#111111] w-48 bg-[#f9f9f9]">
+                <th className="sticky left-0 z-10 p-4 font-['Hanken_Grotesk'] text-base font-bold text-[#111111] w-48 bg-[#f9f9f9] border-r border-[#E0E0E0]">
                   {lang === 'ko' ? '비교 항목' : 'Comparison Criteria'}
                 </th>
                 {vpnList.map((vpn) => (
@@ -54,13 +61,14 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
                     <a 
                       href={vpn.dealUrl}
                       target="_blank"
-                      rel="noopener noreferrer"
+                      rel="sponsored noopener noreferrer"
                       title={`${vpn.name} 공식 사이트 방문`}
                       className="flex flex-col items-center gap-1.5 group/th cursor-pointer"
                     >
-                      <img 
-                        src={vpn.compactLogoUrl || vpn.logoUrl} 
-                        alt={vpn.name} 
+                      <img
+                        src={vpn.compactLogoUrl || vpn.logoUrl}
+                        alt={vpn.name}
+                        loading="lazy"
                         className="h-9 w-auto object-contain transition-transform group-hover/th:scale-105"
                       />
                       <span className="font-bold text-sm text-[#111111] group-hover/th:text-[#614abf]">{vpn.name}</span>
@@ -75,7 +83,7 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
             <tbody className="divide-y divide-[#E0E0E0]/80">
               {/* Monthly Price */}
               <tr className="hover:bg-[#f9f9f9]">
-                <td className="p-4 font-semibold text-[#111111] bg-[#f9f9f9]">
+                <td className="sticky left-0 z-10 p-4 font-semibold text-[#111111] bg-[#f9f9f9] border-r border-[#E0E0E0]">
                   {lang === 'ko' ? '월 최저가' : 'Monthly Starting Price'}
                 </td>
                 {vpnList.map((vpn) => (
@@ -88,7 +96,7 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
 
               {/* Speed Benchmark */}
               <tr className="hover:bg-[#f9f9f9]">
-                <td className="p-4 font-semibold text-[#111111] bg-[#f9f9f9]">
+                <td className="sticky left-0 z-10 p-4 font-semibold text-[#111111] bg-[#f9f9f9] border-r border-[#E0E0E0]">
                   <div className="flex items-center gap-1.5">
                     <Zap className="w-4 h-4 text-[#614abf]" />
                     <span>{lang === 'ko' ? '속도 지수 (Speed Score)' : 'Speed Benchmark'}</span>
@@ -109,7 +117,7 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
 
               {/* Refund Guarantee */}
               <tr className="hover:bg-[#f9f9f9]">
-                <td className="p-4 font-semibold text-[#111111] bg-[#f9f9f9]">
+                <td className="sticky left-0 z-10 p-4 font-semibold text-[#111111] bg-[#f9f9f9] border-r border-[#E0E0E0]">
                   {lang === 'ko' ? '환불 보증 기간' : 'Money-Back Period'}
                 </td>
                 {vpnList.map((vpn) => (
@@ -121,7 +129,7 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
 
               {/* Max Devices */}
               <tr className="hover:bg-[#f9f9f9]">
-                <td className="p-4 font-semibold text-[#111111] bg-[#f9f9f9]">
+                <td className="sticky left-0 z-10 p-4 font-semibold text-[#111111] bg-[#f9f9f9] border-r border-[#E0E0E0]">
                   {lang === 'ko' ? '동시 연결 기기 수' : 'Max Devices'}
                 </td>
                 {vpnList.map((vpn) => (
@@ -133,7 +141,7 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
 
               {/* Server Network */}
               <tr className="hover:bg-[#f9f9f9]">
-                <td className="p-4 font-semibold text-[#111111] bg-[#f9f9f9]">
+                <td className="sticky left-0 z-10 p-4 font-semibold text-[#111111] bg-[#f9f9f9] border-r border-[#E0E0E0]">
                   {lang === 'ko' ? '서버 및 국가 수' : 'Servers / Countries'}
                 </td>
                 {vpnList.map((vpn) => (
@@ -146,7 +154,7 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
 
               {/* Streaming Compatibility */}
               <tr className="hover:bg-[#f9f9f9]">
-                <td className="p-4 font-semibold text-[#111111] bg-[#f9f9f9]">
+                <td className="sticky left-0 z-10 p-4 font-semibold text-[#111111] bg-[#f9f9f9] border-r border-[#E0E0E0]">
                   <div className="flex items-center gap-1.5">
                     <Tv className="w-4 h-4 text-[#614abf]" />
                     <span>{lang === 'ko' ? 'OTT 스트리밍 우회' : 'Streaming Support'}</span>
@@ -164,7 +172,7 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
 
               {/* Verified No-Logs */}
               <tr className="hover:bg-[#f9f9f9]">
-                <td className="p-4 font-semibold text-[#111111] bg-[#f9f9f9]">
+                <td className="sticky left-0 z-10 p-4 font-semibold text-[#111111] bg-[#f9f9f9] border-r border-[#E0E0E0]">
                   <div className="flex items-center gap-1.5">
                     <Lock className="w-4 h-4 text-[#614abf]" />
                     <span>{lang === 'ko' ? '독립 노로그 감사' : 'Audited No-Logs'}</span>
@@ -182,7 +190,7 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
 
               {/* Protocols */}
               <tr className="hover:bg-[#f9f9f9]">
-                <td className="p-4 font-semibold text-[#111111] bg-[#f9f9f9]">
+                <td className="sticky left-0 z-10 p-4 font-semibold text-[#111111] bg-[#f9f9f9] border-r border-[#E0E0E0]">
                   {lang === 'ko' ? '주요 프로토콜' : 'Protocols'}
                 </td>
                 {vpnList.map((vpn) => (
@@ -194,7 +202,7 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
 
               {/* Jurisdiction */}
               <tr className="hover:bg-[#f9f9f9]">
-                <td className="p-4 font-semibold text-[#111111] bg-[#f9f9f9]">
+                <td className="sticky left-0 z-10 p-4 font-semibold text-[#111111] bg-[#f9f9f9] border-r border-[#E0E0E0]">
                   {lang === 'ko' ? '본사 사법 관할권' : 'Jurisdiction'}
                 </td>
                 {vpnList.map((vpn) => (
@@ -206,13 +214,13 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
 
               {/* Action Row */}
               <tr>
-                <td className="p-4 bg-[#f9f9f9]"></td>
+                <td className="sticky left-0 z-10 p-4 bg-[#f9f9f9] border-r border-[#E0E0E0]"></td>
                 {vpnList.map((vpn) => (
                   <td key={vpn.id} className="p-4 text-center">
                     <a
                       href={vpn.dealUrl}
                       target="_blank"
-                      rel="noopener noreferrer"
+                      rel="sponsored noopener noreferrer"
                       className="w-full py-2.5 px-3 bg-[#614abf] hover:bg-[#4930a6] text-white rounded-lg text-xs font-bold flex items-center justify-center gap-1 transition-all shadow-xs cursor-pointer"
                     >
                       <span>{lang === 'ko' ? '특가 받기' : 'Get Deal'}</span>

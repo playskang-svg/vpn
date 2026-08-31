@@ -86,7 +86,7 @@ export function App() {
       />
 
       {/* Main Content Area */}
-      <main className="flex-1 pt-20">
+      <main className="flex-1 pt-16 md:pt-20">
         {/* Hero Section */}
         <HeroSection
           lang={lang}
@@ -99,6 +99,9 @@ export function App() {
 
         {/* VPN Ranked List Section */}
         <section id="vpn-list-section" className="px-4 lg:px-10 max-w-[1200px] mx-auto pb-16">
+          <h2 className="font-['Hanken_Grotesk'] text-[22px] md:text-[26px] font-bold text-[#111111] mb-5">
+            {lang === 'ko' ? '2026년 최고의 VPN 순위' : 'Top-Ranked VPNs for 2026'}
+          </h2>
           {filteredVpns.length === 0 ? (
             <div className="bg-white rounded-xl border border-[#E0E0E0] p-12 text-center my-8">
               <p className="text-base font-semibold text-[#111111] mb-2">
@@ -119,11 +122,12 @@ export function App() {
             </div>
           ) : (
             <div className="flex flex-col gap-6">
-              {filteredVpns.map((vpn) => (
+              {filteredVpns.map((vpn, index) => (
                 <VpnCard
                   key={vpn.id}
                   vpn={vpn}
                   lang={lang}
+                  priority={index === 0}
                   onOpenReview={(item) => setSelectedReviewVpn(item)}
                   onOpenDeal={(item) => setSelectedDealVpn(item)}
                   isSaved={savedVpnIds.includes(vpn.id)}
