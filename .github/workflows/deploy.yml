@@ -70,3 +70,52 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Notify IndexNow (Naver, Bing, Yandex, Seznam, Yep)
+        # IndexNow is an open protocol Naver, Bing, Yandex, Seznam.cz and Yep
+        # all consume from one shared endpoint — pushing here fans out to all
+        # of them. Google does not participate in IndexNow (no equivalent
+        # public API for ordinary content), so this does not cover Google;
+        # see README for the manual Search Console step that covers Google.
+        # Runs after the site is actually live, and never fails the deploy —
+        # a hiccup here shouldn't block publishing.
+        continue-on-error: true
+        run: |
+          set -uo pipefail
+          KEY="513f7c8cc7ea6d4ce1e2836095e03a6e"
+
+          ALL_SITEMAPS=$( { curl -fsS --retry 3 --retry-delay 5 "https://vpn.adbles.com/sitemap.xml" || true; \
+                             curl -fsS --retry 3 --retry-delay 5 "https://vpn.adbles.com/info/sitemap-info.xml" || true; } )
+
+          URLS_JSON=$(echo "$ALL_SITEMAPS" \
+            | grep -oP '(?<=<loc>)[^<]+' \
+            | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//' \
+            | grep -v '^$' \
+            | sort -u \
+            | jq -R . | jq -s .)
+          URL_COUNT=$(echo "$URLS_JSON" | jq length)
+          echo "Submitting $URL_COUNT URL(s) to IndexNow:"
+          echo "$URLS_JSON"
+
+          if [ "$URL_COUNT" -eq 0 ]; then
+            echo "::warning::No URLs extracted from sitemaps (fetch may have failed) — skipping IndexNow submission"
+            exit 0
+          fi
+
+          BODY=$(jq -n \
+            --arg host "vpn.adbles.com" \
+            --arg key "$KEY" \
+            --arg keyLocation "https://vpn.adbles.com/$KEY.txt" \
+            --argjson urlList "$URLS_JSON" \
+            '{host:$host, key:$key, keyLocation:$keyLocation, urlList:$urlList}')
+
+          HTTP_CODE=$(curl -s -o /tmp/indexnow_response.txt -w "%{http_code}" \
+            -X POST "https://api.indexnow.org/indexnow" \
+            -H "Content-Type: application/json; charset=utf-8" \
+            -d "$BODY")
+          echo "IndexNow response: HTTP $HTTP_CODE"
+          cat /tmp/indexnow_response.txt 2>/dev/null || true
+
+          if [ "$HTTP_CODE" != "200" ] && [ "$HTTP_CODE" != "202" ]; then
+            echo "::warning::IndexNow submission returned HTTP $HTTP_CODE (non-blocking)"
+          fi
