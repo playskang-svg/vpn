@@ -69,6 +69,15 @@ export const Header: React.FC<HeaderProps> = ({
               </button>
             );
           })}
+          {/* Info / Guides — a separate static subsite (vpn.adbles.com/info/), so this is
+              a real link (full page navigation) rather than an in-page scroll/state change. */}
+          <a
+            href="/info/"
+            id="nav-info"
+            className="font-['Inter'] text-[15px] font-semibold text-[#444748] hover:text-[#111111] transition-colors"
+          >
+            {lang === 'ko' ? '정보' : 'Guides'}
+          </a>
         </nav>
 
         {/* Actions Area */}
@@ -175,6 +184,12 @@ export const Header: React.FC<HeaderProps> = ({
               {lang === 'ko' ? item.labelKo : item.labelEn}
             </button>
           ))}
+          <a
+            href="/info/"
+            className="block w-full text-left py-2 text-base font-semibold text-[#444748] hover:text-[#614abf]"
+          >
+            {lang === 'ko' ? '정보' : 'Guides'}
+          </a>
           <button
             onClick={() => {
               onOpenCompare();

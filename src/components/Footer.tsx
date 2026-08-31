@@ -86,12 +86,17 @@ export const Footer: React.FC<FooterProps> = ({ lang, onNavClick, onOpenDeals })
                 </button>
               </li>
               <li>
-                <button 
+                <button
                   onClick={onOpenDeals}
                   className="text-[#444748] hover:text-[#614abf] transition-colors cursor-pointer"
                 >
                   {lang === 'ko' ? '특가 정보' : 'Deals'}
                 </button>
+              </li>
+              <li>
+                <a href="/info/" className="text-[#444748] hover:text-[#614abf] transition-colors">
+                  {lang === 'ko' ? '정보 & 가이드' : 'Guides'}
+                </a>
               </li>
             </ul>
           </div>
