@@ -100,4 +100,31 @@ const dateFmt = new Intl.DateTimeFormat('ko-KR', { year: 'numeric', month: 'long
     text-decoration: underline;
     text-underline-offset: 2px;
   }
+  .prose-content :global(table) {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5em 0;
+    font-size: 15px;
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .prose-content :global(th),
+  .prose-content :global(td) {
+    padding: 10px 16px;
+    text-align: left;
+    border: 1px solid #E0E0E0;
+  }
+  .prose-content :global(th) {
+    background: #f5f3ff;
+    color: #4930a6;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+  .prose-content :global(td) {
+    color: #1a1c1c;
+  }
+  .prose-content :global(tbody tr:nth-child(even) td) {
+    background: #fafafa;
+  }
 </style>
