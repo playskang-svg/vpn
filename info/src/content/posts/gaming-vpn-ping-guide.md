@@ -8,6 +8,8 @@ tags: ["troubleshooting", "guides-basics"]
 
 "VPN을 쓰면 핑이 낮아진다"는 이야기를 듣고 시도해봤다가 오히려 더 나빠져서 실망하는 경우가 많습니다. VPN은 트래픽을 암호화하고 다른 경로로 우회시키는 기술이라, 원리상 지연시간이 늘어나는 것이 기본입니다. 다만 특정 조건에서는 실제로 핑이 낮아지기도 합니다. 어떤 경우인지 정직하게 짚어보겠습니다.
 
+!["VPN 쓰면 핑 낮아진다"는 반은 맞습니다](/info/images/gaming-vpn-ping-guide/hero.png)
+
 ## VPN으로 핑이 낮아지는 경우
 
 ### 1. ISP의 경로 설정이 비효율적일 때
@@ -35,6 +37,8 @@ tags: ["troubleshooting", "guides-basics"]
 3. 같은 게임에서 핑을 다시 측정해 비교합니다.
 4. 프로토콜은 오버헤드가 적은 WireGuard로 설정합니다.
 5. 핑이 오히려 나빠졌다면, 그 게임·서버 조합에서는 VPN이 도움이 되지 않는다는 뜻이므로 끄는 것이 낫습니다.
+
+![핑 직접 확인하는 순서](/info/images/gaming-vpn-ping-guide/detail.png)
 
 ## 정리
 
