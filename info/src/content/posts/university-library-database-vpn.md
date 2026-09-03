@@ -8,6 +8,8 @@ tags: ["study-work-abroad"]
 
 유학생이라면 JSTOR, IEEE Xplore, ScienceDirect 같은 해외 학술 데이터베이스와, RISS·KISS·DBpia 같은 한국 학술 데이터베이스를 모두 이용할 일이 많습니다. 그런데 이 둘은 원격 접속 방식이 완전히 달라서, VPN이 도움이 되는 경우와 그렇지 않은 경우를 구분해야 합니다.
 
+!["논문 데이터베이스 접속", 같은 문제 다른 해법](/info/images/university-library-database-vpn/hero.png)
+
 ## 재학 중인 해외 대학 데이터베이스: 상용 VPN으로는 해결 안 됨
 
 JSTOR, IEEE Xplore 같은 학술 데이터베이스는 **대학이 계약한 특정 IP 대역**에서 접속했는지를 확인해 접근 권한을 부여합니다. 상용 VPN(NordVPN, Surfshark 등)으로 아무 국가 서버에 연결해도, 그 IP가 소속 대학의 계약 IP 대역이 아니므로 접속 권한이 생기지 않습니다.
@@ -27,6 +29,8 @@ JSTOR, IEEE Xplore 같은 학술 데이터베이스는 **대학이 계약한 특
 1. VPN 앱에서 한국 서버에 연결합니다.
 2. 해당 사이트에 재접속하거나 새로고침합니다.
 3. 소속 기관(한국 대학) 인증이 필요한 자료라면, 그 대학 계정으로 로그인이 되어 있는지 별도로 확인하세요.
+
+![어떤 접속 수단을 써야 할까](/info/images/university-library-database-vpn/detail.png)
 
 ## 정리
 

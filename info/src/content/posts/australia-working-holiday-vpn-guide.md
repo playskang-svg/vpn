@@ -8,6 +8,8 @@ tags: ["study-work-abroad"]
 
 호주 워킹홀리데이의 특징 중 하나는 세컨드 비자를 위한 농장(파밍) 근무처럼, 인터넷 환경이 열악한 지역에서 장기간 지내는 경우가 많다는 점입니다. 이런 환경에서 VPN을 어떻게 활용하면 좋을지 정리했습니다.
 
+![농장 와이파이에서도 끊기지 않으려면](/info/images/australia-working-holiday-vpn-guide/hero.png)
+
 ## 호주 워홀만의 특징
 
 - **원격지 근무**: 세컨드 비자를 위한 88일 농장 근무는 대부분 인터넷 인프라가 약한 지역에서 이루어집니다.
@@ -24,6 +26,8 @@ tags: ["study-work-abroad"]
 
 - 농장 숙소 와이파이가 VPN을 차단하는 경우: [회사·학교 와이파이 VPN 차단 해결법](/info/vpn-blocked-network-fix/)의 난독화 설정을 참고하세요.
 - 카카오톡 인증이 막히는 경우: [해외 카카오톡 인증 해결법](/info/kakao-abroad-vpn-fix/)을 참고하세요.
+
+![데이터·속도 아끼는 설정 체크](/info/images/australia-working-holiday-vpn-guide/detail.png)
 
 ## 정리
 
