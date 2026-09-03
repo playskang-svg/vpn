@@ -3,6 +3,7 @@ title: "무료 VPN이 넷플릭스에서 안 통하는 이유"
 description: "무료 VPN을 켜고 넷플릭스에 접속하면 프록시 오류가 뜨는 경우가 많습니다. VPN 문제가 아니라 IP 자체가 걸러졌기 때문인 이유를 정리했습니다."
 date: 2026-09-02
 thumbnail: /info/thumbnails/free-vpn-netflix-limitation.png
+tags: ["free-vpn", "streaming"]
 ---
 
 무료 VPN을 켜고 넷플릭스에 들어가면 연결은 되는데 화면이 안 나오거나, "스트리밍 서비스에 프록시나 언블로커를 사용 중입니다" 같은 오류가 뜨는 경우가 흔합니다. 이건 VPN이 고장 나서가 아니라, 애초에 무료 VPN의 IP가 넷플릭스에 이미 걸러진 상태이기 때문입니다.

@@ -3,6 +3,7 @@ title: "VPN 앱이 자꾸 강제 종료될 때 해결법"
 description: "VPN 앱이 실행 중 갑자기 꺼지거나 강제 종료되는 문제의 흔한 원인과, 순서대로 시도해볼 수 있는 해결 방법을 정리했습니다."
 date: 2026-09-02
 thumbnail: /info/thumbnails/vpn-app-crash-fix.png
+tags: ["troubleshooting"]
 ---
 
 VPN 앱이 연결 도중 갑자기 꺼지거나, 실행하자마자 강제 종료되는 문제는 생각보다 흔합니다. 대부분 앱 자체의 결함보다는 기기 설정이나 저장공간 문제인 경우가 많아, 아래 순서대로 시도해보면 대부분 해결됩니다.

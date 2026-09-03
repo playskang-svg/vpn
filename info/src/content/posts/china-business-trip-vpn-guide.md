@@ -3,6 +3,7 @@ title: "중국 출장 전 VPN 미리 준비해야 하는 이유"
 description: "중국 출장은 여행과 준비물이 다릅니다. 화상회의, 계정 인증, 회사 정책까지 출장자가 놓치기 쉬운 VPN 준비사항을 정리했습니다."
 date: 2026-09-02
 thumbnail: /info/thumbnails/china-business-trip-vpn-guide.png
+tags: ["china-vpn"]
 ---
 
 중국 출장이 여행과 다른 점은, VPN이 안 되면 단순히 불편한 정도가 아니라 업무 자체가 막힌다는 것입니다. 화상회의, 이메일, 사내 시스템 접속까지 걸려 있는 만큼 출장자는 여행객보다 한 단계 더 꼼꼼한 준비가 필요합니다.

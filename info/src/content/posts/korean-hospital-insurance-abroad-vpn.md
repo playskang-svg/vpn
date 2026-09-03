@@ -3,6 +3,7 @@ title: "해외에서 한국 건강보험·병원 기록 조회하는 법"
 description: "해외 체류 중 국민건강보험공단, 건강보험심사평가원 사이트 접속이 막힐 때 VPN으로 해결하는 방법과, VPN과 무관한 행정 절차를 구분해 정리했습니다."
 date: 2026-09-02
 thumbnail: /info/thumbnails/korean-hospital-insurance-abroad-vpn.png
+tags: ["korea-abroad-services"]
 ---
 
 해외에 체류하면서도 국민건강보험공단이나 건강보험심사평가원 사이트에서 진료 기록을 조회하거나 관련 서류를 발급받아야 하는 경우가 있습니다. 이런 공공 의료 관련 사이트도 다른 정부 서비스와 마찬가지로 해외 IP 접속에 제약이 있는 경우가 많습니다.

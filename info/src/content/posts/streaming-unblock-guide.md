@@ -3,6 +3,7 @@ title: "해외 넷플릭스·OTT 라이브러리, VPN으로 시청하는 법"
 description: "국가마다 다른 넷플릭스·디즈니+ 콘텐츠를 VPN으로 시청하는 원리와, 스트리밍이 잘 되는 VPN을 고를 때 확인해야 할 기준을 정리했습니다."
 date: 2026-08-31
 thumbnail: /info/thumbnails/streaming-unblock-guide.png
+tags: ["streaming"]
 ---
 
 같은 넷플릭스 계정이라도 접속하는 국가에 따라 볼 수 있는 콘텐츠 목록이 다릅니다. 이는 콘텐츠 배급사와의 지역별 라이선스 계약 때문인데, VPN을 이용하면 다른 국가의 라이브러리에 접근할 수 있는 경우가 많습니다.

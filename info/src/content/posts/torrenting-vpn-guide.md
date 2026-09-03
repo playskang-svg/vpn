@@ -3,6 +3,7 @@ title: "P2P·토렌트용 VPN 고를 때 확인해야 할 5가지"
 description: "토렌트 이용 시 VPN을 고르는 기준은 일반 스트리밍용과 다릅니다. IP 노출 위험을 실질적으로 줄여주는 5가지 확인 사항을 정리했습니다."
 date: 2026-09-02
 thumbnail: /info/thumbnails/torrenting-vpn-guide.png
+tags: ["guides-basics"]
 ---
 
 P2P·토렌트는 파일을 주고받는 모든 사용자에게 서로의 IP가 노출되는 구조라, 스트리밍용 VPN을 고를 때보다 훨씬 엄격한 기준이 필요합니다. 실제로 확인해야 할 5가지를 정리했습니다.

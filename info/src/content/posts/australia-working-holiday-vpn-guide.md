@@ -3,6 +3,7 @@ title: "호주 워킹홀리데이 VPN 가이드: 파밍 지역에서도 끊기�
 description: "호주 워킹홀리데이 중 겪는 인터넷 환경의 특징과, 원격지·저속 와이파이 환경에서도 VPN을 안정적으로 쓰는 법을 정리했습니다."
 date: 2026-09-02
 thumbnail: /info/thumbnails/australia-working-holiday-vpn-guide.png
+tags: ["study-work-abroad"]
 ---
 
 호주 워킹홀리데이의 특징 중 하나는 세컨드 비자를 위한 농장(파밍) 근무처럼, 인터넷 환경이 열악한 지역에서 장기간 지내는 경우가 많다는 점입니다. 이런 환경에서 VPN을 어떻게 활용하면 좋을지 정리했습니다.

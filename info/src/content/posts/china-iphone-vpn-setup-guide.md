@@ -3,6 +3,7 @@ title: "중국 아이폰 VPN 설정법: 앱스토어 접속 안 될 때 해결 �
 description: "아이폰은 중국행 준비에서 신경 쓸 설정이 하나 더 있습니다. 출국 전 설치부터 iCloud 프라이빗 릴레이 처리까지 순서대로 정리했습니다."
 date: 2026-09-02
 thumbnail: /info/thumbnails/china-iphone-vpn-setup-guide.png
+tags: ["china-vpn"]
 ---
 
 아이폰으로 중국에 갈 준비를 한다면 안드로이드보다 신경 써야 할 부분이 하나 더 있습니다. 바로 iCloud 프라이빗 릴레이입니다. 이 기능을 그대로 두면 VPN과 충돌해 연결이 불안정해질 수 있어, 출국 전에 미리 손봐두는 것이 좋습니다.

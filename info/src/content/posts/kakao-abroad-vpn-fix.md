@@ -3,6 +3,7 @@ title: "해외에서 카카오톡·카카오페이 인증 안 될 때, VPN으로
 description: "해외에서 카카오톡 로그인이나 카카오페이 인증이 막힐 때 원인과, VPN을 활용해 해결하는 방법을 정리했습니다."
 date: 2026-09-01
 thumbnail: /info/thumbnails/kakao-abroad-vpn-fix.png
+tags: ["korea-abroad-services"]
 ---
 
 해외에 체류 중 카카오톡에 새로 로그인하거나 카카오페이로 결제하려는데 인증이 막히는 경우가 있습니다. 원인과 VPN을 활용한 해결 방법을 정리했습니다.

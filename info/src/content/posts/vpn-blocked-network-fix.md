@@ -3,6 +3,7 @@ title: "회사·학교 와이파이에서 VPN이 차단됐을 때 해결하는 �
 description: "회사나 학교처럼 관리되는 네트워크에서 VPN 연결이 막힐 때, 원인과 우회를 위해 시도해볼 수 있는 설정을 정리했습니다."
 date: 2026-09-01
 thumbnail: /info/thumbnails/vpn-blocked-network-fix.png
+tags: ["troubleshooting"]
 ---
 
 회사, 학교, 기숙사처럼 관리자가 통제하는 네트워크에서는 VPN 연결 자체가 차단되어 있는 경우가 있습니다. 왜 막히는지, 그리고 실제로 시도해볼 수 있는 방법을 정리했습니다.

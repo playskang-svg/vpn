@@ -3,6 +3,7 @@ title: "해외에서 한국 증권사 MTS 앱 로그인이 안 될 때"
 description: "해외 체류 중 한국 증권사 MTS 앱 로그인이 막히거나 추가 인증을 요구하는 이유와, VPN을 활용해 안정적으로 이용하는 방법을 정리했습니다."
 date: 2026-09-02
 thumbnail: /info/thumbnails/korean-stock-app-abroad-vpn.png
+tags: ["korea-abroad-services"]
 ---
 
 해외에 있는 동안에도 한국 주식 계좌를 계속 관리하고 싶은데, 증권사 MTS(모바일 트레이딩 시스템) 앱이 해외 IP에서 로그인을 막거나 추가 인증을 요구하는 경우가 많습니다. 계좌를 도용으로부터 보호하기 위한 보안 정책 때문인데, VPN으로 대부분 해결할 수 있습니다.

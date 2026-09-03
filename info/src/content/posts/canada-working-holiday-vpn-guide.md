@@ -3,6 +3,7 @@ title: "캐나다 워킹홀리데이 VPN 가이드: 한국 서비스부터 홈�
 description: "캐나다 워킹홀리데이 중 자주 마주치는 한국 서비스 접속 문제와, 장기 체류자가 특히 챙겨야 할 VPN 활용법을 정리했습니다."
 date: 2026-09-02
 thumbnail: /info/thumbnails/canada-working-holiday-vpn-guide.png
+tags: ["study-work-abroad"]
 ---
 
 캐나다 워킹홀리데이는 최대 2년까지 체류할 수 있어, 다른 단기 여행과는 다른 종류의 문제를 겪게 됩니다. 장기 체류자 관점에서 VPN이 실제로 어떻게 도움이 되는지 정리했습니다.

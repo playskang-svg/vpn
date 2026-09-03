@@ -3,6 +3,7 @@ title: "영국 BBC iPlayer 한국에서 보는 법: VPN으로 우회 접속하�
 description: "BBC iPlayer는 영국 밖에서는 원칙적으로 접속이 막힙니다. VPN으로 영국 서버에 접속해 BBC 프로그램을 시청하는 방법과 주의할 점을 정리했습니다."
 date: 2026-09-02
 thumbnail: /info/thumbnails/bbc-iplayer-korea-vpn-guide.png
+tags: ["streaming"]
 ---
 
 BBC iPlayer는 영국 공영방송 BBC가 운영하는 무료 스트리밍 서비스지만, 한국을 포함한 영국 밖에서는 접속 시 "이 콘텐츠는 귀하의 위치에서 이용할 수 없습니다" 같은 메시지와 함께 막힙니다. VPN으로 영국 서버에 접속하면 이 제한을 우회할 수 있습니다.

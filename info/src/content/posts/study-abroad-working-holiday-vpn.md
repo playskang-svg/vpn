@@ -3,6 +3,7 @@ title: "유학생·워킹홀리데이라면 VPN이 필요한 3가지 이유"
 description: "해외에서 생활하는 유학생과 워킹홀리데이 참가자에게 VPN이 왜 필요한지, 한국 콘텐츠 시청부터 캠퍼스 와이파이 보안까지 실제 이유를 정리했습니다."
 date: 2026-09-01
 thumbnail: /info/thumbnails/study-abroad-working-holiday-vpn.png
+tags: ["study-work-abroad"]
 ---
 
 해외에서 장기간 생활하는 유학생이나 워킹홀리데이 참가자는 국내에 있을 때와는 다른 이유로 VPN이 필요합니다. 단순히 "우회 접속" 목적을 넘어, 실생활에서 꽤 자주 마주치는 문제들이 있습니다.

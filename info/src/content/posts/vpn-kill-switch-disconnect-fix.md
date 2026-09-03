@@ -3,6 +3,7 @@ title: "VPN 킬 스위치 때문에 인터넷이 안 끊길 때 해결법"
 description: "VPN을 껐는데도 인터넷이 안 되거나, 킬 스위치가 계속 작동해 인터넷을 막고 있을 때 원인과 해결 방법을 정리했습니다."
 date: 2026-09-02
 thumbnail: /info/thumbnails/vpn-kill-switch-disconnect-fix.png
+tags: ["troubleshooting"]
 ---
 
 킬 스위치는 VPN 연결이 갑자기 끊어졌을 때 실제 IP가 노출되지 않도록 인터넷 자체를 차단하는 보안 기능입니다. 그런데 이 기능이 제대로 풀리지 않아, VPN을 껐거나 재연결했는데도 인터넷이 계속 안 되는 경우가 있습니다.

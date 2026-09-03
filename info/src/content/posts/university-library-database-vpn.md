@@ -3,6 +3,7 @@ title: "유학생이 논문 데이터베이스 접속할 때 VPN이 필요한 �
 description: "해외 대학 도서관 데이터베이스와 한국 학술 데이터베이스는 원격 접속 방식이 다릅니다. VPN이 실제로 도움이 되는 상황과 그렇지 않은 상황을 정확히 구분해 정리했습니다."
 date: 2026-09-02
 thumbnail: /info/thumbnails/university-library-database-vpn.png
+tags: ["study-work-abroad"]
 ---
 
 유학생이라면 JSTOR, IEEE Xplore, ScienceDirect 같은 해외 학술 데이터베이스와, RISS·KISS·DBpia 같은 한국 학술 데이터베이스를 모두 이용할 일이 많습니다. 그런데 이 둘은 원격 접속 방식이 완전히 달라서, VPN이 도움이 되는 경우와 그렇지 않은 경우를 구분해야 합니다.

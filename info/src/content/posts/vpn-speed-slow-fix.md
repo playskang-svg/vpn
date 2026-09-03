@@ -3,6 +3,7 @@ title: "VPN 속도 느릴 때 빠르게 만드는 법: 원인별 해결 체크�
 description: "VPN을 켜면 왜 느려질까요? 속도 저하의 실제 원인을 하나씩 짚어보고, 설정만 바꿔서 체감 속도를 끌어올리는 방법을 정리했습니다."
 date: 2026-09-02
 thumbnail: /info/thumbnails/vpn-speed-slow-fix.png
+tags: ["troubleshooting"]
 ---
 
 VPN을 켜는 순간 인터넷이 눈에 띄게 느려진다면, 대부분은 VPN 자체의 결함이 아니라 설정이나 서버 선택 문제입니다. 원인을 하나씩 짚어보면 대부분 해결됩니다.

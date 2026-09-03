@@ -3,6 +3,7 @@ title: "공유기에 VPN 설정하는 법: 집 안 모든 기기를 한 번에 �
 description: "스마트 TV, 게임 콘솔처럼 VPN 앱을 설치할 수 없는 기기까지 포함해 집 전체를 보호하려면 공유기에 VPN을 설정하면 됩니다. 방법과 주의할 점을 정리했습니다."
 date: 2026-09-02
 thumbnail: /info/thumbnails/router-vpn-setup-guide.png
+tags: ["guides-basics"]
 ---
 
 VPN 앱은 보통 스마트폰이나 컴퓨터에 개별로 설치하지만, 스마트 TV나 게임 콘솔처럼 VPN 앱 설치 자체가 안 되는 기기도 많습니다. 공유기에 VPN을 직접 설정하면 집 안의 모든 기기가 자동으로 VPN을 거치게 할 수 있습니다.

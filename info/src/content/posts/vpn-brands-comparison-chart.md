@@ -3,6 +3,7 @@ title: "VPN 4개 브랜드 한눈에 비교: NordVPN·Surfshark·CyberGhost·Exp
 description: "이 사이트에서 다루는 4개 주요 VPN의 속도, 서버, 가격, 환불 정책을 한 표로 정리했습니다. 나에게 맞는 VPN을 빠르게 고를 수 있습니다."
 date: 2026-09-02
 thumbnail: /info/thumbnails/vpn-brands-comparison-chart.png
+tags: ["vpn-comparison"]
 ---
 
 VPN마다 강점이 달라서, 여러 후기를 하나씩 찾아보는 것보다 스펙을 한 표로 놓고 비교하는 게 빠릅니다. 이 사이트에서 다루는 4개 주요 VPN을 한눈에 비교했습니다.
