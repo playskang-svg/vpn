@@ -8,6 +8,8 @@ tags: ["vpn-comparison", "streaming"]
 
 VPN 비교표에서 나란히 상위권에 있는 NordVPN과 Surfshark는 성격이 꽤 다른 서비스입니다. 저희 실측 데이터를 기준으로 스트리밍·넷플릭스 우회 관점에서 두 서비스를 비교해봤습니다.
 
+![넷플릭스 우회는 어디가 더 나을까](/info/images/nordvpn-vs-surfshark-netflix/hero.png)
+
 ## 한눈에 보는 비교
 
 | 항목 | NordVPN | Surfshark |
@@ -40,6 +42,8 @@ VPN 비교표에서 나란히 상위권에 있는 NordVPN과 Surfshark는 성격
 ## 가격: Surfshark가 더 저렴
 
 월 환산 기준 Surfshark($2.19)가 NordVPN($3.19)보다 저렴합니다. 다만 두 서비스 모두 장기 플랜 기준 할인율이라, 실제 결제 금액과 약정 기간은 가입 시점의 프로모션을 함께 확인하는 것이 좋습니다.
+
+![이럴 때 뭘 고를까](/info/images/nordvpn-vs-surfshark-netflix/detail.png)
 
 ## 정리: 이럴 때 무엇을 고를까
 

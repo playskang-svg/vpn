@@ -8,6 +8,8 @@ tags: ["vpn-comparison"]
 
 CyberGhost와 ExpressVPN은 둘 다 스트리밍·보안에 강한 VPN으로 꼽히지만, 가격대와 강점이 뚜렷하게 갈립니다. 실제 스펙을 나란히 비교해 어떤 사람에게 어떤 VPN이 맞는지 정리했습니다.
 
+![가성비냐 안정성이냐](/info/images/cyberghost-vs-expressvpn/hero.png)
+
 ## 스펙 비교
 
 | 항목 | CyberGhost | ExpressVPN |
@@ -28,6 +30,8 @@ CyberGhost의 가장 큰 강점은 **서버 규모와 가격**입니다. 11,500�
 ## ExpressVPN이 유리한 상황
 
 ExpressVPN은 자체 개발한 Lightway 프로토콜로 속도 점수(95)가 더 높고, TrustedServer(RAM 전용 서버) 기술로 서버 재부팅 시 데이터가 물리적으로 남지 않는 구조를 갖췄습니다. 중국·이란처럼 검열이 심한 국가에서도 강력한 난독화 기술로 우회가 가능하다는 점이 CyberGhost와 뚜렷하게 갈리는 부분입니다. 다만 월 요금은 경쟁사 대비 높은 편입니다.
+
+![이럴 때 뭘 고를까](/info/images/cyberghost-vs-expressvpn/detail.png)
 
 ## 정리
 
