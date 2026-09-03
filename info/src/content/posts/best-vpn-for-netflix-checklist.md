@@ -8,6 +8,8 @@ tags: ["streaming", "guides-basics"]
 
 넷플릭스는 VPN으로 접속한 사용자를 감지해 차단하는 기술을 계속 강화하고 있습니다. 그래서 "VPN이면 다 되겠지"라고 생각하고 아무거나 골랐다가 정작 넷플릭스에서 막히는 경우가 많습니다. VPN을 고를 때 실제로 확인해야 할 기준을 정리했습니다.
 
+![광고만 보고 고르면 꼭 후회합니다](/info/images/best-vpn-for-netflix-checklist/hero.png)
+
 ## 체크리스트
 
 ### 1. 스트리밍 지원 목록에 넷플릭스가 명시되어 있는가
@@ -37,6 +39,8 @@ VPN마다 넷플릭스 우회 성공률은 시기에 따라 달라질 수 있습
 ## 그래도 안 될 때
 
 체크리스트를 다 확인했는데도 접속이 안 된다면 [넷플릭스 프록시 오류 해결법](/info/netflix-proxy-error-fix/)을 참고하세요. 서버를 바꾸거나 캐시를 정리하는 것만으로 해결되는 경우가 많습니다.
+
+![넷플릭스용 VPN 체크리스트](/info/images/best-vpn-for-netflix-checklist/detail.png)
 
 ## 정리
 
