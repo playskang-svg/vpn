@@ -8,6 +8,8 @@ tags: ["vpn-comparison"]
 
 VPN마다 강점이 달라서, 여러 후기를 하나씩 찾아보는 것보다 스펙을 한 표로 놓고 비교하는 게 빠릅니다. 이 사이트에서 다루는 4개 주요 VPN을 한눈에 비교했습니다.
 
+![4개 VPN, 표 하나로 비교 끝내기](/info/images/vpn-brands-comparison-chart/hero.png)
+
 ## 전체 비교표
 
 | 항목 | NordVPN | Surfshark | CyberGhost | ExpressVPN |
@@ -34,6 +36,8 @@ VPN마다 강점이 달라서, 여러 후기를 하나씩 찾아보는 것보다
 - **속도와 보안을 모두 잡고 싶다면** NordVPN
 - **서버 규모와 긴 환불 기간을 원한다면** CyberGhost
 - **해외 출장·여행이 잦고 검열 우회가 중요하다면** ExpressVPN
+
+![상황별 추천 한 줄 요약](/info/images/vpn-brands-comparison-chart/detail.png)
 
 ## 정리
 
