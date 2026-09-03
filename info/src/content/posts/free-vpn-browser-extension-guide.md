@@ -3,6 +3,7 @@ title: "브라우저 확장 무료 VPN, 추천할 만할까: 장단점 정리"
 description: "브라우저 확장형 무료 VPN은 앱형 VPN과 근본적으로 다른 제품입니다. 어떤 상황에 쓸 만하고 어떤 상황엔 부적합한지 정리했습니다."
 date: 2026-09-02
 thumbnail: /info/thumbnails/free-vpn-browser-extension-guide.png
+tags: ["free-vpn"]
 ---
 
 크롬·엣지 확장 프로그램 형태의 무료 VPN은 설치가 간편해서 "무료 VPN 추천" 검색 결과에 자주 등장합니다. 다만 이건 기기 전체를 보호하는 앱형 VPN과는 근본적으로 다른 제품이라, 이 차이를 모르고 쓰면 기대한 만큼의 보호를 받지 못할 수 있습니다.

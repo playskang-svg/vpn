@@ -3,6 +3,7 @@ title: "해외에서 한국 은행 앱·인증서 안 될 때, VPN으로 해결�
 description: "해외 체류 중 한국 은행 앱이나 공동인증서, 정부 민원 서비스 접속이 막힐 때 VPN이 어떻게 도움이 되는지 정리했습니다."
 date: 2026-09-01
 thumbnail: /info/thumbnails/korean-banking-app-abroad-vpn.png
+tags: ["korea-abroad-services"]
 ---
 
 해외에 거주하거나 장기 여행 중인 분들이 자주 겪는 문제 중 하나가, 한국 금융·행정 서비스 접속이 막히는 경우입니다. 원인과 VPN을 활용한 해결 방법을 정리했습니다.

@@ -3,6 +3,7 @@ title: "아이폰 VPN 배터리 빨리 닳을 때 해결법"
 description: "아이폰에서 VPN을 켜두면 배터리가 유독 빨리 닳는 이유와, 설정 몇 가지로 배터리 소모를 줄이는 방법을 정리했습니다."
 date: 2026-09-02
 thumbnail: /info/thumbnails/iphone-vpn-battery-drain-fix.png
+tags: ["troubleshooting"]
 ---
 
 아이폰에서 VPN을 상시 연결해두면 배터리가 눈에 띄게 빨리 닳는다고 느끼는 경우가 많습니다. 설정 앱의 배터리 사용량에서 VPN 앱이 상위권에 오른다면, 원인을 파악하고 줄일 수 있는 부분이 있습니다.

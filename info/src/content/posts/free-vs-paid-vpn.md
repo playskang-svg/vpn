@@ -3,6 +3,7 @@ title: "무료 VPN vs 유료 VPN, 실제로 뭐가 다를까?"
 description: "무료 VPN과 유료 VPN의 실질적인 차이를 보안, 속도, 데이터 정책 측면에서 비교하고, 상황별로 어떤 선택이 합리적인지 정리했습니다."
 date: 2026-09-01
 thumbnail: /info/thumbnails/free-vs-paid-vpn.png
+tags: ["free-vpn", "guides-basics"]
 ---
 
 "굳이 돈 내고 VPN을 써야 하나?"라는 질문을 자주 받습니다. 무료 VPN과 유료 VPN이 실제로 어떻게 다른지, 항목별로 비교해봤습니다.

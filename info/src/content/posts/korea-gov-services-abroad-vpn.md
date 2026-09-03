@@ -3,6 +3,7 @@ title: "해외에서 정부24·국민신문고 이용하는 법"
 description: "해외 체류 중 정부24, 국민신문고 같은 한국 공공 서비스 접속이 막히는 이유와, VPN으로 해결되는 부분과 그렇지 않은 부분을 정리했습니다."
 date: 2026-09-02
 thumbnail: /info/thumbnails/korea-gov-services-abroad-vpn.png
+tags: ["korea-abroad-services"]
 ---
 
 정부24, 국민신문고 같은 한국 공공 서비스는 해외에서 접속하면 국내에서와 다르게 작동하는 경우가 많습니다. 원인을 정확히 알아야 VPN으로 해결되는 부분과, VPN만으로는 해결되지 않는 부분을 구분할 수 있습니다.

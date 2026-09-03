@@ -3,6 +3,7 @@ title: "중국 VPN 추천 글에서 무료 앱은 왜 다 빠져 있을까"
 description: "신뢰할 만한 중국 VPN 추천 목록에는 완전 무료 앱이 잘 등장하지 않습니다. 검열이 심한 환경에서 무료 VPN이 특히 위험한 이유를 정리했습니다."
 date: 2026-09-02
 thumbnail: /info/thumbnails/china-free-vpn-risk-warning.png
+tags: ["china-vpn", "free-vpn"]
 ---
 
 여러 "중국 VPN 추천" 글을 비교해보면 공통점이 하나 있습니다. 완전히 무료인 VPN 앱은 잘 등장하지 않는다는 것입니다. 이건 우연이 아니라, 검열이 심한 환경일수록 무료 VPN의 위험이 더 커지기 때문입니다.

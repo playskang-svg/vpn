@@ -10,9 +10,11 @@ interface Props {
   publishedDate?: Date;
   /** Per-post thumbnail (e.g. "/info/thumbnails/slug.png"). Falls back to the generic OG image. */
   image?: string;
+  /** Breadcrumb trail for BreadcrumbList structured data, home first. */
+  breadcrumbs?: { name: string; path: string }[];
 }
 
-const { title, description, path, isArticle = false, publishedDate, image } = Astro.props;
+const { title, description, path, isArticle = false, publishedDate, image, breadcrumbs } = Astro.props;
 const canonicalUrl = new URL(path, 'https://vpn.adbles.com').toString();
 const ogImage = new URL(image ?? '/info/og-image.png', 'https://vpn.adbles.com').toString();
 ---
@@ -67,6 +69,18 @@ const ogImage = new URL(image ?? '/info/og-image.png', 'https://vpn.adbles.com')
         mainEntityOfPage: canonicalUrl,
         image: ogImage,
         inLanguage: 'ko-KR',
+      })} />
+    )}
+    {breadcrumbs && breadcrumbs.length > 0 && (
+      <script type="application/ld+json" set:html={JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: breadcrumbs.map((crumb, i) => ({
+          '@type': 'ListItem',
+          position: i + 1,
+          name: crumb.name,
+          item: new URL(crumb.path, 'https://vpn.adbles.com').toString(),
+        })),
       })} />
     )}
   </head>

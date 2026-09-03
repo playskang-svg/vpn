@@ -3,6 +3,7 @@ title: "넷플릭스 '프록시 감지됨' 오류, VPN으로 해결하는 법"
 description: "넷플릭스에서 프록시·언블로커 감지 오류가 뜰 때 원인과, VPN 설정으로 해결하는 구체적인 방법을 단계별로 정리했습니다."
 date: 2026-09-01
 thumbnail: /info/thumbnails/netflix-proxy-error-fix.png
+tags: ["streaming", "troubleshooting"]
 ---
 
 VPN을 켠 채로 넷플릭스에 접속하면 "귀하는 프록시 또는 언블로커를 사용하고 계신 것 같습니다" 같은 오류 메시지를 마주치는 경우가 있습니다. 원인과 해결 순서를 정리했습니다.

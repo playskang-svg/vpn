@@ -3,6 +3,7 @@ title: "NordVPN vs Surfshark, 넷플릭스 우회는 어디가 더 나을까?"
 description: "저희 실측 데이터를 기준으로 NordVPN과 Surfshark의 속도, 서버 규모, 스트리밍 지원 현황을 비교해 넷플릭스·OTT 시청에 어떤 VPN이 더 유리한지 정리했습니다."
 date: 2026-09-01
 thumbnail: /info/thumbnails/nordvpn-vs-surfshark-netflix.png
+tags: ["vpn-comparison", "streaming"]
 ---
 
 VPN 비교표에서 나란히 상위권에 있는 NordVPN과 Surfshark는 성격이 꽤 다른 서비스입니다. 저희 실측 데이터를 기준으로 스트리밍·넷플릭스 우회 관점에서 두 서비스를 비교해봤습니다.

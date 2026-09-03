@@ -14,6 +14,24 @@ const { post } = Astro.props;
 const { Content } = await render(post);
 
 const dateFmt = new Intl.DateTimeFormat('ko-KR', { year: 'numeric', month: 'long', day: 'numeric' });
+
+const allPosts = await getCollection('posts');
+const related = allPosts
+  .filter((p) => p.id !== post.id)
+  .map((p) => ({
+    post: p,
+    overlap: p.data.tags.filter((t) => post.data.tags.includes(t)).length,
+  }))
+  .filter((p) => p.overlap > 0)
+  .sort((a, b) => b.overlap - a.overlap || b.post.data.date.valueOf() - a.post.data.date.valueOf())
+  .slice(0, 4)
+  .map((p) => p.post);
+
+const breadcrumbs = [
+  { name: 'VPN Good Choice', path: '/' },
+  { name: '정보 & 가이드', path: '/info/' },
+  { name: post.data.title, path: `/info/${post.id}/` },
+];
 ---
 
 <BaseLayout
@@ -23,6 +41,7 @@ const dateFmt = new Intl.DateTimeFormat('ko-KR', { year: 'numeric', month: 'long
   isArticle
   publishedDate={post.data.date}
   image={post.data.thumbnail}
+  breadcrumbs={breadcrumbs}
 >
   <a href="/info/" class="text-sm font-semibold text-[#614abf] hover:underline mb-6 inline-block">← 전체 글 목록</a>
 
@@ -46,6 +65,34 @@ const dateFmt = new Intl.DateTimeFormat('ko-KR', { year: 'numeric', month: 'long
       <Content />
     </div>
   </article>
+
+  {related.length > 0 && (
+    <section class="mt-14 pt-10 border-t border-[#E0E0E0]">
+      <h2 class="font-['Hanken_Grotesk'] text-[20px] font-bold text-[#111111] mb-5">관련 글</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        {related.map((r) => (
+          <a
+            href={`/info/${r.id}/`}
+            class="group flex gap-3 p-3 rounded-xl border border-[#E0E0E0] hover:border-[#614abf] transition-colors bg-white"
+          >
+            <img
+              src={r.data.thumbnail}
+              alt=""
+              loading="lazy"
+              class="w-24 sm:w-28 aspect-[1200/630] object-contain bg-[#5b46b0] rounded-lg shrink-0"
+              width="1200"
+              height="630"
+            />
+            <div class="flex flex-col justify-center min-w-0">
+              <h3 class="text-[14px] font-bold text-[#111111] group-hover:text-[#614abf] transition-colors leading-snug line-clamp-3">
+                {r.data.title}
+              </h3>
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
 
   <div class="mt-12 pt-8 border-t border-[#E0E0E0] bg-[#e6deff] rounded-2xl p-6 text-center">
     <p class="text-[#4930a6] font-semibold mb-3">신뢰할 수 있는 VPN을 찾고 계신가요?</p>

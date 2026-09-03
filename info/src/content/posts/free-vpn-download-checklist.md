@@ -3,6 +3,7 @@ title: "무료 VPN 앱 다운로드 전 꼭 확인할 체크리스트 5가지"
 description: "무료 VPN을 꼭 써야 한다면, 설치 버튼을 누르기 전 이 5가지만 확인해도 대부분의 위험을 걸러낼 수 있습니다."
 date: 2026-09-02
 thumbnail: /info/thumbnails/free-vpn-download-checklist.png
+tags: ["free-vpn"]
 ---
 
 무료 VPN을 아예 안 쓰는 게 가장 안전하다는 건 이미 여러 글에서 다뤘습니다. 그럼에도 꼭 써야 하는 상황이라면, 최소한 설치 버튼을 누르기 전에 이 5가지는 확인하고 넘어가세요.

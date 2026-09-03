@@ -3,6 +3,7 @@ title: "VPN은 연결됐는데 인터넷이 안 될 때, 원인과 해결법"
 description: "VPN 앱은 연결됨 상태인데 인터넷 접속이 안 되는 경우, 흔한 원인과 순서대로 시도해볼 수 있는 해결 방법을 정리했습니다."
 date: 2026-09-01
 thumbnail: /info/thumbnails/vpn-connected-no-internet-fix.png
+tags: ["troubleshooting"]
 ---
 
 VPN 앱에는 "연결됨"이라고 표시되는데 정작 웹사이트가 하나도 안 열리는 경우가 있습니다. 흔한 원인과 순서대로 시도해볼 수 있는 해결법을 정리했습니다.

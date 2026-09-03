@@ -3,6 +3,7 @@ title: "회사·공용 와이파이에서 무료 VPN 써도 될까: 보안 관�
 description: "카페나 공항 와이파이가 불안해 무료 VPN을 켜는 경우가 많습니다. 하지만 이게 오히려 더 위험한 조합이 될 수 있는 이유를 정리했습니다."
 date: 2026-09-02
 thumbnail: /info/thumbnails/free-vpn-public-wifi-safety.png
+tags: ["free-vpn", "troubleshooting"]
 ---
 
 카페, 공항, 회사 방문객 와이파이처럼 불특정 다수가 쓰는 네트워크에서는 트래픽 도청 위험 때문에 VPN을 켜는 경우가 많습니다. 문제는 이때 무료 VPN을 선택하면, 하나의 위험을 피하려다 다른 위험한 지점을 하나 더 거치게 될 수 있다는 점입니다.
