@@ -1,0 +1,29 @@
+{
+  "site": "vpn",
+  "label": "VPN",
+  "domain": "vpn.adbles.com",
+  "repo": "playskang-svg/vpn",
+  "updatedAt": "2026-09-10T21:11:22.103Z",
+  "updatedBy": "actions",
+  "networks": [
+    "NordVPN",
+    "ExpressVPN",
+    "Surfshark"
+  ],
+  "coverageJudged": true,
+  "counts": {
+    "open": 0,
+    "new": 0,
+    "resolved": 0
+  },
+  "needs": [],
+  "history": [
+    {
+      "at": "2026-09-10T21:11:22.103Z",
+      "by": "actions",
+      "open": 0,
+      "new": 0,
+      "resolved": 0
+    }
+  ]
+}

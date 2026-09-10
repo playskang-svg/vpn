@@ -1,0 +1,108 @@
+{
+  "site": "vpn",
+  "domain": "vpn.adbles.com",
+  "checkedAt": "2026-09-10T21:09:41.495Z",
+  "engine": "naver",
+  "results": [
+    {
+      "keyword": "VPN",
+      "error": "HTTP 403"
+    },
+    {
+      "keyword": "VPN추천",
+      "error": "HTTP 403"
+    },
+    {
+      "keyword": "무료VPN",
+      "error": "HTTP 403"
+    },
+    {
+      "keyword": "노드VPN",
+      "error": "HTTP 403"
+    },
+    {
+      "keyword": "노드브이피엔",
+      "error": "HTTP 403"
+    },
+    {
+      "keyword": "엑스프레스VPN",
+      "error": "HTTP 403"
+    },
+    {
+      "keyword": "서프샤크",
+      "error": "HTTP 403"
+    },
+    {
+      "keyword": "VPN속도",
+      "error": "HTTP 403"
+    },
+    {
+      "keyword": "VPN가격",
+      "error": "HTTP 403"
+    },
+    {
+      "keyword": "VPN요금",
+      "error": "HTTP 403"
+    },
+    {
+      "keyword": "VPN할인",
+      "error": "HTTP 403"
+    },
+    {
+      "keyword": "VPN환불",
+      "error": "HTTP 403"
+    },
+    {
+      "keyword": "VPN해지",
+      "error": "HTTP 403"
+    },
+    {
+      "keyword": "넷플릭스VPN",
+      "error": "HTTP 403"
+    },
+    {
+      "keyword": "디즈니플러스VPN",
+      "error": "HTTP 403"
+    },
+    {
+      "keyword": "유튜브프리미엄VPN",
+      "error": "HTTP 403"
+    },
+    {
+      "keyword": "스트리밍VPN",
+      "error": "HTTP 403"
+    },
+    {
+      "keyword": "게임VPN",
+      "error": "HTTP 403"
+    },
+    {
+      "keyword": "핑감소",
+      "error": "HTTP 403"
+    },
+    {
+      "keyword": "공용와이파이",
+      "error": "HTTP 403"
+    },
+    {
+      "keyword": "공공와이파이보안",
+      "error": "HTTP 403"
+    },
+    {
+      "keyword": "카페와이파이",
+      "error": "HTTP 403"
+    },
+    {
+      "keyword": "재택근무VPN",
+      "error": "HTTP 403"
+    },
+    {
+      "keyword": "원격접속",
+      "error": "HTTP 403"
+    },
+    {
+      "keyword": "기업VPN",
+      "error": "HTTP 403"
+    }
+  ]
+}
