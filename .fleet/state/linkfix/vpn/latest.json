@@ -1,0 +1,55 @@
+{
+  "site": "vpn",
+  "label": "VPN",
+  "domain": "vpn.adbles.com",
+  "repo": "playskang-svg/vpn",
+  "scannedAt": "2026-09-10T23:22:57.358Z",
+  "pagesCrawled": 72,
+  "sitemapUrls": 72,
+  "externalChecked": 0,
+  "summary": {
+    "critical": 1,
+    "medium": 1,
+    "low": 1
+  },
+  "occurrences": 3,
+  "findings": [
+    {
+      "severity": "critical",
+      "kind": "client-rendered-shell",
+      "page": "https://vpn.adbles.com",
+      "bodyChars": 0,
+      "links": 0,
+      "note": "HTML에 본문도 링크도 없다. 검색엔진이 빈 페이지로 본다. 사전렌더링이 필요하다"
+    },
+    {
+      "severity": "medium",
+      "kind": "no-h1",
+      "page": "https://vpn.adbles.com",
+      "note": "h1이 없다. 문서 주제가 무엇인지 기계가 못 읽는다"
+    },
+    {
+      "severity": "low",
+      "kind": "title-too-long",
+      "page": "https://vpn.adbles.com/info/vpn-brands-comparison-chart",
+      "title": "VPN 4개 브랜드 한눈에 비교: NordVPN·Surfshark·CyberGhost·ExpressVPN | VPN Good Choice",
+      "length": 76
+    }
+  ],
+  "detail": {},
+  "autoFixable": [
+    "dead-anchor",
+    "empty-href",
+    "javascript-void",
+    "placeholder-url",
+    "http-to-https",
+    "double-slash"
+  ],
+  "reportOnly": [
+    "dead-external-link",
+    "external-unreachable",
+    "orphan-page",
+    "redirect-chain",
+    "noindex"
+  ]
+}
