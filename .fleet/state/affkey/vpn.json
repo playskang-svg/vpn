@@ -3,7 +3,7 @@
   "label": "VPN",
   "domain": "vpn.adbles.com",
   "repo": "playskang-svg/vpn",
-  "updatedAt": "2026-09-10T21:11:22.103Z",
+  "updatedAt": "2026-09-11T21:16:38.204Z",
   "updatedBy": "actions",
   "networks": [
     "NordVPN",
@@ -20,6 +20,13 @@
   "history": [
     {
       "at": "2026-09-10T21:11:22.103Z",
+      "by": "actions",
+      "open": 0,
+      "new": 0,
+      "resolved": 0
+    },
+    {
+      "at": "2026-09-11T21:16:38.204Z",
       "by": "actions",
       "open": 0,
       "new": 0,
