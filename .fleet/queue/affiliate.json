@@ -4,8 +4,8 @@
   "domain": "vpn.adbles.com",
   "repo": "playskang-svg/vpn",
   "type": "affiliate",
-  "createdAt": "2026-09-11T21:16:38.137Z",
-  "createdBy": "actions/34648288882",
+  "createdAt": "2026-09-12T20:57:16.209Z",
+  "createdBy": "actions/34718389991",
   "networks": [
     "NordVPN",
     "ExpressVPN",
@@ -14,45 +14,75 @@
   "disclosure": "이 글에는 제휴 링크가 포함되어 있으며, 가입 시 일정액의 수수료를 받을 수 있습니다.",
   "coupangEnabled": false,
   "slice": {
-    "day": 1,
+    "day": 2,
     "of": 7,
-    "files": 10
+    "files": 16
   },
   "existingLinks": [],
   "productIds": [],
   "barePages": [
-    "info/src/content/posts/free-vpn-download-checklist.md",
-    "info/src/content/posts/free-vpn-recommendation-guide.md",
-    "info/src/content/posts/vpn-blocked-network-fix.md",
-    "info/src/content/posts/vpn-legal-in-korea-faq.md",
-    "info/src/content/posts/vpn-specific-site-blocked-fix.md",
-    "info/src/content/posts/work-vpn-privacy-monitoring-myth.md",
-    "info/src/content/posts/youtube-premium-cheap-country-vpn-risk.md"
+    "info/src/content/posts/canada-working-holiday-vpn-guide.md",
+    "info/src/content/posts/china-kakao-naver-vpn-fix.md",
+    "info/src/content/posts/free-vpn-netflix-limitation.md",
+    "info/src/content/posts/iphone-vpn-battery-drain-fix.md",
+    "info/src/content/posts/public-wifi-safety.md",
+    "info/src/content/posts/router-vpn-setup-guide.md",
+    "info/src/content/posts/samsung-internet-vpn-pass-login-fix.md",
+    "info/src/content/posts/steam-region-locked-game-vpn-guide.md",
+    "info/src/content/posts/streaming-unblock-guide.md",
+    "info/src/content/posts/university-library-database-vpn.md",
+    "info/src/content/posts/vpn-app-crash-fix.md",
+    "info/src/content/posts/vpn-speed-slow-fix.md",
+    "info/src/content.config.ts"
   ],
   "newKeywords": [
     {
-      "keyword": "컴퓨터무료VPN",
-      "volume": 250
+      "keyword": "개인정보보호교육자료",
+      "volume": 940
     },
     {
-      "keyword": "중국여행VPN",
-      "volume": 330
+      "keyword": "NORDVPN환불",
+      "volume": 790
     },
     {
-      "keyword": "무료PCVPN",
-      "volume": 290
-    },
-    {
-      "keyword": "중국무료VPN",
-      "volume": 270
-    },
-    {
-      "keyword": "PC무료VPN",
-      "volume": 230
+      "keyword": "컴퓨터VPN무료",
+      "volume": 590
     },
     {
       "keyword": "아이폰무료VPN",
-      "volume": 380
+      "volume": 390
+    },
+    {
+      "keyword": "컴퓨터무료VPN",
+      "volume": 240
+    },
+    {
+      "keyword": "한국VPN무료",
+      "volume": 470
+    },
+    {
+      "keyword": "무료PCVPN",
+      "volume": 280
+    },
+    {
+      "keyword": "한국무료VPN",
+      "volume": 220
+    },
+    {
+      "keyword": "중국VPN추천",
+      "volume": 910
+    },
+    {
+      "keyword": "OPENVPN",
+      "volume": 560
+    },
+    {
+      "keyword": "중국여행VPN",
+      "volume": 320
+    },
+    {
+      "keyword": "중국무료VPN",
+      "volume": 280
     },
     {
       "keyword": "노트북VPN",
@@ -60,8 +90,8 @@
     },
     {
       "keyword": "한전VPN",
-      "volume": 420
+      "volume": 410
     }
   ],
-  "instructions": "# 제휴링크 갱신 — VPN\n\n너는 맥에서 무인으로 돌고 있다. 사람에게 물어볼 수 없다.\n\n## 규칙\n\n1. **제휴 URL을 지어내지 않는다.** 새 링크가 필요하면 반드시 아래 명령으로 실제 링크를 받아온다:\n   ```\n   node /home/runner/work/vpn/vpn/_agents/agents/linkmgr/scripts/linkmgr.mjs collect --site vpn --kw \"<키워드>\"\n   ```\n2. 가격·재고를 본문에 단정해 쓰지 않는다. \"현재 39,900원\" 같은 문장은 다음 주에 거짓이 된다.\n   가격대나 조건으로 쓴다 — \"3만 원대\", \"로켓배송 여부는 링크에서 확인\".\n3. 제휴링크를 넣은 글에는 고지 문구가 반드시 있어야 한다:\n   > 이 글에는 제휴 링크가 포함되어 있으며, 가입 시 일정액의 수수료를 받을 수 있습니다.\n4. **한 글에 제휴링크는 최대 2개.** 이미 그만큼 있으면 추가하지 말고 교체만 한다.\n   링크 하나당 본문 700자 이상이어야 한다 — 짧은 글에 여러 개 넣지 않는다.\n5. 글의 흐름과 무관한 자리에 링크를 끼워 넣지 않는다. 독자가 그 상품을 필요로 하는 문단에만 넣는다.\n   링크가 촘촘하면 독자는 광고글로 읽고 되돌아간다.\n6. 커밋하지 않는다. 배포하지 않는다.\n\n## 1. 제휴링크가 없는 글 (7건)\n\n아래 글에는 제휴링크가 하나도 없다. 글 주제에 **자연스럽게 맞는 것만** 붙인다.\n맞는 상품이 없으면 붙이지 않는다 — 억지로 넣은 링크는 이탈률만 올린다.\n\n- `info/src/content/posts/free-vpn-download-checklist.md`\n- `info/src/content/posts/free-vpn-recommendation-guide.md`\n- `info/src/content/posts/vpn-blocked-network-fix.md`\n- `info/src/content/posts/vpn-legal-in-korea-faq.md`\n- `info/src/content/posts/vpn-specific-site-blocked-fix.md`\n- `info/src/content/posts/work-vpn-privacy-monitoring-myth.md`\n- `info/src/content/posts/youtube-premium-cheap-country-vpn-risk.md`\n\n## 3. 새로 발굴된 키워드 (8건)\n\ngoldkey 가 새로 찾은 키워드다. 이 주제를 다루는 **기존 글이 이미 있다면**\n그 글에 해당 키워드용 제휴링크가 붙어 있는지 보고, 없으면 붙인다.\n기존 글이 없으면 아무것도 하지 않는다 — 새 글은 postgen 몫이다.\n\n- 컴퓨터무료VPN (월 250)\n- 중국여행VPN (월 330)\n- 무료PCVPN (월 290)\n- 중국무료VPN (월 270)\n- PC무료VPN (월 230)\n- 아이폰무료VPN (월 380)\n- 노트북VPN (월 240)\n- 한전VPN (월 420)\n\n---\n\n끝나면 `git diff --stat` 으로 무엇을 바꿨는지 출력한다."
+  "instructions": "# 제휴링크 갱신 — VPN\n\n너는 맥에서 무인으로 돌고 있다. 사람에게 물어볼 수 없다.\n\n## 규칙\n\n1. **제휴 URL을 지어내지 않는다.** 새 링크가 필요하면 반드시 아래 명령으로 실제 링크를 받아온다:\n   ```\n   node /home/runner/work/vpn/vpn/_agents/agents/linkmgr/scripts/linkmgr.mjs collect --site vpn --kw \"<키워드>\"\n   ```\n2. 가격·재고를 본문에 단정해 쓰지 않는다. \"현재 39,900원\" 같은 문장은 다음 주에 거짓이 된다.\n   가격대나 조건으로 쓴다 — \"3만 원대\", \"로켓배송 여부는 링크에서 확인\".\n3. 제휴링크를 넣은 글에는 고지 문구가 반드시 있어야 한다:\n   > 이 글에는 제휴 링크가 포함되어 있으며, 가입 시 일정액의 수수료를 받을 수 있습니다.\n4. **한 글에 제휴링크는 최대 2개.** 이미 그만큼 있으면 추가하지 말고 교체만 한다.\n   링크 하나당 본문 700자 이상이어야 한다 — 짧은 글에 여러 개 넣지 않는다.\n5. 글의 흐름과 무관한 자리에 링크를 끼워 넣지 않는다. 독자가 그 상품을 필요로 하는 문단에만 넣는다.\n   링크가 촘촘하면 독자는 광고글로 읽고 되돌아간다.\n6. 커밋하지 않는다. 배포하지 않는다.\n\n## 1. 제휴링크가 없는 글 (13건)\n\n아래 글에는 제휴링크가 하나도 없다. 글 주제에 **자연스럽게 맞는 것만** 붙인다.\n맞는 상품이 없으면 붙이지 않는다 — 억지로 넣은 링크는 이탈률만 올린다.\n\n- `info/src/content/posts/canada-working-holiday-vpn-guide.md`\n- `info/src/content/posts/china-kakao-naver-vpn-fix.md`\n- `info/src/content/posts/free-vpn-netflix-limitation.md`\n- `info/src/content/posts/iphone-vpn-battery-drain-fix.md`\n- `info/src/content/posts/public-wifi-safety.md`\n- `info/src/content/posts/router-vpn-setup-guide.md`\n- `info/src/content/posts/samsung-internet-vpn-pass-login-fix.md`\n- `info/src/content/posts/steam-region-locked-game-vpn-guide.md`\n- `info/src/content/posts/streaming-unblock-guide.md`\n- `info/src/content/posts/university-library-database-vpn.md`\n- `info/src/content/posts/vpn-app-crash-fix.md`\n- `info/src/content/posts/vpn-speed-slow-fix.md`\n- `info/src/content.config.ts`\n\n## 3. 새로 발굴된 키워드 (14건)\n\ngoldkey 가 새로 찾은 키워드다. 이 주제를 다루는 **기존 글이 이미 있다면**\n그 글에 해당 키워드용 제휴링크가 붙어 있는지 보고, 없으면 붙인다.\n기존 글이 없으면 아무것도 하지 않는다 — 새 글은 postgen 몫이다.\n\n- 개인정보보호교육자료 (월 940)\n- NORDVPN환불 (월 790)\n- 컴퓨터VPN무료 (월 590)\n- 아이폰무료VPN (월 390)\n- 컴퓨터무료VPN (월 240)\n- 한국VPN무료 (월 470)\n- 무료PCVPN (월 280)\n- 한국무료VPN (월 220)\n- 중국VPN추천 (월 910)\n- OPENVPN (월 560)\n- 중국여행VPN (월 320)\n- 중국무료VPN (월 280)\n- 노트북VPN (월 240)\n- 한전VPN (월 410)\n\n---\n\n끝나면 `git diff --stat` 으로 무엇을 바꿨는지 출력한다."
 }

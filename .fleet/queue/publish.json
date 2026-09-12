@@ -5,8 +5,8 @@
   "repo": "playskang-svg/vpn",
   "type": "publish",
   "createdAt": "2026-09-10T21:11:21.985Z",
-  "updatedAt": "2026-09-11T21:16:38.083Z",
-  "createdBy": "actions/34648288882",
+  "updatedAt": "2026-09-12T20:57:16.154Z",
+  "createdBy": "actions/34718389991",
   "titles": [
     {
       "keyword": "컴퓨터무료VPN",
@@ -355,6 +355,26 @@
       "site": "vpn",
       "domain": "vpn.adbles.com",
       "keyword": "한국VPN무료",
+      "slug": null,
+      "internal": [],
+      "external": [
+        {
+          "name": "한국인터넷진흥원 (KISA 보호나라)",
+          "url": "https://www.boho.or.kr"
+        },
+        {
+          "name": "방송통신심의위원회",
+          "url": "https://www.kocsc.or.kr"
+        }
+      ],
+      "affiliate": [],
+      "coupang": []
+    },
+    {
+      "collected_at": "2026-09-12T20:57:16.117Z",
+      "site": "vpn",
+      "domain": "vpn.adbles.com",
+      "keyword": "개인정보보호교육자료",
       "slug": null,
       "internal": [],
       "external": [
