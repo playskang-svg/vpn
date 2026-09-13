@@ -13,5 +13,7 @@
     "info/public/thumbnails/nordvpn-refund-guide.png",
     "info/src/content/posts/nordvpn-refund-guide.md"
   ],
-  "patch": "2026-09-12T08-08-52-582Z-003.patch"
+  "patch": "2026-09-12T08-08-52-582Z-003.patch",
+  "blocked": "발행 후 라이브 검증 실패로 되돌림 — 원인 확인 전까지 다시 꺼내지 않는다",
+  "blockedAt": "2026-09-13T14:27:42.134Z"
 }
