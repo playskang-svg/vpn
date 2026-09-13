@@ -13,5 +13,7 @@
     "info/public/thumbnails/iphone-free-vpn-risk-guide.png",
     "info/src/content/posts/iphone-free-vpn-risk-guide.md"
   ],
-  "patch": "2026-09-12T08-08-46-043Z-002.patch"
+  "patch": "2026-09-12T08-08-46-043Z-002.patch",
+  "blocked": "발행 후 라이브 검증 실패로 되돌림 — 원인 확인 전까지 다시 꺼내지 않는다",
+  "blockedAt": "2026-09-13T04:41:51.999Z"
 }
