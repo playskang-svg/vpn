@@ -1,0 +1,14 @@
+{
+  "site": "vpn",
+  "label": "VPN",
+  "domain": "vpn.adbles.com",
+  "title": "컴퓨터무료VPN, 넷플릭스 4K 버퍼링 없이 우회되는 국가 서버와 속도",
+  "slug": null,
+  "keyword": "컴퓨터무료VPN",
+  "createdAt": "2026-09-14T03:53:44.265Z",
+  "createdOn": "799bff45578aa5afcb93391f08c01ced1c5e05e8",
+  "files": [
+    "info/src/content/posts/pc-free-vpn-netflix-4k-speed.md"
+  ],
+  "patch": "2026-09-14T03-53-44-259Z-004.patch"
+}
