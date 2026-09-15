@@ -1,0 +1,17 @@
+{
+  "site": "vpn",
+  "label": "VPN",
+  "domain": "vpn.adbles.com",
+  "title": "VPN 일본 서버, 일본에서 쓸 때와 일본으로 붙을 때가 정반대입니다",
+  "slug": "japan-vpn-server-direction-guide",
+  "keyword": "VPN일본",
+  "createdAt": "2026-09-15T09:20:34.155Z",
+  "createdOn": "c09ef9d32063adc9431547301942816f23aa1dfe",
+  "files": [
+    "info/public/images/japan-vpn-server-direction-guide/detail.png",
+    "info/public/images/japan-vpn-server-direction-guide/hero.png",
+    "info/public/thumbnails/japan-vpn-server-direction-guide.png",
+    "info/src/content/posts/japan-vpn-server-direction-guide.md"
+  ],
+  "patch": "2026-09-15T09-20-34-149Z-003.patch"
+}
