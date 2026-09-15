@@ -1,0 +1,17 @@
+{
+  "site": "vpn",
+  "label": "VPN",
+  "domain": "vpn.adbles.com",
+  "title": "OpenVPN, 같은 이름의 세 가지를 구분 못 하면 연결이 안 됩니다",
+  "slug": "openvpn-protocol-server-app-guide",
+  "keyword": "OPENVPN",
+  "createdAt": "2026-09-15T09:18:24.041Z",
+  "createdOn": "c09ef9d32063adc9431547301942816f23aa1dfe",
+  "files": [
+    "info/public/images/openvpn-protocol-server-app-guide/detail.png",
+    "info/public/images/openvpn-protocol-server-app-guide/hero.png",
+    "info/public/thumbnails/openvpn-protocol-server-app-guide.png",
+    "info/src/content/posts/openvpn-protocol-server-app-guide.md"
+  ],
+  "patch": "2026-09-15T09-18-24-034Z-002.patch"
+}
