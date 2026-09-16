@@ -1,0 +1,17 @@
+{
+  "site": "vpn",
+  "label": "VPN",
+  "domain": "vpn.adbles.com",
+  "title": "모바일 게임에서 VPN 쓰면 계정 정지될까",
+  "slug": "mobile-game-vpn-risk-guide",
+  "keyword": "모바일게임VPN",
+  "createdAt": "2026-09-16T02:52:27.786Z",
+  "createdOn": "98b5bd64b59e41908f0ac4c408b4ffe1e642e2e8",
+  "files": [
+    "info/public/images/mobile-game-vpn-risk-guide/detail.png",
+    "info/public/images/mobile-game-vpn-risk-guide/hero.png",
+    "info/public/thumbnails/mobile-game-vpn-risk-guide.png",
+    "info/src/content/posts/mobile-game-vpn-risk-guide.md"
+  ],
+  "patch": "2026-09-16T02-52-27-781Z-032.patch"
+}

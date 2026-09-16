@@ -1,0 +1,17 @@
+{
+  "site": "vpn",
+  "label": "VPN",
+  "domain": "vpn.adbles.com",
+  "title": "디스코드 음성 끊김·화면공유 안 될 때, VPN이 도움이 될까",
+  "slug": "discord-region-vpn-guide",
+  "keyword": "디스코드VPN",
+  "createdAt": "2026-09-16T02:52:33.091Z",
+  "createdOn": "98b5bd64b59e41908f0ac4c408b4ffe1e642e2e8",
+  "files": [
+    "info/public/images/discord-region-vpn-guide/detail.png",
+    "info/public/images/discord-region-vpn-guide/hero.png",
+    "info/public/thumbnails/discord-region-vpn-guide.png",
+    "info/src/content/posts/discord-region-vpn-guide.md"
+  ],
+  "patch": "2026-09-16T02-52-33-085Z-033.patch"
+}
