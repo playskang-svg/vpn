@@ -1,0 +1,17 @@
+{
+  "site": "vpn",
+  "label": "VPN",
+  "domain": "vpn.adbles.com",
+  "title": "아마존 프라임 비디오 미국판 보는 법: 일본판과 뭐가 다를까",
+  "slug": "amazon-prime-video-us-vpn-guide",
+  "keyword": "아마존프라임VPN",
+  "createdAt": "2026-09-16T02:46:05.503Z",
+  "createdOn": "396156d8e2ac3886a9c5b7394d82432a0b0f435e",
+  "files": [
+    "info/public/images/amazon-prime-video-us-vpn-guide/detail.png",
+    "info/public/images/amazon-prime-video-us-vpn-guide/hero.png",
+    "info/public/thumbnails/amazon-prime-video-us-vpn-guide.png",
+    "info/src/content/posts/amazon-prime-video-us-vpn-guide.md"
+  ],
+  "patch": "2026-09-16T02-46-05-498Z-026.patch"
+}

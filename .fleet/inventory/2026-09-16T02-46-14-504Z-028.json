@@ -1,0 +1,17 @@
+{
+  "site": "vpn",
+  "label": "VPN",
+  "domain": "vpn.adbles.com",
+  "title": "해외 음악 스트리밍 신보 조기 공개, VPN으로 먼저 들을 수 있을까",
+  "slug": "early-release-music-streaming-vpn",
+  "keyword": "음악스트리밍VPN",
+  "createdAt": "2026-09-16T02:46:14.508Z",
+  "createdOn": "396156d8e2ac3886a9c5b7394d82432a0b0f435e",
+  "files": [
+    "info/public/images/early-release-music-streaming-vpn/detail.png",
+    "info/public/images/early-release-music-streaming-vpn/hero.png",
+    "info/public/thumbnails/early-release-music-streaming-vpn.png",
+    "info/src/content/posts/early-release-music-streaming-vpn.md"
+  ],
+  "patch": "2026-09-16T02-46-14-504Z-028.patch"
+}

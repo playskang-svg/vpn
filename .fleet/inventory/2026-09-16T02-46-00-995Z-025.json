@@ -1,0 +1,17 @@
+{
+  "site": "vpn",
+  "label": "VPN",
+  "domain": "vpn.adbles.com",
+  "title": "HBO 맥스, 한국에서 VPN으로 보는 게 약관 위반이 되는 이유",
+  "slug": "hbo-max-vpn-korea-guide",
+  "keyword": "HBO맥스VPN",
+  "createdAt": "2026-09-16T02:46:01.000Z",
+  "createdOn": "396156d8e2ac3886a9c5b7394d82432a0b0f435e",
+  "files": [
+    "info/public/images/hbo-max-vpn-korea-guide/detail.png",
+    "info/public/images/hbo-max-vpn-korea-guide/hero.png",
+    "info/public/thumbnails/hbo-max-vpn-korea-guide.png",
+    "info/src/content/posts/hbo-max-vpn-korea-guide.md"
+  ],
+  "patch": "2026-09-16T02-46-00-995Z-025.patch"
+}

@@ -1,0 +1,17 @@
+{
+  "site": "vpn",
+  "label": "VPN",
+  "domain": "vpn.adbles.com",
+  "title": "해외 스포츠 중계 VPN으로 보기: 지역 블랙아웃이 걸리는 이유",
+  "slug": "overseas-sports-broadcast-vpn-blackout",
+  "keyword": "스포츠중계VPN",
+  "createdAt": "2026-09-16T02:46:24.452Z",
+  "createdOn": "396156d8e2ac3886a9c5b7394d82432a0b0f435e",
+  "files": [
+    "info/public/images/overseas-sports-broadcast-vpn-blackout/detail.png",
+    "info/public/images/overseas-sports-broadcast-vpn-blackout/hero.png",
+    "info/public/thumbnails/overseas-sports-broadcast-vpn-blackout.png",
+    "info/src/content/posts/overseas-sports-broadcast-vpn-blackout.md"
+  ],
+  "patch": "2026-09-16T02-46-24-447Z-030.patch"
+}
