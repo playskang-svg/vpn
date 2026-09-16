@@ -1,0 +1,17 @@
+{
+  "site": "vpn",
+  "label": "VPN",
+  "domain": "vpn.adbles.com",
+  "title": "VPN 두 개를 동시에 켜면 안 되는 이유",
+  "slug": "vpn-double-app-conflict-guide",
+  "keyword": "VPN중첩사용",
+  "createdAt": "2026-09-16T03:15:05.151Z",
+  "createdOn": "b96e86b1641018132361c6bbfc97e959b6668fd1",
+  "files": [
+    "info/public/images/vpn-double-app-conflict-guide/detail.png",
+    "info/public/images/vpn-double-app-conflict-guide/hero.png",
+    "info/public/thumbnails/vpn-double-app-conflict-guide.png",
+    "info/src/content/posts/vpn-double-app-conflict-guide.md"
+  ],
+  "patch": "2026-09-16T03-15-05-146Z-053.patch"
+}

@@ -1,0 +1,17 @@
+{
+  "site": "vpn",
+  "label": "VPN",
+  "domain": "vpn.adbles.com",
+  "title": "한국 인터넷뱅킹은 왜 VPN을 쓰면 거의 100% 막힐까",
+  "slug": "vpn-korean-banking-block-reason",
+  "keyword": "VPN금융차단",
+  "createdAt": "2026-09-16T03:14:51.362Z",
+  "createdOn": "b96e86b1641018132361c6bbfc97e959b6668fd1",
+  "files": [
+    "info/public/images/vpn-korean-banking-block-reason/detail.png",
+    "info/public/images/vpn-korean-banking-block-reason/hero.png",
+    "info/public/thumbnails/vpn-korean-banking-block-reason.png",
+    "info/src/content/posts/vpn-korean-banking-block-reason.md"
+  ],
+  "patch": "2026-09-16T03-14-51-357Z-050.patch"
+}

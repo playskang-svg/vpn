@@ -1,0 +1,17 @@
+{
+  "site": "vpn",
+  "label": "VPN",
+  "domain": "vpn.adbles.com",
+  "title": "안드로이드에서 VPN 켜두면 배터리 빨리 닳는 이유",
+  "slug": "android-vpn-battery-drain-fix",
+  "keyword": "안드로이드VPN배터리",
+  "createdAt": "2026-09-16T03:14:55.724Z",
+  "createdOn": "b96e86b1641018132361c6bbfc97e959b6668fd1",
+  "files": [
+    "info/public/images/android-vpn-battery-drain-fix/detail.png",
+    "info/public/images/android-vpn-battery-drain-fix/hero.png",
+    "info/public/thumbnails/android-vpn-battery-drain-fix.png",
+    "info/src/content/posts/android-vpn-battery-drain-fix.md"
+  ],
+  "patch": "2026-09-16T03-14-55-719Z-051.patch"
+}

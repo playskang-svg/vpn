@@ -1,0 +1,17 @@
+{
+  "site": "vpn",
+  "label": "VPN",
+  "domain": "vpn.adbles.com",
+  "title": "출장 중 VPN이 유독 느려지는 이유: 회사 VPN과 겹칠 때",
+  "slug": "business-trip-vpn-speed-slowdown",
+  "keyword": "VPN출장속도저하",
+  "createdAt": "2026-09-16T03:15:00.521Z",
+  "createdOn": "b96e86b1641018132361c6bbfc97e959b6668fd1",
+  "files": [
+    "info/public/images/business-trip-vpn-speed-slowdown/detail.png",
+    "info/public/images/business-trip-vpn-speed-slowdown/hero.png",
+    "info/public/thumbnails/business-trip-vpn-speed-slowdown.png",
+    "info/src/content/posts/business-trip-vpn-speed-slowdown.md"
+  ],
+  "patch": "2026-09-16T03-15-00-516Z-052.patch"
+}
