@@ -1,0 +1,17 @@
+{
+  "site": "vpn",
+  "label": "VPN",
+  "domain": "vpn.adbles.com",
+  "title": "화상회의(줌·구글미트) 중 VPN 켜면 화질이 떨어지는 이유",
+  "slug": "video-conference-vpn-quality-guide",
+  "keyword": "화상회의VPN",
+  "createdAt": "2026-09-16T02:30:51.910Z",
+  "createdOn": "104030d7fa5a7bf2a80e3d45bda19b5876628dc0",
+  "files": [
+    "info/public/images/video-conference-vpn-quality-guide/detail.png",
+    "info/public/images/video-conference-vpn-quality-guide/hero.png",
+    "info/public/thumbnails/video-conference-vpn-quality-guide.png",
+    "info/src/content/posts/video-conference-vpn-quality-guide.md"
+  ],
+  "patch": "2026-09-16T02-30-51-904Z-022.patch"
+}
