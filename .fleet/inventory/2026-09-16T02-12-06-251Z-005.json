@@ -1,0 +1,17 @@
+{
+  "site": "vpn",
+  "label": "VPN",
+  "domain": "vpn.adbles.com",
+  "title": "VPN 프로토콜 완벽 비교: 와이어가드·오픈VPN·IKEv2, 뭘 기준으로 골라야 할까",
+  "slug": "vpn-protocol-comparison-guide",
+  "keyword": "VPN프로토콜",
+  "createdAt": "2026-09-16T02:12:06.255Z",
+  "createdOn": "587919a7fafba6a74509211098c5162958ff5ae3",
+  "files": [
+    "info/public/images/vpn-protocol-comparison-guide/detail.png",
+    "info/public/images/vpn-protocol-comparison-guide/hero.png",
+    "info/public/thumbnails/vpn-protocol-comparison-guide.png",
+    "info/src/content/posts/vpn-protocol-comparison-guide.md"
+  ],
+  "patch": "2026-09-16T02-12-06-251Z-005.patch"
+}

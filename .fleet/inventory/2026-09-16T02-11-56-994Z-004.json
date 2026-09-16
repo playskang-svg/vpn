@@ -1,0 +1,17 @@
+{
+  "site": "vpn",
+  "label": "VPN",
+  "domain": "vpn.adbles.com",
+  "title": "와이어가드란 무엇인가: 오픈VPN보다 빠르다는 게 정확히 뭘 의미할까",
+  "slug": "wireguard-vpn-protocol-guide",
+  "keyword": "와이어가드",
+  "createdAt": "2026-09-16T02:11:56.999Z",
+  "createdOn": "587919a7fafba6a74509211098c5162958ff5ae3",
+  "files": [
+    "info/public/images/wireguard-vpn-protocol-guide/detail.png",
+    "info/public/images/wireguard-vpn-protocol-guide/hero.png",
+    "info/public/thumbnails/wireguard-vpn-protocol-guide.png",
+    "info/src/content/posts/wireguard-vpn-protocol-guide.md"
+  ],
+  "patch": "2026-09-16T02-11-56-994Z-004.patch"
+}

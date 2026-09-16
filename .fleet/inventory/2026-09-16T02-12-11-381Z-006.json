@@ -1,0 +1,17 @@
+{
+  "site": "vpn",
+  "label": "VPN",
+  "domain": "vpn.adbles.com",
+  "title": "DNS 유출 테스트, 내 VPN이 진짜 안전한지 5분 만에 확인하는 법",
+  "slug": "dns-leak-test-guide",
+  "keyword": "DNS유출",
+  "createdAt": "2026-09-16T02:12:11.387Z",
+  "createdOn": "587919a7fafba6a74509211098c5162958ff5ae3",
+  "files": [
+    "info/public/images/dns-leak-test-guide/detail.png",
+    "info/public/images/dns-leak-test-guide/hero.png",
+    "info/public/thumbnails/dns-leak-test-guide.png",
+    "info/src/content/posts/dns-leak-test-guide.md"
+  ],
+  "patch": "2026-09-16T02-12-11-381Z-006.patch"
+}
