@@ -25,6 +25,7 @@
   },
   "exclude": [
     "node_modules",
-    "info"
+    "info",
+    "_agents"
   ]
 }
