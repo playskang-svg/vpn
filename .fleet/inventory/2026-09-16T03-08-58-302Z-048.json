@@ -1,0 +1,17 @@
+{
+  "site": "vpn",
+  "label": "VPN",
+  "domain": "vpn.adbles.com",
+  "title": "VPN 해지, 왜 이렇게 어렵게 만들어놨을까",
+  "slug": "vpn-cancellation-dark-patterns",
+  "keyword": "VPN해지",
+  "createdAt": "2026-09-16T03:08:58.307Z",
+  "createdOn": "caaa9711dc4673b69ccfc55472ecee433686c4c3",
+  "files": [
+    "info/public/images/vpn-cancellation-dark-patterns/detail.png",
+    "info/public/images/vpn-cancellation-dark-patterns/hero.png",
+    "info/public/thumbnails/vpn-cancellation-dark-patterns.png",
+    "info/src/content/posts/vpn-cancellation-dark-patterns.md"
+  ],
+  "patch": "2026-09-16T03-08-58-302Z-048.patch"
+}

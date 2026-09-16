@@ -1,0 +1,17 @@
+{
+  "site": "vpn",
+  "label": "VPN",
+  "domain": "vpn.adbles.com",
+  "title": "VPN 평생 요금제, 정말 평생 갈까",
+  "slug": "vpn-lifetime-deal-risk",
+  "keyword": "VPN라이프타임",
+  "createdAt": "2026-09-16T03:08:44.410Z",
+  "createdOn": "caaa9711dc4673b69ccfc55472ecee433686c4c3",
+  "files": [
+    "info/public/images/vpn-lifetime-deal-risk/detail.png",
+    "info/public/images/vpn-lifetime-deal-risk/hero.png",
+    "info/public/thumbnails/vpn-lifetime-deal-risk.png",
+    "info/src/content/posts/vpn-lifetime-deal-risk.md"
+  ],
+  "patch": "2026-09-16T03-08-44-404Z-045.patch"
+}

@@ -1,0 +1,17 @@
+{
+  "site": "vpn",
+  "label": "VPN",
+  "domain": "vpn.adbles.com",
+  "title": "VPN 첫 결제는 싸고 갱신할 때 비싸지는 이유",
+  "slug": "vpn-renewal-price-increase-guide",
+  "keyword": "VPN요금갱신",
+  "createdAt": "2026-09-16T03:08:35.872Z",
+  "createdOn": "caaa9711dc4673b69ccfc55472ecee433686c4c3",
+  "files": [
+    "info/public/images/vpn-renewal-price-increase-guide/detail.png",
+    "info/public/images/vpn-renewal-price-increase-guide/hero.png",
+    "info/public/thumbnails/vpn-renewal-price-increase-guide.png",
+    "info/src/content/posts/vpn-renewal-price-increase-guide.md"
+  ],
+  "patch": "2026-09-16T03-08-35-867Z-043.patch"
+}

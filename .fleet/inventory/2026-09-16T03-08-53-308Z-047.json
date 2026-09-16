@@ -1,0 +1,17 @@
+{
+  "site": "vpn",
+  "label": "VPN",
+  "domain": "vpn.adbles.com",
+  "title": "VPN 전용 IP(고정 IP), 언제 필요할까",
+  "slug": "vpn-dedicated-ip-guide",
+  "keyword": "VPN전용IP",
+  "createdAt": "2026-09-16T03:08:53.314Z",
+  "createdOn": "caaa9711dc4673b69ccfc55472ecee433686c4c3",
+  "files": [
+    "info/public/images/vpn-dedicated-ip-guide/detail.png",
+    "info/public/images/vpn-dedicated-ip-guide/hero.png",
+    "info/public/thumbnails/vpn-dedicated-ip-guide.png",
+    "info/src/content/posts/vpn-dedicated-ip-guide.md"
+  ],
+  "patch": "2026-09-16T03-08-53-308Z-047.patch"
+}
