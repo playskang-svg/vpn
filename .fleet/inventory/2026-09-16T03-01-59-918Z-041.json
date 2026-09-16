@@ -1,0 +1,17 @@
+{
+  "site": "vpn",
+  "label": "VPN",
+  "domain": "vpn.adbles.com",
+  "title": "싱가포르는 왜 VPN이 필요 없다고 할까",
+  "slug": "singapore-vpn-guide",
+  "keyword": "싱가포르VPN",
+  "createdAt": "2026-09-16T03:01:59.923Z",
+  "createdOn": "52b40b8838ae3376a9d6e372ac7c7c7f9afcad6f",
+  "files": [
+    "info/public/images/singapore-vpn-guide/detail.png",
+    "info/public/images/singapore-vpn-guide/hero.png",
+    "info/public/thumbnails/singapore-vpn-guide.png",
+    "info/src/content/posts/singapore-vpn-guide.md"
+  ],
+  "patch": "2026-09-16T03-01-59-918Z-041.patch"
+}

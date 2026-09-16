@@ -1,0 +1,17 @@
+{
+  "site": "vpn",
+  "label": "VPN",
+  "domain": "vpn.adbles.com",
+  "title": "베트남 여행·출장, VPN이 필요한 진짜 이유",
+  "slug": "vietnam-travel-vpn-guide",
+  "keyword": "베트남VPN",
+  "createdAt": "2026-09-16T03:01:33.510Z",
+  "createdOn": "52b40b8838ae3376a9d6e372ac7c7c7f9afcad6f",
+  "files": [
+    "info/public/images/vietnam-travel-vpn-guide/detail.png",
+    "info/public/images/vietnam-travel-vpn-guide/hero.png",
+    "info/public/thumbnails/vietnam-travel-vpn-guide.png",
+    "info/src/content/posts/vietnam-travel-vpn-guide.md"
+  ],
+  "patch": "2026-09-16T03-01-33-504Z-035.patch"
+}

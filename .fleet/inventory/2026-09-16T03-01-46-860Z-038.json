@@ -1,0 +1,17 @@
+{
+  "site": "vpn",
+  "label": "VPN",
+  "domain": "vpn.adbles.com",
+  "title": "미국 출장, 개인 VPN이 필요한 진짜 이유",
+  "slug": "us-business-trip-vpn-guide",
+  "keyword": "미국출장VPN",
+  "createdAt": "2026-09-16T03:01:46.865Z",
+  "createdOn": "52b40b8838ae3376a9d6e372ac7c7c7f9afcad6f",
+  "files": [
+    "info/public/images/us-business-trip-vpn-guide/detail.png",
+    "info/public/images/us-business-trip-vpn-guide/hero.png",
+    "info/public/thumbnails/us-business-trip-vpn-guide.png",
+    "info/src/content/posts/us-business-trip-vpn-guide.md"
+  ],
+  "patch": "2026-09-16T03-01-46-860Z-038.patch"
+}

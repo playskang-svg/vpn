@@ -1,0 +1,17 @@
+{
+  "site": "vpn",
+  "label": "VPN",
+  "domain": "vpn.adbles.com",
+  "title": "태국에서 VPN, 이럴 때 필요합니다",
+  "slug": "thailand-travel-vpn-guide",
+  "keyword": "태국VPN",
+  "createdAt": "2026-09-16T03:01:37.862Z",
+  "createdOn": "52b40b8838ae3376a9d6e372ac7c7c7f9afcad6f",
+  "files": [
+    "info/public/images/thailand-travel-vpn-guide/detail.png",
+    "info/public/images/thailand-travel-vpn-guide/hero.png",
+    "info/public/thumbnails/thailand-travel-vpn-guide.png",
+    "info/src/content/posts/thailand-travel-vpn-guide.md"
+  ],
+  "patch": "2026-09-16T03-01-37-857Z-036.patch"
+}

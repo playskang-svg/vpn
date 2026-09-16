@@ -1,0 +1,17 @@
+{
+  "site": "vpn",
+  "label": "VPN",
+  "domain": "vpn.adbles.com",
+  "title": "인도의 VPN 로그 의무화, 무슨 일이 있었나",
+  "slug": "india-vpn-regulation-guide",
+  "keyword": "인도VPN규제",
+  "createdAt": "2026-09-16T03:01:55.733Z",
+  "createdOn": "52b40b8838ae3376a9d6e372ac7c7c7f9afcad6f",
+  "files": [
+    "info/public/images/india-vpn-regulation-guide/detail.png",
+    "info/public/images/india-vpn-regulation-guide/hero.png",
+    "info/public/thumbnails/india-vpn-regulation-guide.png",
+    "info/src/content/posts/india-vpn-regulation-guide.md"
+  ],
+  "patch": "2026-09-16T03-01-55-727Z-040.patch"
+}

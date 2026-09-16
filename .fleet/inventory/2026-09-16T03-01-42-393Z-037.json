@@ -1,0 +1,17 @@
+{
+  "site": "vpn",
+  "label": "VPN",
+  "domain": "vpn.adbles.com",
+  "title": "두바이·UAE, VPN 쓰기 전에 반드시 확인할 것",
+  "slug": "dubai-uae-vpn-legal-guide",
+  "keyword": "두바이VPN",
+  "createdAt": "2026-09-16T03:01:42.398Z",
+  "createdOn": "52b40b8838ae3376a9d6e372ac7c7c7f9afcad6f",
+  "files": [
+    "info/public/images/dubai-uae-vpn-legal-guide/detail.png",
+    "info/public/images/dubai-uae-vpn-legal-guide/hero.png",
+    "info/public/thumbnails/dubai-uae-vpn-legal-guide.png",
+    "info/src/content/posts/dubai-uae-vpn-legal-guide.md"
+  ],
+  "patch": "2026-09-16T03-01-42-393Z-037.patch"
+}
