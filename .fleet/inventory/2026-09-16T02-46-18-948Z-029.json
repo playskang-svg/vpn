@@ -1,0 +1,17 @@
+{
+  "site": "vpn",
+  "label": "VPN",
+  "domain": "vpn.adbles.com",
+  "title": "스트리밍 4K 화질, VPN 켜면 왜 갑자기 1080p로 떨어질까",
+  "slug": "vpn-streaming-quality-drop-guide",
+  "keyword": "VPN스트리밍화질",
+  "createdAt": "2026-09-16T02:46:18.952Z",
+  "createdOn": "396156d8e2ac3886a9c5b7394d82432a0b0f435e",
+  "files": [
+    "info/public/images/vpn-streaming-quality-drop-guide/detail.png",
+    "info/public/images/vpn-streaming-quality-drop-guide/hero.png",
+    "info/public/thumbnails/vpn-streaming-quality-drop-guide.png",
+    "info/src/content/posts/vpn-streaming-quality-drop-guide.md"
+  ],
+  "patch": "2026-09-16T02-46-18-948Z-029.patch"
+}

@@ -1,0 +1,17 @@
+{
+  "site": "vpn",
+  "label": "VPN",
+  "domain": "vpn.adbles.com",
+  "title": "스포티파이 지역 바꾸는 법: VPN으로 계정 국가 변경 시 주의할 점",
+  "slug": "spotify-vpn-region-change-guide",
+  "keyword": "스포티파이VPN",
+  "createdAt": "2026-09-16T02:45:55.016Z",
+  "createdOn": "396156d8e2ac3886a9c5b7394d82432a0b0f435e",
+  "files": [
+    "info/public/images/spotify-vpn-region-change-guide/detail.png",
+    "info/public/images/spotify-vpn-region-change-guide/hero.png",
+    "info/public/thumbnails/spotify-vpn-region-change-guide.png",
+    "info/src/content/posts/spotify-vpn-region-change-guide.md"
+  ],
+  "patch": "2026-09-16T02-45-55-011Z-024.patch"
+}
