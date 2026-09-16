@@ -1,0 +1,17 @@
+{
+  "site": "vpn",
+  "label": "VPN",
+  "domain": "vpn.adbles.com",
+  "title": "안드로이드 VPN 설정법: '항상 켜기'와 연결 차단으로 완전히 안 꺼지게 만드는 법",
+  "slug": "android-vpn-always-on-setup-guide",
+  "keyword": "안드로이드VPN",
+  "createdAt": "2026-09-16T02:23:05.348Z",
+  "createdOn": "420557522cc81a1cf404b3668b1883314c480ab8",
+  "files": [
+    "info/public/images/android-vpn-always-on-setup-guide/detail.png",
+    "info/public/images/android-vpn-always-on-setup-guide/hero.png",
+    "info/public/thumbnails/android-vpn-always-on-setup-guide.png",
+    "info/src/content/posts/android-vpn-always-on-setup-guide.md"
+  ],
+  "patch": "2026-09-16T02-23-05-343Z-011.patch"
+}

@@ -1,0 +1,17 @@
+{
+  "site": "vpn",
+  "label": "VPN",
+  "domain": "vpn.adbles.com",
+  "title": "티피링크 공유기 VPN 설정법",
+  "slug": "tplink-router-vpn-setup",
+  "keyword": "티피링크VPN",
+  "createdAt": "2026-09-16T02:23:28.182Z",
+  "createdOn": "420557522cc81a1cf404b3668b1883314c480ab8",
+  "files": [
+    "info/public/images/tplink-router-vpn-setup/detail.png",
+    "info/public/images/tplink-router-vpn-setup/hero.png",
+    "info/public/thumbnails/tplink-router-vpn-setup.png",
+    "info/src/content/posts/tplink-router-vpn-setup.md"
+  ],
+  "patch": "2026-09-16T02-23-28-177Z-015.patch"
+}

@@ -1,0 +1,17 @@
+{
+  "site": "vpn",
+  "label": "VPN",
+  "domain": "vpn.adbles.com",
+  "title": "파이어스틱 VPN 설정법: 사이드로드 없이 되는 방법부터",
+  "slug": "firestick-vpn-setup-guide",
+  "keyword": "파이어스틱VPN",
+  "createdAt": "2026-09-16T02:23:39.216Z",
+  "createdOn": "420557522cc81a1cf404b3668b1883314c480ab8",
+  "files": [
+    "info/public/images/firestick-vpn-setup-guide/detail.png",
+    "info/public/images/firestick-vpn-setup-guide/hero.png",
+    "info/public/thumbnails/firestick-vpn-setup-guide.png",
+    "info/src/content/posts/firestick-vpn-setup-guide.md"
+  ],
+  "patch": "2026-09-16T02-23-39-210Z-017.patch"
+}

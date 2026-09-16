@@ -1,0 +1,17 @@
+{
+  "site": "vpn",
+  "label": "VPN",
+  "domain": "vpn.adbles.com",
+  "title": "맥북 VPN 킬스위치, macOS 기본 기능으로 직접 만드는 법",
+  "slug": "macos-vpn-killswitch-native-guide",
+  "keyword": "맥VPN",
+  "createdAt": "2026-09-16T02:23:16.999Z",
+  "createdOn": "420557522cc81a1cf404b3668b1883314c480ab8",
+  "files": [
+    "info/public/images/macos-vpn-killswitch-native-guide/detail.png",
+    "info/public/images/macos-vpn-killswitch-native-guide/hero.png",
+    "info/public/thumbnails/macos-vpn-killswitch-native-guide.png",
+    "info/src/content/posts/macos-vpn-killswitch-native-guide.md"
+  ],
+  "patch": "2026-09-16T02-23-16-994Z-013.patch"
+}

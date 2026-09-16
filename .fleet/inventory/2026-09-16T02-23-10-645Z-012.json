@@ -1,0 +1,17 @@
+{
+  "site": "vpn",
+  "label": "VPN",
+  "domain": "vpn.adbles.com",
+  "title": "윈도우 VPN, 앱 없이 내장 기능만으로 연결하는 법",
+  "slug": "windows-native-vpn-setup-guide",
+  "keyword": "윈도우VPN",
+  "createdAt": "2026-09-16T02:23:10.650Z",
+  "createdOn": "420557522cc81a1cf404b3668b1883314c480ab8",
+  "files": [
+    "info/public/images/windows-native-vpn-setup-guide/detail.png",
+    "info/public/images/windows-native-vpn-setup-guide/hero.png",
+    "info/public/thumbnails/windows-native-vpn-setup-guide.png",
+    "info/src/content/posts/windows-native-vpn-setup-guide.md"
+  ],
+  "patch": "2026-09-16T02-23-10-645Z-012.patch"
+}
