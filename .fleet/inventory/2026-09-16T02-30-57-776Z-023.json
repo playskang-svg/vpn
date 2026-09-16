@@ -1,0 +1,17 @@
+{
+  "site": "vpn",
+  "label": "VPN",
+  "domain": "vpn.adbles.com",
+  "title": "회사가 사내에서 개인 VPN 사용을 막는 이유",
+  "slug": "company-vpn-block-policy-guide",
+  "keyword": "회사VPN차단",
+  "createdAt": "2026-09-16T02:30:57.781Z",
+  "createdOn": "104030d7fa5a7bf2a80e3d45bda19b5876628dc0",
+  "files": [
+    "info/public/images/company-vpn-block-policy-guide/detail.png",
+    "info/public/images/company-vpn-block-policy-guide/hero.png",
+    "info/public/thumbnails/company-vpn-block-policy-guide.png",
+    "info/src/content/posts/company-vpn-block-policy-guide.md"
+  ],
+  "patch": "2026-09-16T02-30-57-776Z-023.patch"
+}

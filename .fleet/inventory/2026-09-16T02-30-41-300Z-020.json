@@ -1,0 +1,17 @@
+{
+  "site": "vpn",
+  "label": "VPN",
+  "domain": "vpn.adbles.com",
+  "title": "원격 접속 VPN 설정법: 집에서 회사 PC로 직접 붙는 법",
+  "slug": "remote-desktop-vpn-setup-guide",
+  "keyword": "원격접속VPN",
+  "createdAt": "2026-09-16T02:30:41.306Z",
+  "createdOn": "104030d7fa5a7bf2a80e3d45bda19b5876628dc0",
+  "files": [
+    "info/public/images/remote-desktop-vpn-setup-guide/detail.png",
+    "info/public/images/remote-desktop-vpn-setup-guide/hero.png",
+    "info/public/thumbnails/remote-desktop-vpn-setup-guide.png",
+    "info/src/content/posts/remote-desktop-vpn-setup-guide.md"
+  ],
+  "patch": "2026-09-16T02-30-41-300Z-020.patch"
+}
