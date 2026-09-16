@@ -1,0 +1,17 @@
+{
+  "site": "vpn",
+  "label": "VPN",
+  "domain": "vpn.adbles.com",
+  "title": "유럽 여러 나라 여행, VPN 하나로 충분할까",
+  "slug": "europe-travel-vpn-guide",
+  "keyword": "유럽여행VPN",
+  "createdAt": "2026-09-16T03:01:51.203Z",
+  "createdOn": "52b40b8838ae3376a9d6e372ac7c7c7f9afcad6f",
+  "files": [
+    "info/public/images/europe-travel-vpn-guide/detail.png",
+    "info/public/images/europe-travel-vpn-guide/hero.png",
+    "info/public/thumbnails/europe-travel-vpn-guide.png",
+    "info/src/content/posts/europe-travel-vpn-guide.md"
+  ],
+  "patch": "2026-09-16T03-01-51-199Z-039.patch"
+}
