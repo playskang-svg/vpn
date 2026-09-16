@@ -1,0 +1,17 @@
+{
+  "site": "vpn",
+  "label": "VPN",
+  "domain": "vpn.adbles.com",
+  "title": "은행·게임·스트리밍, 사이트마다 VPN 차단 강도가 다른 이유",
+  "slug": "vpn-site-category-blocking-guide",
+  "keyword": "VPN사이트별차단",
+  "createdAt": "2026-09-16T03:14:46.071Z",
+  "createdOn": "b96e86b1641018132361c6bbfc97e959b6668fd1",
+  "files": [
+    "info/public/images/vpn-site-category-blocking-guide/detail.png",
+    "info/public/images/vpn-site-category-blocking-guide/hero.png",
+    "info/public/thumbnails/vpn-site-category-blocking-guide.png",
+    "info/src/content/posts/vpn-site-category-blocking-guide.md"
+  ],
+  "patch": "2026-09-16T03-14-46-065Z-049.patch"
+}
