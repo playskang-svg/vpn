@@ -1,0 +1,17 @@
+{
+  "site": "vpn",
+  "label": "VPN",
+  "domain": "vpn.adbles.com",
+  "title": "VPN 무료체험, 결제 없이 정말 가능할까",
+  "slug": "vpn-free-trial-mechanics-guide",
+  "keyword": "VPN무료체험",
+  "createdAt": "2026-09-16T03:08:48.827Z",
+  "createdOn": "caaa9711dc4673b69ccfc55472ecee433686c4c3",
+  "files": [
+    "info/public/images/vpn-free-trial-mechanics-guide/detail.png",
+    "info/public/images/vpn-free-trial-mechanics-guide/hero.png",
+    "info/public/thumbnails/vpn-free-trial-mechanics-guide.png",
+    "info/src/content/posts/vpn-free-trial-mechanics-guide.md"
+  ],
+  "patch": "2026-09-16T03-08-48-822Z-046.patch"
+}

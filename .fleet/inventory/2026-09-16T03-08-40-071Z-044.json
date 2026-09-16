@@ -1,0 +1,17 @@
+{
+  "site": "vpn",
+  "label": "VPN",
+  "domain": "vpn.adbles.com",
+  "title": "VPN '무제한 기기' 진짜 무제한일까",
+  "slug": "vpn-unlimited-devices-myth",
+  "keyword": "VPN무제한기기",
+  "createdAt": "2026-09-16T03:08:40.076Z",
+  "createdOn": "caaa9711dc4673b69ccfc55472ecee433686c4c3",
+  "files": [
+    "info/public/images/vpn-unlimited-devices-myth/detail.png",
+    "info/public/images/vpn-unlimited-devices-myth/hero.png",
+    "info/public/thumbnails/vpn-unlimited-devices-myth.png",
+    "info/src/content/posts/vpn-unlimited-devices-myth.md"
+  ],
+  "patch": "2026-09-16T03-08-40-071Z-044.patch"
+}
