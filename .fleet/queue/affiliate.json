@@ -4,8 +4,8 @@
   "domain": "vpn.adbles.com",
   "repo": "playskang-svg/vpn",
   "type": "affiliate",
-  "createdAt": "2026-09-15T21:45:32.245Z",
-  "createdBy": "actions/35027112144",
+  "createdAt": "2026-09-16T21:42:05.517Z",
+  "createdBy": "actions/35153531775",
   "networks": [
     "NordVPN",
     "ExpressVPN",
@@ -14,39 +14,81 @@
   "disclosure": "이 글에는 제휴 링크가 포함되어 있으며, 가입 시 일정액의 수수료를 받을 수 있습니다.",
   "coupangEnabled": false,
   "slice": {
-    "day": 5,
+    "day": 6,
     "of": 7,
-    "files": 15
+    "files": 13
   },
-  "existingLinks": [
-    {
-      "file": "info/src/content/posts/nordvpn-refund-guide.md",
-      "network": "vpn",
-      "label": "VPN 제휴",
-      "url": "https://nordvpn.com"
-    },
-    {
-      "file": "info/src/content/posts/nordvpn-refund-guide.md",
-      "network": "vpn",
-      "label": "VPN 제휴",
-      "url": "https://www.expressvpn.com"
-    }
-  ],
+  "existingLinks": [],
   "productIds": [],
   "barePages": [
-    "info/src/content/posts/best-vpn-for-netflix-checklist.md",
-    "info/src/content/posts/china-android-vpn-setup-guide.md",
-    "info/src/content/posts/china-iphone-vpn-setup-guide.md",
-    "info/src/content/posts/gaming-vpn-ping-guide.md",
-    "info/src/content/posts/http-451-error-vpn-fix.md",
-    "info/src/content/posts/iptime-router-vpn-setup-guide.md",
-    "info/src/content/posts/netflix-billing-country-vpn-myth.md",
-    "info/src/content/posts/nordvpn-refund-guide.md",
-    "info/src/content/posts/nordvpn-vs-expressvpn.md",
-    "info/src/content/posts/openvpn-protocol-server-app-guide.md",
-    "info/src/content/posts/study-abroad-working-holiday-vpn.md",
-    "info/src/content/posts/torrenting-vpn-guide.md"
+    "info/src/content/posts/bbc-iplayer-korea-vpn-guide.md",
+    "info/src/content/posts/china-travel-vpn-guide.md",
+    "info/src/content/posts/china-vpn-recommendation-top3.md",
+    "info/src/content/posts/china-vpn-safe-download-guide.md",
+    "info/src/content/posts/coupang-login-abroad-vpn-fix.md",
+    "info/src/content/posts/disney-plus-region-lock-guide.md",
+    "info/src/content/posts/ipad-vpn-connection-fix.md",
+    "info/src/content/posts/kakao-abroad-vpn-fix.md",
+    "info/src/content/posts/korean-banking-app-abroad-vpn.md",
+    "info/src/content/posts/vpn-brands-comparison-chart.md"
   ],
-  "newKeywords": [],
-  "instructions": "# 제휴링크 갱신 — VPN\n\n너는 맥에서 무인으로 돌고 있다. 사람에게 물어볼 수 없다.\n\n## 규칙\n\n1. **제휴 URL을 지어내지 않는다.** 새 링크가 필요하면 반드시 아래 명령으로 실제 링크를 받아온다:\n   ```\n   node /home/runner/work/vpn/vpn/_agents/agents/linkmgr/scripts/linkmgr.mjs collect --site vpn --kw \"<키워드>\"\n   ```\n2. 가격·재고를 본문에 단정해 쓰지 않는다. \"현재 39,900원\" 같은 문장은 다음 주에 거짓이 된다.\n   가격대나 조건으로 쓴다 — \"3만 원대\", \"로켓배송 여부는 링크에서 확인\".\n3. 제휴링크를 넣은 글에는 고지 문구가 반드시 있어야 한다:\n   > 이 글에는 제휴 링크가 포함되어 있으며, 가입 시 일정액의 수수료를 받을 수 있습니다.\n4. **한 글에 제휴링크는 최대 2개.** 이미 그만큼 있으면 추가하지 말고 교체만 한다.\n   링크 하나당 본문 700자 이상이어야 한다 — 짧은 글에 여러 개 넣지 않는다.\n5. 글의 흐름과 무관한 자리에 링크를 끼워 넣지 않는다. 독자가 그 상품을 필요로 하는 문단에만 넣는다.\n   링크가 촘촘하면 독자는 광고글로 읽고 되돌아간다.\n6. 커밋하지 않는다. 배포하지 않는다.\n\n## 1. 제휴링크가 없는 글 (12건)\n\n아래 글에는 제휴링크가 하나도 없다. 글 주제에 **자연스럽게 맞는 것만** 붙인다.\n맞는 상품이 없으면 붙이지 않는다 — 억지로 넣은 링크는 이탈률만 올린다.\n\n- `info/src/content/posts/best-vpn-for-netflix-checklist.md`\n- `info/src/content/posts/china-android-vpn-setup-guide.md`\n- `info/src/content/posts/china-iphone-vpn-setup-guide.md`\n- `info/src/content/posts/gaming-vpn-ping-guide.md`\n- `info/src/content/posts/http-451-error-vpn-fix.md`\n- `info/src/content/posts/iptime-router-vpn-setup-guide.md`\n- `info/src/content/posts/netflix-billing-country-vpn-myth.md`\n- `info/src/content/posts/nordvpn-refund-guide.md`\n- `info/src/content/posts/nordvpn-vs-expressvpn.md`\n- `info/src/content/posts/openvpn-protocol-server-app-guide.md`\n- `info/src/content/posts/study-abroad-working-holiday-vpn.md`\n- `info/src/content/posts/torrenting-vpn-guide.md`\n\n## 2. 이미 붙어 있는 제휴링크 (2건 — VPN 제휴 2건)\n\n아래 링크가 걸린 문단을 확인한다. **품절·단종된 상품을 가리키는 문장**이 있으면\nlinkmgr 로 대체 상품을 받아 교체한다. 대체할 것이 없으면 그 링크와 상품 설명을 걷어낸다.\n\n가격·재고를 단정한 문장(\"현재 O원\", \"품절 임박\", \"단 O개 남음\")은 전부 조건 표현으로 바꾼다.\n\n- `info/src/content/posts/nordvpn-refund-guide.md` — VPN 제휴\n- `info/src/content/posts/nordvpn-refund-guide.md` — VPN 제휴\n\n---\n\n끝나면 `git diff --stat` 으로 무엇을 바꿨는지 출력한다."
+  "newKeywords": [
+    {
+      "keyword": "개인정보보호교육자료",
+      "volume": 940
+    },
+    {
+      "keyword": "NORDVPN환불",
+      "volume": 740
+    },
+    {
+      "keyword": "아이폰무료VPN",
+      "volume": 370
+    },
+    {
+      "keyword": "컴퓨터무료VPN",
+      "volume": 240
+    },
+    {
+      "keyword": "한국VPN무료",
+      "volume": 520
+    },
+    {
+      "keyword": "무료PCVPN",
+      "volume": 280
+    },
+    {
+      "keyword": "컴퓨터VPN무료",
+      "volume": 550
+    },
+    {
+      "keyword": "중국VPN추천",
+      "volume": 950
+    },
+    {
+      "keyword": "OPENVPN",
+      "volume": 570
+    },
+    {
+      "keyword": "중국무료VPN",
+      "volume": 280
+    },
+    {
+      "keyword": "유튜브VPN",
+      "volume": 290
+    },
+    {
+      "keyword": "노트북VPN",
+      "volume": 250
+    },
+    {
+      "keyword": "PCVPN",
+      "volume": 530
+    },
+    {
+      "keyword": "한전VPN",
+      "volume": 410
+    }
+  ],
+  "instructions": "# 제휴링크 갱신 — VPN\n\n너는 맥에서 무인으로 돌고 있다. 사람에게 물어볼 수 없다.\n\n## 규칙\n\n1. **제휴 URL을 지어내지 않는다.** 새 링크가 필요하면 반드시 아래 명령으로 실제 링크를 받아온다:\n   ```\n   node /home/runner/work/vpn/vpn/_agents/agents/linkmgr/scripts/linkmgr.mjs collect --site vpn --kw \"<키워드>\"\n   ```\n2. 가격·재고를 본문에 단정해 쓰지 않는다. \"현재 39,900원\" 같은 문장은 다음 주에 거짓이 된다.\n   가격대나 조건으로 쓴다 — \"3만 원대\", \"로켓배송 여부는 링크에서 확인\".\n3. 제휴링크를 넣은 글에는 고지 문구가 반드시 있어야 한다:\n   > 이 글에는 제휴 링크가 포함되어 있으며, 가입 시 일정액의 수수료를 받을 수 있습니다.\n4. **한 글에 제휴링크는 최대 2개.** 이미 그만큼 있으면 추가하지 말고 교체만 한다.\n   링크 하나당 본문 700자 이상이어야 한다 — 짧은 글에 여러 개 넣지 않는다.\n5. 글의 흐름과 무관한 자리에 링크를 끼워 넣지 않는다. 독자가 그 상품을 필요로 하는 문단에만 넣는다.\n   링크가 촘촘하면 독자는 광고글로 읽고 되돌아간다.\n6. 커밋하지 않는다. 배포하지 않는다.\n\n## 1. 제휴링크가 없는 글 (10건)\n\n아래 글에는 제휴링크가 하나도 없다. 글 주제에 **자연스럽게 맞는 것만** 붙인다.\n맞는 상품이 없으면 붙이지 않는다 — 억지로 넣은 링크는 이탈률만 올린다.\n\n- `info/src/content/posts/bbc-iplayer-korea-vpn-guide.md`\n- `info/src/content/posts/china-travel-vpn-guide.md`\n- `info/src/content/posts/china-vpn-recommendation-top3.md`\n- `info/src/content/posts/china-vpn-safe-download-guide.md`\n- `info/src/content/posts/coupang-login-abroad-vpn-fix.md`\n- `info/src/content/posts/disney-plus-region-lock-guide.md`\n- `info/src/content/posts/ipad-vpn-connection-fix.md`\n- `info/src/content/posts/kakao-abroad-vpn-fix.md`\n- `info/src/content/posts/korean-banking-app-abroad-vpn.md`\n- `info/src/content/posts/vpn-brands-comparison-chart.md`\n\n## 3. 새로 발굴된 키워드 (14건)\n\ngoldkey 가 새로 찾은 키워드다. 이 주제를 다루는 **기존 글이 이미 있다면**\n그 글에 해당 키워드용 제휴링크가 붙어 있는지 보고, 없으면 붙인다.\n기존 글이 없으면 아무것도 하지 않는다 — 새 글은 postgen 몫이다.\n\n- 개인정보보호교육자료 (월 940)\n- NORDVPN환불 (월 740)\n- 아이폰무료VPN (월 370)\n- 컴퓨터무료VPN (월 240)\n- 한국VPN무료 (월 520)\n- 무료PCVPN (월 280)\n- 컴퓨터VPN무료 (월 550)\n- 중국VPN추천 (월 950)\n- OPENVPN (월 570)\n- 중국무료VPN (월 280)\n- 유튜브VPN (월 290)\n- 노트북VPN (월 250)\n- PCVPN (월 530)\n- 한전VPN (월 410)\n\n---\n\n끝나면 `git diff --stat` 으로 무엇을 바꿨는지 출력한다."
 }
