@@ -1,0 +1,17 @@
+{
+  "site": "vpn",
+  "label": "VPN",
+  "domain": "vpn.adbles.com",
+  "title": "콘솔(PS5·엑스박스)에서 VPN 쓰는 법: 직접 설치가 안 되는 이유",
+  "slug": "console-vpn-setup-guide",
+  "keyword": "콘솔VPN",
+  "createdAt": "2026-09-16T02:52:23.511Z",
+  "createdOn": "98b5bd64b59e41908f0ac4c408b4ffe1e642e2e8",
+  "files": [
+    "info/public/images/console-vpn-setup-guide/detail.png",
+    "info/public/images/console-vpn-setup-guide/hero.png",
+    "info/public/thumbnails/console-vpn-setup-guide.png",
+    "info/src/content/posts/console-vpn-setup-guide.md"
+  ],
+  "patch": "2026-09-16T02-52-23-506Z-031.patch"
+}

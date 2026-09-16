@@ -1,0 +1,17 @@
+{
+  "site": "vpn",
+  "label": "VPN",
+  "domain": "vpn.adbles.com",
+  "title": "게임 얼리 액세스, 해외에서는 몇 시간 먼저 시작할까",
+  "slug": "game-early-access-timezone-vpn",
+  "keyword": "게임얼리액세스VPN",
+  "createdAt": "2026-09-16T02:52:37.777Z",
+  "createdOn": "98b5bd64b59e41908f0ac4c408b4ffe1e642e2e8",
+  "files": [
+    "info/public/images/game-early-access-timezone-vpn/detail.png",
+    "info/public/images/game-early-access-timezone-vpn/hero.png",
+    "info/public/thumbnails/game-early-access-timezone-vpn.png",
+    "info/src/content/posts/game-early-access-timezone-vpn.md"
+  ],
+  "patch": "2026-09-16T02-52-37-771Z-034.patch"
+}
