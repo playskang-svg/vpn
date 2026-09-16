@@ -1,0 +1,17 @@
+{
+  "site": "vpn",
+  "label": "VPN",
+  "domain": "vpn.adbles.com",
+  "title": "VPN 켜면 해킹 안 당한다는 착각: 실제로 막아주는 범위 정리",
+  "slug": "vpn-hacking-protection-myth",
+  "keyword": "VPN해킹방지",
+  "createdAt": "2026-09-16T02:12:37.044Z",
+  "createdOn": "587919a7fafba6a74509211098c5162958ff5ae3",
+  "files": [
+    "info/public/images/vpn-hacking-protection-myth/detail.png",
+    "info/public/images/vpn-hacking-protection-myth/hero.png",
+    "info/public/thumbnails/vpn-hacking-protection-myth.png",
+    "info/src/content/posts/vpn-hacking-protection-myth.md"
+  ],
+  "patch": "2026-09-16T02-12-37-039Z-010.patch"
+}

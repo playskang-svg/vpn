@@ -1,0 +1,17 @@
+{
+  "site": "vpn",
+  "label": "VPN",
+  "domain": "vpn.adbles.com",
+  "title": "멀티홉(더블 VPN)이란: 서버 두 번 거치면 정말 더 안전할까",
+  "slug": "double-vpn-multihop-guide",
+  "keyword": "더블VPN",
+  "createdAt": "2026-09-16T02:12:25.096Z",
+  "createdOn": "587919a7fafba6a74509211098c5162958ff5ae3",
+  "files": [
+    "info/public/images/double-vpn-multihop-guide/detail.png",
+    "info/public/images/double-vpn-multihop-guide/hero.png",
+    "info/public/thumbnails/double-vpn-multihop-guide.png",
+    "info/src/content/posts/double-vpn-multihop-guide.md"
+  ],
+  "patch": "2026-09-16T02-12-25-091Z-008.patch"
+}
