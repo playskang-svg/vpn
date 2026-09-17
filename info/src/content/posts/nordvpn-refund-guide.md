@@ -23,7 +23,7 @@ NordVPN은 결제일로부터 30일 이내에 해지를 요청하면 전액 환�
 
 ## 환불이 안 될 수 있는 경우
 
-가장 흔한 사유는 30일이라는 신청 기한을 넘긴 경우입니다. 그 외에 정확한 예외 조건(예: 이례적으로 많은 데이터 사용, 여러 번의 환불 이력 등)은 서비스별 환불 정책 페이지에 구체적으로 명시되어 있으므로, 신청 전에 [NordVPN 공식 사이트](https://nordvpn.com)에서 최신 약관을 직접 확인하는 것이 가장 안전합니다. 약관은 시점에 따라 바뀔 수 있어, 이 글의 설명만 믿고 진행하기보다 신청 직전에 한 번 더 확인하는 습관을 권합니다.
+가장 흔한 사유는 30일이라는 신청 기한을 넘긴 경우입니다. 그 외에 정확한 예외 조건(예: 이례적으로 많은 데이터 사용, 여러 번의 환불 이력 등)은 서비스별 환불 정책 페이지에 구체적으로 명시되어 있으므로, 신청 전에 [NordVPN 공식 사이트](http://app.ac/jAw0hS593)에서 최신 약관을 직접 확인하는 것이 가장 안전합니다. 약관은 시점에 따라 바뀔 수 있어, 이 글의 설명만 믿고 진행하기보다 신청 직전에 한 번 더 확인하는 습관을 권합니다.
 
 ## 예상 진행 흐름을 미리 그려보면
 
@@ -49,7 +49,7 @@ NordVPN은 결제일로부터 30일 이내에 해지를 요청하면 전액 환�
 
 ## 다른 VPN도 비슷한 보장을 제공합니다
 
-이 사이트 데이터 기준으로 Surfshark와 ExpressVPN도 30일 환불 보장을, CyberGhost는 45일 보장을 제공합니다. 브랜드마다 세부 조건과 처리 속도가 다를 수 있으니, 환불 정책만으로 서비스를 고르기보다 실제 속도·서버 규모 같은 다른 기준과 함께 비교하는 것이 좋습니다. NordVPN과 ExpressVPN을 실측 기준으로 비교한 내용은 [NordVPN vs ExpressVPN 비교](/info/nordvpn-vs-expressvpn/)에서, 넷플릭스 시청 목적이라면 [NordVPN vs Surfshark 비교](/info/nordvpn-vs-surfshark-netflix/)에서 확인할 수 있습니다. ExpressVPN의 환불 정책 역시 [ExpressVPN 공식 사이트](https://www.expressvpn.com)에서 직접 확인할 수 있습니다.
+이 사이트 데이터 기준으로 Surfshark와 ExpressVPN도 30일 환불 보장을, CyberGhost는 45일 보장을 제공합니다. 브랜드마다 세부 조건과 처리 속도가 다를 수 있으니, 환불 정책만으로 서비스를 고르기보다 실제 속도·서버 규모 같은 다른 기준과 함께 비교하는 것이 좋습니다. NordVPN과 ExpressVPN을 실측 기준으로 비교한 내용은 [NordVPN vs ExpressVPN 비교](/info/nordvpn-vs-expressvpn/)에서, 넷플릭스 시청 목적이라면 [NordVPN vs Surfshark 비교](/info/nordvpn-vs-surfshark-netflix/)에서 확인할 수 있습니다. ExpressVPN의 환불 정책 역시 [ExpressVPN 공식 사이트](http://app.ac/ItVMzrM13)에서 직접 확인할 수 있습니다.
 
 ## 자주 헷갈리는 질문들
 
