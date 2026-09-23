@@ -22,7 +22,13 @@ Codespaces와 로컬(맥북)을 번갈아가며 작업할 때는 반드시 다�
 
 ---
 
-## 2. 빌드 및 검증
+## 2. 제휴링크
+
+애드블스 함대 중앙 저장소 [`playskang-svg/affiliatelink`](https://github.com/playskang-svg/affiliatelink)를 원본으로 쓴다. `npm run sync:affiliate`(`predev`/`build`에서 자동 실행)가 형제 폴더 `~/dev/affiliatelink/data/affiliate-links.json`을 읽어 이 저장소의 `data/affiliate-links.json`으로 복사하고, `src/lib/affiliate.ts`의 `getLink(key)`/`linkUrl(key)`로 조회한다.
+
+**미해결 — 다음에 손볼 때 확인**: `src/data/*.ts`의 VPN 카드 4개 중 NordVPN·Surfshark·ExpressVPN의 `dealUrl`이 지금 `http://app.ac/...` 형식인데, 중앙 저장소에는 같은 상품의 최신 링크(`vpn-nordvpn`/`vpn-surfshark`/`vpn-expressvpn`, `lpweb.kr`/`linkmoa.kr`, partner_id A100702444)가 이미 있다. isatipsadbles 쪽은 이미 이 최신 링크로 넘어갔고 app.ac 계열은 http라서 전량 폐기(retired) 처리했다 — 이 사이트만 옛 링크에 남아있을 가능성이 있다. CyberGhost는 `dealUrl`이 아예 제휴 추적 없는 직링크(`https://cyberghostvpn.com`)라 수수료가 안 잡힌다. 실제로 이 셋을 중앙 저장소 값으로 바꿀지, CyberGhost 제휴링크를 새로 발급할지는 확인 후 진행 — 트래킹이 걸려 있는 링크라 임의로 바꾸지 않는다.
+
+## 3. 빌드 및 검증
 
 ```bash
 npm run lint      # TypeScript 타입 검사 (tsc --noEmit)
