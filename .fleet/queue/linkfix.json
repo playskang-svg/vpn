@@ -4,8 +4,8 @@
   "domain": "vpn.adbles.com",
   "repo": "playskang-svg/vpn",
   "type": "linkfix",
-  "createdAt": "2026-09-25T00:00:00.918Z",
-  "createdBy": "actions/36075337685",
+  "createdAt": "2026-09-26T00:09:23.886Z",
+  "createdBy": "actions/36203646999",
   "fixable": 10,
   "instructions": "# 링크·구조 결함 수정 — VPN\n\n너는 GitHub Actions 안에서 무인으로 돌고 있다. 사람에게 물어볼 수 없다.\n\n## 규칙 — 이걸 어기면 사이트가 더 망가진다\n\n1. **아래 목록에 있는 결함만 고친다.** 다른 게 눈에 띄어도 손대지 않는다.\n2. **URL을 지어내지 않는다.** 대체 주소를 모르면 링크를 걷어내고 텍스트만 남긴다.\n3. 소스에서 고친다. 빌드 산출물(`dist/`, `build/`)은 건드리지 않는다 — 다음 빌드에 덮어써진다.\n4. 결함이 있는 URL 문자열을 `Grep` 으로 찾아 그 정의부를 고친다. 라우팅·메뉴 정의 파일이 대개 원인이다.\n5. 커밋하지 않는다. 배포하지 않는다.\n\n## 이 저장소\n\n- 먼저 읽을 문서: `CLAUDE.md`\n- 먼저 읽을 문서: `AGENTS.md`\n- 사이트: https://vpn.adbles.com\n\n## 고칠 것 (10건)\n\n### http-to-https — 10건\n\n> http:// 를 https:// 로 바꾼다. 해당 호스트가 https를 지원하는지 확인 후.\n\n- https://vpn.adbles.com → `http://app.ac/jAw0hS593`\n- https://vpn.adbles.com → `http://app.ac/jAw0hS593`  (링크 텍스트: \"NordVPN 방문하기\")\n- https://vpn.adbles.com → `http://app.ac/tAG6xw563`\n- https://vpn.adbles.com → `http://app.ac/tAG6xw563`  (링크 텍스트: \"Surfshark 방문하기\")\n- https://vpn.adbles.com → `http://app.ac/ItVMzrM13`\n- https://vpn.adbles.com → `http://app.ac/ItVMzrM13`  (링크 텍스트: \"ExpressVPN 방문하기\")\n- https://vpn.adbles.com → `http://app.ac/jAw0hS593`\n- https://vpn.adbles.com → `http://app.ac/jAw0hS593`  (링크 텍스트: \"사이트 방문하기 →\")\n- https://vpn.adbles.com → `http://app.ac/tAG6xw563`\n- https://vpn.adbles.com → `http://app.ac/tAG6xw563`  (링크 텍스트: \"사이트 방문하기 →\")\n\n---\n\n## 고치지 말 것 (4건 — 참고용)\n\n아래는 판단이 필요해 사람에게 남긴다. **건드리지 않는다.**\n\n- no-meta-description: 2건\n- dead-external-link: 1건\n- title-too-long: 1건\n\n---\n\n작업이 끝나면 `git diff --stat` 으로 무엇을 바꿨는지 출력하고 끝낸다."
 }
