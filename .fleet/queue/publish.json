@@ -5,8 +5,8 @@
   "repo": "playskang-svg/vpn",
   "type": "publish",
   "createdAt": "2026-10-10T22:00:22.518Z",
-  "updatedAt": "2026-10-11T22:26:57.997Z",
-  "createdBy": "actions/38180254092",
+  "updatedAt": "2026-10-13T00:59:21.602Z",
+  "createdBy": "actions/38329686263",
   "titles": [
     {
       "keyword": "NORDVPN환불",
@@ -304,6 +304,126 @@
     },
     {
       "collected_at": "2026-10-11T22:26:57.967Z",
+      "site": "vpn",
+      "domain": "vpn.adbles.com",
+      "keyword": "무료PCVPN",
+      "slug": null,
+      "internal": [],
+      "external": [
+        {
+          "name": "한국인터넷진흥원 (KISA 보호나라)",
+          "url": "https://www.boho.or.kr"
+        },
+        {
+          "name": "방송통신심의위원회",
+          "url": "https://www.kocsc.or.kr"
+        }
+      ],
+      "affiliate": [],
+      "coupang": []
+    },
+    {
+      "collected_at": "2026-10-13T00:59:21.337Z",
+      "site": "vpn",
+      "domain": "vpn.adbles.com",
+      "keyword": "NORDVPN환불",
+      "slug": null,
+      "internal": [],
+      "external": [
+        {
+          "name": "한국인터넷진흥원 (KISA 보호나라)",
+          "url": "https://www.boho.or.kr"
+        },
+        {
+          "name": "방송통신심의위원회",
+          "url": "https://www.kocsc.or.kr"
+        }
+      ],
+      "affiliate": [],
+      "coupang": []
+    },
+    {
+      "collected_at": "2026-10-13T00:59:21.385Z",
+      "site": "vpn",
+      "domain": "vpn.adbles.com",
+      "keyword": "넷플릭스VPN",
+      "slug": null,
+      "internal": [],
+      "external": [
+        {
+          "name": "한국인터넷진흥원 (KISA 보호나라)",
+          "url": "https://www.boho.or.kr"
+        },
+        {
+          "name": "방송통신심의위원회",
+          "url": "https://www.kocsc.or.kr"
+        }
+      ],
+      "affiliate": [],
+      "coupang": []
+    },
+    {
+      "collected_at": "2026-10-13T00:59:21.432Z",
+      "site": "vpn",
+      "domain": "vpn.adbles.com",
+      "keyword": "아이폰무료VPN",
+      "slug": null,
+      "internal": [],
+      "external": [
+        {
+          "name": "한국인터넷진흥원 (KISA 보호나라)",
+          "url": "https://www.boho.or.kr"
+        },
+        {
+          "name": "방송통신심의위원회",
+          "url": "https://www.kocsc.or.kr"
+        }
+      ],
+      "affiliate": [],
+      "coupang": []
+    },
+    {
+      "collected_at": "2026-10-13T00:59:21.478Z",
+      "site": "vpn",
+      "domain": "vpn.adbles.com",
+      "keyword": "한국VPN무료",
+      "slug": null,
+      "internal": [],
+      "external": [
+        {
+          "name": "한국인터넷진흥원 (KISA 보호나라)",
+          "url": "https://www.boho.or.kr"
+        },
+        {
+          "name": "방송통신심의위원회",
+          "url": "https://www.kocsc.or.kr"
+        }
+      ],
+      "affiliate": [],
+      "coupang": []
+    },
+    {
+      "collected_at": "2026-10-13T00:59:21.521Z",
+      "site": "vpn",
+      "domain": "vpn.adbles.com",
+      "keyword": "FREEVPN",
+      "slug": null,
+      "internal": [],
+      "external": [
+        {
+          "name": "한국인터넷진흥원 (KISA 보호나라)",
+          "url": "https://www.boho.or.kr"
+        },
+        {
+          "name": "방송통신심의위원회",
+          "url": "https://www.kocsc.or.kr"
+        }
+      ],
+      "affiliate": [],
+      "coupang": []
+    },
+    {
+      "collected_at": "2026-10-13T00:59:21.563Z",
       "site": "vpn",
       "domain": "vpn.adbles.com",
       "keyword": "무료PCVPN",
