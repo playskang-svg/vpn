@@ -3,15 +3,15 @@
   "label": "VPN",
   "domain": "vpn.adbles.com",
   "repo": "playskang-svg/vpn",
-  "scannedAt": "2026-09-15T23:40:47.673Z",
-  "pagesCrawled": 76,
+  "scannedAt": "2026-10-13T02:45:54.792Z",
+  "pagesCrawled": 129,
   "sitemapUrls": 72,
-  "externalChecked": 8,
+  "externalChecked": 147,
   "summary": {
-    "medium": 10,
+    "medium": 13,
     "low": 1
   },
-  "occurrences": 11,
+  "occurrences": 14,
   "findings": [
     {
       "severity": "medium",
@@ -102,6 +102,26 @@
       "text": "사이트 방문하기 →",
       "nav": false,
       "note": "http 링크. https로 올려야 한다"
+    },
+    {
+      "severity": "medium",
+      "kind": "no-meta-description",
+      "page": "https://vpn.adbles.com/info/japan-vpn-server-direction-guide"
+    },
+    {
+      "severity": "medium",
+      "kind": "no-meta-description",
+      "page": "https://vpn.adbles.com/info/youtube-vpn-three-different-problems"
+    },
+    {
+      "severity": "medium",
+      "kind": "dead-external-link",
+      "page": "https://vpn.adbles.com/info/youtube-vpn-three-different-problems",
+      "href": "https://support.google.com/youtube",
+      "status": 404,
+      "refs": 1,
+      "text": "유튜브 고객센터",
+      "note": "외부 링크가 죽었다. 대체 출처를 찾거나 링크를 걷어낸다"
     },
     {
       "severity": "low",
