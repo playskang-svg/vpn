@@ -5,8 +5,8 @@
   "repo": "playskang-svg/vpn",
   "type": "publish",
   "createdAt": "2026-10-15T21:45:28.319Z",
-  "updatedAt": "2026-10-15T21:45:28.319Z",
-  "createdBy": "actions/38811877879",
+  "updatedAt": "2026-10-16T21:40:53.995Z",
+  "createdBy": "actions/38970666395",
   "titles": [
     {
       "keyword": "개인정보보호교육자료",
@@ -78,6 +78,42 @@
       "alternatives": [
         "무료PCVPN, 무료 쓰다가 개인정보 유출되는 구조와 안전한 대안",
         "무료PCVPN, 3대 유료 서비스 속도·동시접속 비교와 30일 환불 팁"
+      ]
+    },
+    {
+      "keyword": "중국VPN추천",
+      "volume": 680,
+      "grade": "1위가능",
+      "title": "중국VPN추천, 넷플릭스 4K 버퍼링 없이 우회되는 국가 서버와 속도",
+      "hook": "고화질 스트리밍 속도와 국가별 차단 우회 실측",
+      "intent": "화질 저하 없이 시청하고 싶은 유저 니즈",
+      "alternatives": [
+        "중국VPN추천, 무료 쓰다가 개인정보 유출되는 구조와 안전한 대안",
+        "중국VPN추천, 3대 유료 서비스 속도·동시접속 비교와 30일 환불 팁"
+      ]
+    },
+    {
+      "keyword": "컴퓨터VPN무료",
+      "volume": 700,
+      "grade": "상위가능",
+      "title": "컴퓨터VPN무료, 넷플릭스 4K 버퍼링 없이 우회되는 국가 서버와 속도",
+      "hook": "고화질 스트리밍 속도와 국가별 차단 우회 실측",
+      "intent": "화질 저하 없이 시청하고 싶은 유저 니즈",
+      "alternatives": [
+        "컴퓨터VPN무료, 무료 쓰다가 개인정보 유출되는 구조와 안전한 대안",
+        "컴퓨터VPN무료, 3대 유료 서비스 속도·동시접속 비교와 30일 환불 팁"
+      ]
+    },
+    {
+      "keyword": "PCVPN",
+      "volume": 550,
+      "grade": "상위가능",
+      "title": "PCVPN, 넷플릭스 4K 버퍼링 없이 우회되는 국가 서버와 속도",
+      "hook": "고화질 스트리밍 속도와 국가별 차단 우회 실측",
+      "intent": "화질 저하 없이 시청하고 싶은 유저 니즈",
+      "alternatives": [
+        "PCVPN, 무료 쓰다가 개인정보 유출되는 구조와 안전한 대안",
+        "PCVPN, 3대 유료 서비스 속도·동시접속 비교와 30일 환불 팁"
       ]
     }
   ],
@@ -187,6 +223,126 @@
       "site": "vpn",
       "domain": "vpn.adbles.com",
       "keyword": "무료PCVPN",
+      "slug": null,
+      "internal": [],
+      "external": [
+        {
+          "name": "한국인터넷진흥원 (KISA 보호나라)",
+          "url": "https://www.boho.or.kr"
+        },
+        {
+          "name": "방송통신심의위원회",
+          "url": "https://www.kocsc.or.kr"
+        }
+      ],
+      "affiliate": [],
+      "coupang": []
+    },
+    {
+      "collected_at": "2026-10-16T21:40:53.816Z",
+      "site": "vpn",
+      "domain": "vpn.adbles.com",
+      "keyword": "개인정보보호교육자료",
+      "slug": null,
+      "internal": [],
+      "external": [
+        {
+          "name": "한국인터넷진흥원 (KISA 보호나라)",
+          "url": "https://www.boho.or.kr"
+        },
+        {
+          "name": "방송통신심의위원회",
+          "url": "https://www.kocsc.or.kr"
+        }
+      ],
+      "affiliate": [],
+      "coupang": []
+    },
+    {
+      "collected_at": "2026-10-16T21:40:53.847Z",
+      "site": "vpn",
+      "domain": "vpn.adbles.com",
+      "keyword": "NORDVPN환불",
+      "slug": null,
+      "internal": [],
+      "external": [
+        {
+          "name": "한국인터넷진흥원 (KISA 보호나라)",
+          "url": "https://www.boho.or.kr"
+        },
+        {
+          "name": "방송통신심의위원회",
+          "url": "https://www.kocsc.or.kr"
+        }
+      ],
+      "affiliate": [],
+      "coupang": []
+    },
+    {
+      "collected_at": "2026-10-16T21:40:53.876Z",
+      "site": "vpn",
+      "domain": "vpn.adbles.com",
+      "keyword": "넷플릭스VPN",
+      "slug": null,
+      "internal": [],
+      "external": [
+        {
+          "name": "한국인터넷진흥원 (KISA 보호나라)",
+          "url": "https://www.boho.or.kr"
+        },
+        {
+          "name": "방송통신심의위원회",
+          "url": "https://www.kocsc.or.kr"
+        }
+      ],
+      "affiliate": [],
+      "coupang": []
+    },
+    {
+      "collected_at": "2026-10-16T21:40:53.906Z",
+      "site": "vpn",
+      "domain": "vpn.adbles.com",
+      "keyword": "중국VPN추천",
+      "slug": null,
+      "internal": [],
+      "external": [
+        {
+          "name": "한국인터넷진흥원 (KISA 보호나라)",
+          "url": "https://www.boho.or.kr"
+        },
+        {
+          "name": "방송통신심의위원회",
+          "url": "https://www.kocsc.or.kr"
+        }
+      ],
+      "affiliate": [],
+      "coupang": []
+    },
+    {
+      "collected_at": "2026-10-16T21:40:53.936Z",
+      "site": "vpn",
+      "domain": "vpn.adbles.com",
+      "keyword": "컴퓨터VPN무료",
+      "slug": null,
+      "internal": [],
+      "external": [
+        {
+          "name": "한국인터넷진흥원 (KISA 보호나라)",
+          "url": "https://www.boho.or.kr"
+        },
+        {
+          "name": "방송통신심의위원회",
+          "url": "https://www.kocsc.or.kr"
+        }
+      ],
+      "affiliate": [],
+      "coupang": []
+    },
+    {
+      "collected_at": "2026-10-16T21:40:53.966Z",
+      "site": "vpn",
+      "domain": "vpn.adbles.com",
+      "keyword": "PCVPN",
       "slug": null,
       "internal": [],
       "external": [
