@@ -143,6 +143,15 @@ export const Footer: React.FC<FooterProps> = ({ lang, onNavClick, onOpenDeals })
           </div>
         </div>
 
+        {/* Related family sites */}
+        <nav aria-label="함께 보면 좋은 정보" className="mb-8 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm">
+          <span className="font-bold text-[#111111]">함께 보면 좋은 정보</span>
+          <a href="https://japan.noluga.com/" className="text-[#444748] hover:text-[#614abf] underline underline-offset-2">일본여행 준비 가이드</a>
+          <a href="https://travelcoupon.tipspedia.kr/" className="text-[#444748] hover:text-[#614abf] underline underline-offset-2">여행 할인쿠폰 모음</a>
+          <a href="https://notebook.tipspedia.kr/" className="text-[#444748] hover:text-[#614abf] underline underline-offset-2">노트북 추천</a>
+          <a href="https://tipspedia.kr/" className="text-[#444748] hover:text-[#614abf] underline underline-offset-2">팁스피디아 생활꿀팁</a>
+        </nav>
+
         {/* Bottom Line */}
         <div className="border-t border-[#c4c7c7]/60 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-[#747878]">
           <p>
