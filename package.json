@@ -4,12 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --port=3000 --host=0.0.0.0",
-    "build": "vite build && tsx scripts/prerender.mjs",
+    "dev": "npm run sync:affiliate && vite --port=3000 --host=0.0.0.0",
+    "build": "npm run sync:affiliate && vite build && tsx scripts/prerender.mjs",
     "preview": "vite preview",
     "clean": "rm -rf dist server.js",
     "lint": "tsc --noEmit",
-    "indexnow": "node scripts/ping-indexnow.mjs"
+    "indexnow": "node scripts/ping-indexnow.mjs",
+    "sync:affiliate": "node scripts/sync-affiliate-links.mjs"
   },
   "dependencies": {
     "@google/genai": "^2.4.0",
