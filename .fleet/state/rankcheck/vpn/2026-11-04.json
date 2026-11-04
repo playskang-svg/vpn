@@ -1,12 +1,12 @@
 {
   "site": "vpn",
   "domain": "vpn.adbles.com",
-  "checkedAt": "2026-11-03T23:38:50.038Z",
+  "checkedAt": "2026-11-04T23:54:22.429Z",
   "engine": "naver",
   "results": [
     {
       "keyword": "VPN",
-      "hit": false
+      "error": "HTTP 403"
     },
     {
       "keyword": "VPN추천",
