@@ -1,12 +1,12 @@
 {
   "site": "vpn",
-  "scoredAt": "2026-11-14T22:45:24.388Z",
+  "scoredAt": "2026-11-15T23:09:42.238Z",
   "rows": [
     {
       "keyword": "NORDVPN환불",
       "from": "VPN",
-      "volume": 510,
-      "volumePc": 220,
+      "volume": 520,
+      "volumePc": 230,
       "volumeMobile": 290,
       "adComp": "중간",
       "adDepth": 2,
@@ -17,12 +17,12 @@
           1
         ],
         [
-          "www.vpn.com",
+          "nordvpn.com",
           1
         ],
         [
-          "nordvpn.com",
-          5
+          "www.vpn.com",
+          1
         ]
       ],
       "bigCount": 0,
@@ -48,7 +48,7 @@
           1
         ],
         [
-          "turbovpn.com",
+          "privacyforkorea.com",
           1
         ],
         [
@@ -56,18 +56,22 @@
           2
         ],
         [
-          "privacyforkorea.com",
+          "choicemon.com",
           2
         ],
         [
-          "freevpnplanet.com",
+          "nordvpn.com",
           3
+        ],
+        [
+          "turbovpn.com",
+          4
         ]
       ],
       "bigCount": 0,
       "targeted": 0,
       "ourRank": null,
-      "domainCount": 5,
+      "domainCount": 6,
       "grade": "1위가능",
       "why": "질의어를 정면으로 겨냥한 글이 없다 · 1위 전문사이트(protonvpn.com)",
       "incumbent": "전문사이트"
@@ -75,20 +79,20 @@
     {
       "keyword": "한국무료VPN",
       "from": "VPN",
-      "volume": 620,
+      "volume": 600,
       "volumePc": 230,
-      "volumeMobile": 390,
+      "volumeMobile": 370,
       "adComp": "높음",
       "adDepth": 10,
       "hasWebBlock": true,
       "top": [
         [
-          "www.top10vpn.com",
+          "veepn.com",
           1
         ],
         [
-          "veepn.com",
-          2
+          "www.top10vpn.com",
+          1
         ],
         [
           "hide.me",
@@ -100,49 +104,45 @@
       "ourRank": null,
       "domainCount": 3,
       "grade": "1위가능",
-      "why": "질의어를 정면으로 겨냥한 글이 없다 · 1위 전문사이트(www.top10vpn.com)",
+      "why": "질의어를 정면으로 겨냥한 글이 없다 · 1위 전문사이트(veepn.com)",
       "incumbent": "전문사이트"
     },
     {
       "keyword": "노드VPN쿠폰",
       "from": "VPN",
-      "volume": 610,
-      "volumePc": 220,
-      "volumeMobile": 390,
+      "volume": 570,
+      "volumePc": 210,
+      "volumeMobile": 360,
       "adComp": "중간",
       "adDepth": 1,
       "hasWebBlock": true,
       "top": [
         [
-          "ndv.agd-offer.co.kr",
-          1
-        ],
-        [
-          "ndv.hoesm.xyz",
-          1
-        ],
-        [
           "nordvpn.com",
-          2
+          1
         ],
         [
-          "ndv.trip-offer.co.kr",
-          2
+          "ndv.agd-offer.co.kr",
+          3
+        ],
+        [
+          "ndv.catchcoupon.co.kr",
+          4
         ]
       ],
       "bigCount": 0,
       "targeted": 0,
       "ourRank": null,
-      "domainCount": 4,
+      "domainCount": 3,
       "grade": "1위가능",
-      "why": "질의어를 정면으로 겨냥한 글이 없다 · 1위 전문사이트(ndv.agd-offer.co.kr)",
+      "why": "질의어를 정면으로 겨냥한 글이 없다 · 1위 전문사이트(nordvpn.com)",
       "incumbent": "전문사이트"
     },
     {
       "keyword": "FREEVPN",
       "from": "VPN",
-      "volume": 310,
-      "volumePc": 230,
+      "volume": 290,
+      "volumePc": 210,
       "volumeMobile": 80,
       "adComp": "높음",
       "adDepth": 7,
@@ -153,15 +153,23 @@
           1
         ],
         [
-          "surfshark.com",
+          "www.opera.com",
           1
         ],
         [
-          "account.protonvpn.com",
+          "www.superfreevpn.com",
+          1
+        ],
+        [
+          "api.superfreevpn.com",
           1
         ],
         [
           "nordvpn.com",
+          2
+        ],
+        [
+          "www.urban-vpn.com",
           2
         ],
         [
@@ -174,17 +182,17 @@
         ],
         [
           "free-vpn.softonic.kr",
-          3
+          4
         ],
         [
-          "www.opera.com",
+          "hide.me",
           4
         ]
       ],
       "bigCount": 0,
       "targeted": 0,
       "ourRank": null,
-      "domainCount": 8,
+      "domainCount": 11,
       "grade": "1위가능",
       "why": "질의어를 정면으로 겨냥한 글이 없다 · 1위 전문사이트(protonvpn.com)",
       "incumbent": "전문사이트"
@@ -192,8 +200,8 @@
     {
       "keyword": "한국VPN무료",
       "from": "VPN",
-      "volume": 220,
-      "volumePc": 60,
+      "volume": 210,
+      "volumePc": 50,
       "volumeMobile": 160,
       "adComp": "높음",
       "adDepth": 7,
@@ -204,7 +212,7 @@
           1
         ],
         [
-          "hide.me",
+          "protonvpn.com",
           2
         ]
       ],
@@ -215,33 +223,6 @@
       "grade": "1위가능",
       "why": "질의어를 정면으로 겨냥한 글이 없다 · 1위 전문사이트(www.top10vpn.com)",
       "incumbent": "전문사이트"
-    },
-    {
-      "keyword": "유료VPN",
-      "from": "VPN",
-      "volume": 430,
-      "volumePc": 120,
-      "volumeMobile": 310,
-      "adComp": "높음",
-      "adDepth": 10,
-      "hasWebBlock": true,
-      "top": [
-        [
-          "namu.wiki",
-          1
-        ],
-        [
-          "nordvpn.com",
-          1
-        ]
-      ],
-      "bigCount": 1,
-      "targeted": 3,
-      "ourRank": null,
-      "domainCount": 2,
-      "grade": "1위가능",
-      "why": "1위 백과(namu.wiki) — 정의만 있고 실행 정보가 없다.",
-      "incumbent": "백과"
     },
     {
       "keyword": "VPN일본",
@@ -258,34 +239,26 @@
           1
         ],
         [
-          "blog.57minute.co.kr",
-          1
-        ],
-        [
           "protonvpn.com",
           2
         ],
         [
-          "estate.sakurakdh.com",
+          "hide.me",
           3
         ],
         [
-          "hide.me",
+          "www.expressvpn.com",
           4
         ],
         [
           "freevpnplanet.com",
           5
-        ],
-        [
-          "www.expressvpn.com",
-          6
         ]
       ],
       "bigCount": 0,
       "targeted": 0,
       "ourRank": null,
-      "domainCount": 7,
+      "domainCount": 5,
       "grade": "1위가능",
       "why": "질의어를 정면으로 겨냥한 글이 없다 · 1위 전문사이트(surfshark.com)",
       "incumbent": "전문사이트"
@@ -303,12 +276,16 @@
         [
           "estate.sakurakdh.com",
           1
+        ],
+        [
+          "www.vpn-mall.com",
+          2
         ]
       ],
       "bigCount": 0,
       "targeted": 1,
       "ourRank": null,
-      "domainCount": 1,
+      "domainCount": 2,
       "grade": "상위가능",
       "why": "겨냥한 글 1건 · 1위 전문사이트(estate.sakurakdh.com)",
       "incumbent": "전문사이트"
@@ -316,8 +293,8 @@
     {
       "keyword": "유료VPN추천",
       "from": "VPN",
-      "volume": 630,
-      "volumePc": 170,
+      "volume": 620,
+      "volumePc": 160,
       "volumeMobile": 460,
       "adComp": "높음",
       "adDepth": 10,
@@ -333,8 +310,8 @@
     {
       "keyword": "무료PCVPN",
       "from": "VPN",
-      "volume": 430,
-      "volumePc": 180,
+      "volume": 420,
+      "volumePc": 170,
       "volumeMobile": 250,
       "adComp": "높음",
       "adDepth": 7,
@@ -345,30 +322,34 @@
           1
         ],
         [
-          "usefulinfoshare.naturelove40.com",
+          "veepn.com",
           1
         ],
         [
-          "veepn.com",
+          "turbovpn.com",
           2
         ],
         [
-          "www.top10vpn.com",
-          2
-        ],
-        [
-          "privacyforkorea.com",
+          "usefulinfoshare.naturelove40.com",
           3
         ],
         [
-          "turbovpn.com",
+          "nordvpn.com",
+          3
+        ],
+        [
+          "www.top10vpn.com",
           4
+        ],
+        [
+          "surfshark.com",
+          5
         ]
       ],
       "bigCount": 0,
       "targeted": 1,
       "ourRank": null,
-      "domainCount": 6,
+      "domainCount": 7,
       "grade": "상위가능",
       "why": "겨냥한 글 1건 · 1위 전문사이트(protonvpn.com)",
       "incumbent": "전문사이트"
@@ -376,8 +357,8 @@
     {
       "keyword": "노드VPN무료",
       "from": "VPN",
-      "volume": 340,
-      "volumePc": 160,
+      "volume": 330,
+      "volumePc": 150,
       "volumeMobile": 180,
       "adComp": "낮음",
       "adDepth": 1,
@@ -401,89 +382,38 @@
       "incumbent": "전문사이트"
     },
     {
-      "keyword": "PC무료VPN",
-      "from": "VPN",
-      "volume": 300,
-      "volumePc": 260,
-      "volumeMobile": 40,
-      "adComp": "높음",
-      "adDepth": 10,
-      "hasWebBlock": true,
-      "top": [
-        [
-          "protonvpn.com",
-          1
-        ],
-        [
-          "turbovpn.com",
-          1
-        ],
-        [
-          "freevpnplanet.com",
-          2
-        ],
-        [
-          "usefulinfoshare.naturelove40.com",
-          3
-        ],
-        [
-          "surfshark.com",
-          3
-        ],
-        [
-          "privacyforkorea.com",
-          4
-        ],
-        [
-          "veepn.com",
-          5
-        ],
-        [
-          "www.top10vpn.com",
-          6
-        ]
-      ],
-      "bigCount": 0,
-      "targeted": 2,
-      "ourRank": null,
-      "domainCount": 8,
-      "grade": "상위가능",
-      "why": "겨냥한 글 2건 · 1위 전문사이트(protonvpn.com)",
-      "incumbent": "전문사이트"
-    },
-    {
       "keyword": "중국무료VPN",
       "from": "VPN",
-      "volume": 250,
-      "volumePc": 50,
+      "volume": 240,
+      "volumePc": 40,
       "volumeMobile": 200,
       "adComp": "중간",
       "adDepth": 8,
       "hasWebBlock": true,
       "top": [
         [
-          "studycli.org",
-          1
-        ],
-        [
-          "choicemon.com",
-          1
-        ],
-        [
-          "fennel.storyhauz.com",
-          1
-        ],
-        [
           "cybernews.com",
-          2
+          1
         ],
         [
           "ko.wizcase.com",
-          3
+          2
+        ],
+        [
+          "choicemon.com",
+          2
+        ],
+        [
+          "fennel.storyhauz.com",
+          2
         ],
         [
           "surfshark.com",
-          4
+          3
+        ],
+        [
+          "studycli.org",
+          6
         ]
       ],
       "bigCount": 0,
@@ -491,14 +421,14 @@
       "ourRank": null,
       "domainCount": 6,
       "grade": "상위가능",
-      "why": "겨냥한 글 2건 · 1위 전문사이트(studycli.org)",
+      "why": "겨냥한 글 2건 · 1위 전문사이트(cybernews.com)",
       "incumbent": "전문사이트"
     },
     {
       "keyword": "PCVPN",
       "from": "VPN",
-      "volume": 640,
-      "volumePc": 380,
+      "volume": 650,
+      "volumePc": 390,
       "volumeMobile": 260,
       "adComp": "높음",
       "adDepth": 10,
@@ -540,8 +470,8 @@
     {
       "keyword": "한전VPN",
       "from": "VPN",
-      "volume": 280,
-      "volumePc": 260,
+      "volume": 270,
+      "volumePc": 250,
       "volumeMobile": 20,
       "adComp": "중간",
       "adDepth": 1,
@@ -556,11 +486,15 @@
           1
         ],
         [
-          "opengov.seoul.go.kr",
+          "top3vpn.asia",
           1
         ],
         [
           "surffing.net",
+          1
+        ],
+        [
+          "www.kepco-enc.com",
           1
         ],
         [
@@ -572,19 +506,15 @@
           2
         ],
         [
+          "opengov.seoul.go.kr",
+          2
+        ],
+        [
           "www.dt.co.kr",
           2
         ],
         [
-          "www.kepco-enc.com",
-          2
-        ],
-        [
-          "top3vpn.asia",
-          3
-        ],
-        [
-          "kecp.kdn.com",
+          "stockhub.kr",
           3
         ]
       ],
@@ -599,8 +529,8 @@
     {
       "keyword": "개인정보보호교육자료",
       "from": "오픈VPN",
-      "volume": 1250,
-      "volumePc": 1200,
+      "volume": 1210,
+      "volumePc": 1160,
       "volumeMobile": 50,
       "adComp": "높음",
       "adDepth": 10,
@@ -627,36 +557,28 @@
           3
         ],
         [
-          "www.kdtech-employers.or.kr",
-          5
-        ],
-        [
           "werichppl.com",
-          6
+          5
         ]
       ],
       "bigCount": 0,
-      "targeted": 13,
+      "targeted": 12,
       "ourRank": null,
-      "domainCount": 7,
+      "domainCount": 6,
       "grade": "경쟁있음",
-      "why": "겨냥한 글 13건 · 1위 관공서(www.privacy.go.kr)",
+      "why": "겨냥한 글 12건 · 1위 관공서(www.privacy.go.kr)",
       "incumbent": "관공서"
     },
     {
       "keyword": "컴퓨터VPN무료",
       "from": "VPN",
-      "volume": 910,
-      "volumePc": 660,
-      "volumeMobile": 250,
+      "volume": 930,
+      "volumePc": 670,
+      "volumeMobile": 260,
       "adComp": "높음",
       "adDepth": 7,
       "hasWebBlock": true,
       "top": [
-        [
-          "surfshark.com",
-          1
-        ],
         [
           "privacyforkorea.com",
           1
@@ -666,32 +588,32 @@
           2
         ],
         [
+          "nordvpn.com",
+          3
+        ],
+        [
+          "www.radmin-vpn.com",
+          3
+        ],
+        [
           "turbovpn.com",
-          3
-        ],
-        [
-          "www.top10vpn.com",
-          3
-        ],
-        [
-          "choicemon.com",
           4
         ],
         [
-          "netxhack.com",
+          "surfshark.com",
           5
         ],
         [
-          "nordvpn.com",
-          6
+          "www.top10vpn.com",
+          5
         ]
       ],
       "bigCount": 0,
       "targeted": 7,
       "ourRank": null,
-      "domainCount": 8,
+      "domainCount": 7,
       "grade": "경쟁있음",
-      "why": "겨냥한 글 7건 · 1위 전문사이트(surfshark.com)",
+      "why": "겨냥한 글 7건 · 1위 전문사이트(privacyforkorea.com)",
       "incumbent": "전문사이트"
     },
     {
@@ -705,20 +627,16 @@
       "hasWebBlock": true,
       "top": [
         [
-          "usefulinfoshare.naturelove40.com",
+          "ko.wizcase.com",
           1
         ],
         [
-          "freevpnplanet.com",
-          2
-        ],
-        [
-          "ko.wizcase.com",
-          3
+          "nordvpn.com",
+          1
         ],
         [
           "privacyforkorea.com",
-          4
+          2
         ],
         [
           "www.top10vpn.com",
@@ -728,98 +646,43 @@
       "bigCount": 0,
       "targeted": 4,
       "ourRank": null,
-      "domainCount": 5,
+      "domainCount": 4,
       "grade": "경쟁있음",
-      "why": "겨냥한 글 4건 · 1위 전문사이트(usefulinfoshare.naturelove40.com)",
+      "why": "겨냥한 글 4건 · 1위 전문사이트(ko.wizcase.com)",
       "incumbent": "전문사이트"
-    },
-    {
-      "keyword": "개인정보보호지침",
-      "from": "오픈VPN",
-      "volume": 230,
-      "volumePc": 190,
-      "volumeMobile": 40,
-      "adComp": "높음",
-      "adDepth": 7,
-      "hasWebBlock": true,
-      "top": [
-        [
-          "www.law.go.kr",
-          1
-        ],
-        [
-          "portal.scourt.go.kr",
-          1
-        ],
-        [
-          "law.go.kr",
-          2
-        ],
-        [
-          "www.mss.go.kr",
-          2
-        ],
-        [
-          "pipc.go.kr",
-          3
-        ],
-        [
-          "www.privacy.go.kr",
-          3
-        ],
-        [
-          "www.keco.or.kr",
-          4
-        ],
-        [
-          "www.gtdc.or.kr",
-          4
-        ],
-        [
-          "namu.wiki",
-          5
-        ],
-        [
-          "www.opa.or.kr",
-          5
-        ]
-      ],
-      "bigCount": 1,
-      "targeted": 6,
-      "ourRank": null,
-      "domainCount": 14,
-      "grade": "경쟁있음",
-      "why": "겨냥한 글 6건 · 1위 관공서(www.law.go.kr)",
-      "incumbent": "관공서"
     },
     {
       "keyword": "무료VPN어플",
       "from": "VPN",
-      "volume": 880,
+      "volume": 900,
       "volumePc": 190,
-      "volumeMobile": 690,
+      "volumeMobile": 710,
       "adComp": "높음",
       "adDepth": 7,
       "hasWebBlock": true,
       "top": [
         [
-          "technchip.com",
+          "protonvpn.com",
           1
         ],
         [
-          "appbiabi.com",
+          "technchip.com",
           2
         ],
         [
-          "vpn-free.co.kr",
-          3
-        ],
-        [
-          "dackjongie.co.kr",
-          3
-        ],
-        [
           "nordvpn.com",
+          3
+        ],
+        [
+          "appbiabi.com",
+          3
+        ],
+        [
+          "vpn-free.co.kr",
+          4
+        ],
+        [
+          "freevpnplanet.com",
           4
         ],
         [
@@ -827,27 +690,54 @@
           5
         ],
         [
-          "protonvpn.com",
-          6
+          "dackjongie.co.kr",
+          5
         ],
         [
           "www.top10vpn.com",
-          7
+          6
         ]
       ],
       "bigCount": 0,
-      "targeted": 9,
+      "targeted": 7,
       "ourRank": null,
-      "domainCount": 8,
+      "domainCount": 9,
       "grade": "경쟁있음",
-      "why": "겨냥한 글 9건 · 1위 전문사이트(technchip.com)",
+      "why": "겨냥한 글 7건 · 1위 전문사이트(protonvpn.com)",
+      "incumbent": "전문사이트"
+    },
+    {
+      "keyword": "넷플릭스VPN",
+      "from": "VPN할인",
+      "volume": 620,
+      "volumePc": 80,
+      "volumeMobile": 540,
+      "adComp": "중간",
+      "adDepth": 7,
+      "hasWebBlock": true,
+      "top": [
+        [
+          "help.netflix.com",
+          1
+        ],
+        [
+          "surfshark.com",
+          1
+        ]
+      ],
+      "bigCount": 0,
+      "targeted": 3,
+      "ourRank": null,
+      "domainCount": 2,
+      "grade": "경쟁있음",
+      "why": "겨냥한 글 3건 · 1위 전문사이트(help.netflix.com)",
       "incumbent": "전문사이트"
     },
     {
       "keyword": "VPN무료체험",
       "from": "VPN",
-      "volume": 390,
-      "volumePc": 160,
+      "volume": 400,
+      "volumePc": 170,
       "volumeMobile": 230,
       "adComp": "높음",
       "adDepth": 10,
@@ -883,11 +773,62 @@
       "incumbent": "전문사이트"
     },
     {
+      "keyword": "PC무료VPN",
+      "from": "VPN",
+      "volume": 300,
+      "volumePc": 260,
+      "volumeMobile": 40,
+      "adComp": "높음",
+      "adDepth": 10,
+      "hasWebBlock": true,
+      "top": [
+        [
+          "protonvpn.com",
+          1
+        ],
+        [
+          "turbovpn.com",
+          1
+        ],
+        [
+          "usefulinfoshare.naturelove40.com",
+          2
+        ],
+        [
+          "freevpnplanet.com",
+          2
+        ],
+        [
+          "surfshark.com",
+          3
+        ],
+        [
+          "veepn.com",
+          4
+        ],
+        [
+          "privacyforkorea.com",
+          5
+        ],
+        [
+          "www.top10vpn.com",
+          6
+        ]
+      ],
+      "bigCount": 0,
+      "targeted": 3,
+      "ourRank": null,
+      "domainCount": 8,
+      "grade": "경쟁있음",
+      "why": "겨냥한 글 3건 · 1위 전문사이트(protonvpn.com)",
+      "incumbent": "전문사이트"
+    },
+    {
       "keyword": "아이폰VPN",
       "from": "VPN",
-      "volume": 1100,
+      "volume": 1090,
       "volumePc": 130,
-      "volumeMobile": 970,
+      "volumeMobile": 960,
       "adComp": "높음",
       "adDepth": 10,
       "hasWebBlock": true,
@@ -918,19 +859,19 @@
         ]
       ],
       "bigCount": 0,
-      "targeted": 6,
+      "targeted": 7,
       "ourRank": null,
       "domainCount": 6,
       "grade": "경쟁있음",
-      "why": "겨냥한 글 6건 · 1위 전문사이트(www.tenorshare.kr)",
+      "why": "겨냥한 글 7건 · 1위 전문사이트(www.tenorshare.kr)",
       "incumbent": "전문사이트"
     },
     {
       "keyword": "SSLVPN",
       "from": "VPN",
       "volume": 300,
-      "volumePc": 220,
-      "volumeMobile": 80,
+      "volumePc": 210,
+      "volumeMobile": 90,
       "adComp": "높음",
       "adDepth": 7,
       "hasWebBlock": true,
@@ -940,11 +881,11 @@
           1
         ],
         [
-          "evpn.jne.go.kr",
+          "www.axgate.com",
           1
         ],
         [
-          "guide.ncloud-docs.com",
+          "www.fin-ncloud.com",
           1
         ],
         [
@@ -952,7 +893,7 @@
           2
         ],
         [
-          "www.axgate.com",
+          "www.gov-ncloud.com",
           2
         ],
         [
@@ -961,19 +902,19 @@
         ],
         [
           "www.paloaltonetworks.co.kr",
-          2
-        ],
-        [
-          "www.gov-ncloud.com",
           3
         ],
         [
-          "www.checkpoint.com",
-          3
+          "guide.ncloud-docs.com",
+          4
+        ],
+        [
+          "www.ncloud.com",
+          5
         ],
         [
           "surfshark.com",
-          4
+          5
         ]
       ],
       "bigCount": 0,
@@ -987,9 +928,9 @@
     {
       "keyword": "VPN무료",
       "from": "VPN",
-      "volume": 1430,
+      "volume": 1440,
       "volumePc": 770,
-      "volumeMobile": 660,
+      "volumeMobile": 670,
       "adComp": "높음",
       "adDepth": 10,
       "hasWebBlock": true,
@@ -1000,7 +941,7 @@
         ],
         [
           "www.opera.com",
-          2
+          3
         ]
       ],
       "bigCount": 0,
@@ -1014,9 +955,9 @@
     {
       "keyword": "한국VPN",
       "from": "VPN",
-      "volume": 780,
+      "volume": 790,
       "volumePc": 180,
-      "volumeMobile": 600,
+      "volumeMobile": 610,
       "adComp": "높음",
       "adDepth": 10,
       "hasWebBlock": true,
@@ -1031,25 +972,29 @@
         ]
       ],
       "bigCount": 1,
-      "targeted": 7,
+      "targeted": 8,
       "ourRank": null,
       "domainCount": 2,
       "grade": "경쟁있음",
-      "why": "겨냥한 글 7건 · 1위 전문사이트(www.koreavpn.co.kr)",
+      "why": "겨냥한 글 8건 · 1위 전문사이트(www.koreavpn.co.kr)",
       "incumbent": "전문사이트"
     },
     {
       "keyword": "인도VPN",
       "from": "VPN",
-      "volume": 780,
-      "volumePc": 240,
-      "volumeMobile": 540,
+      "volume": 740,
+      "volumePc": 230,
+      "volumeMobile": 510,
       "adComp": "중간",
-      "adDepth": 8,
+      "adDepth": 7,
       "hasWebBlock": true,
       "top": [
         [
           "veepn.com",
+          1
+        ],
+        [
+          "www.bohumpixel.com",
           1
         ],
         [
@@ -1061,24 +1006,24 @@
           2
         ],
         [
-          "www.expressvpn.com",
+          "surfshark.com",
           2
+        ],
+        [
+          "www.expressvpn.com",
+          3
         ],
         [
           "freevpnplanet.com",
           3
-        ],
-        [
-          "surfshark.com",
-          4
         ]
       ],
       "bigCount": 0,
-      "targeted": 16,
+      "targeted": 17,
       "ourRank": null,
-      "domainCount": 6,
+      "domainCount": 7,
       "grade": "경쟁있음",
-      "why": "겨냥한 글 16건 · 1위 전문사이트(veepn.com)",
+      "why": "겨냥한 글 17건 · 1위 전문사이트(veepn.com)",
       "incumbent": "전문사이트"
     },
     {
@@ -1136,6 +1081,33 @@
       "incumbent": "전문사이트"
     },
     {
+      "keyword": "유료VPN",
+      "from": "VPN",
+      "volume": 410,
+      "volumePc": 110,
+      "volumeMobile": 300,
+      "adComp": "높음",
+      "adDepth": 10,
+      "hasWebBlock": true,
+      "top": [
+        [
+          "namu.wiki",
+          1
+        ],
+        [
+          "nordvpn.com",
+          1
+        ]
+      ],
+      "bigCount": 1,
+      "targeted": 4,
+      "ourRank": null,
+      "domainCount": 2,
+      "grade": "경쟁있음",
+      "why": "겨냥한 글 4건 · 1위 백과(namu.wiki)",
+      "incumbent": "백과"
+    },
+    {
       "keyword": "와이어가드",
       "from": "VPN느림",
       "volume": 280,
@@ -1187,70 +1159,11 @@
         ]
       ],
       "bigCount": 2,
-      "targeted": 11,
+      "targeted": 16,
       "ourRank": null,
       "domainCount": 13,
       "grade": "경쟁있음",
-      "why": "겨냥한 글 11건 · 1위 전문사이트(www.wireguard.com)",
-      "incumbent": "전문사이트"
-    },
-    {
-      "keyword": "터키VPN",
-      "from": "VPN",
-      "volume": 250,
-      "volumePc": 110,
-      "volumeMobile": 140,
-      "adComp": "중간",
-      "adDepth": 3,
-      "hasWebBlock": true,
-      "top": [
-        [
-          "veepn.com",
-          1
-        ],
-        [
-          "www.mumuplayer.com",
-          1
-        ],
-        [
-          "www.cyberghostvpn.com",
-          1
-        ],
-        [
-          "fastestvpn.com",
-          2
-        ],
-        [
-          "lightxtremevpn.com",
-          3
-        ],
-        [
-          "nordvpn.com",
-          3
-        ],
-        [
-          "hide.me",
-          4
-        ],
-        [
-          "freevpnplanet.com",
-          5
-        ],
-        [
-          "protonvpn.com",
-          6
-        ],
-        [
-          "surfshark.com",
-          7
-        ]
-      ],
-      "bigCount": 0,
-      "targeted": 7,
-      "ourRank": null,
-      "domainCount": 10,
-      "grade": "경쟁있음",
-      "why": "겨냥한 글 7건 · 1위 전문사이트(veepn.com)",
+      "why": "겨냥한 글 16건 · 1위 전문사이트(www.wireguard.com)",
       "incumbent": "전문사이트"
     },
     {
@@ -1264,6 +1177,10 @@
       "hasWebBlock": true,
       "top": [
         [
+          "nordvpn.com",
+          1
+        ],
+        [
           "veepn.com",
           1
         ],
@@ -1272,19 +1189,7 @@
           1
         ],
         [
-          "freevpnplanet.com",
-          1
-        ],
-        [
-          "nordvpn.com",
-          2
-        ],
-        [
           "www.top10vpn.com",
-          2
-        ],
-        [
-          "fastestvpn.com",
           2
         ],
         [
@@ -1293,15 +1198,15 @@
         ],
         [
           "privacyforkorea.com",
-          3
+          4
         ]
       ],
       "bigCount": 0,
       "targeted": 8,
       "ourRank": null,
-      "domainCount": 8,
+      "domainCount": 6,
       "grade": "경쟁있음",
-      "why": "겨냥한 글 8건 · 1위 전문사이트(veepn.com)",
+      "why": "겨냥한 글 8건 · 1위 전문사이트(nordvpn.com)",
       "incumbent": "전문사이트"
     },
     {
@@ -1315,31 +1220,35 @@
       "hasWebBlock": true,
       "top": [
         [
-          "nordvpn.com",
-          1
-        ],
-        [
-          "vpn-free.co.kr",
-          1
-        ],
-        [
           "www.top10vpn.com",
-          2
-        ],
-        [
-          "technchip.com",
-          2
-        ],
-        [
-          "surfshark.com",
-          3
+          1
         ],
         [
           "appbiabi.com",
+          1
+        ],
+        [
+          "surfshark.com",
+          2
+        ],
+        [
+          "hide.me",
+          2
+        ],
+        [
+          "vpn-free.co.kr",
+          3
+        ],
+        [
+          "nordvpn.com",
           3
         ],
         [
           "protonvpn.com",
+          4
+        ],
+        [
+          "technchip.com",
           4
         ],
         [
@@ -1350,16 +1259,71 @@
       "bigCount": 0,
       "targeted": 16,
       "ourRank": null,
-      "domainCount": 8,
+      "domainCount": 9,
       "grade": "경쟁있음",
-      "why": "겨냥한 글 16건 · 1위 전문사이트(nordvpn.com)",
+      "why": "겨냥한 글 16건 · 1위 전문사이트(www.top10vpn.com)",
+      "incumbent": "전문사이트"
+    },
+    {
+      "keyword": "터키VPN",
+      "from": "VPN",
+      "volume": 230,
+      "volumePc": 100,
+      "volumeMobile": 130,
+      "adComp": "중간",
+      "adDepth": 3,
+      "hasWebBlock": true,
+      "top": [
+        [
+          "freevpnplanet.com",
+          1
+        ],
+        [
+          "www.mumuplayer.com",
+          1
+        ],
+        [
+          "lightxtremevpn.com",
+          1
+        ],
+        [
+          "www.cyberghostvpn.com",
+          2
+        ],
+        [
+          "nordvpn.com",
+          2
+        ],
+        [
+          "fastestvpn.com",
+          3
+        ],
+        [
+          "hide.me",
+          4
+        ],
+        [
+          "protonvpn.com",
+          5
+        ],
+        [
+          "surfshark.com",
+          6
+        ]
+      ],
+      "bigCount": 0,
+      "targeted": 7,
+      "ourRank": null,
+      "domainCount": 9,
+      "grade": "경쟁있음",
+      "why": "겨냥한 글 7건 · 1위 전문사이트(freevpnplanet.com)",
       "incumbent": "전문사이트"
     },
     {
       "keyword": "킬스위치",
       "from": "VPN느림",
-      "volume": 1210,
-      "volumePc": 300,
+      "volume": 1200,
+      "volumePc": 290,
       "volumeMobile": 910,
       "adComp": "낮음",
       "adDepth": 0,
@@ -1383,26 +1347,26 @@
         ],
         [
           "www.facebook.com",
-          4
+          2
         ],
         [
           "watcha.com",
-          5
+          4
         ]
       ],
       "bigCount": 2,
-      "targeted": 36,
+      "targeted": 37,
       "ourRank": null,
       "domainCount": 6,
       "grade": "경쟁있음",
-      "why": "겨냥한 글 36건 · 1위 백과(ko.wikipedia.org)",
+      "why": "겨냥한 글 37건 · 1위 백과(ko.wikipedia.org)",
       "incumbent": "백과"
     },
     {
       "keyword": "OPENVPN",
       "from": "VPN",
-      "volume": 560,
-      "volumePc": 330,
+      "volume": 550,
+      "volumePc": 320,
       "volumeMobile": 230,
       "adComp": "중간",
       "adDepth": 8,
@@ -1433,7 +1397,7 @@
           1
         ],
         [
-          "surfshark.com",
+          "openvpn.softonic.kr",
           1
         ],
         [
@@ -1445,14 +1409,14 @@
           2
         ],
         [
-          "ko.wizcase.com",
+          "openvpn-connect.kr.uptodown.com",
           2
         ]
       ],
       "bigCount": 3,
       "targeted": 0,
       "ourRank": null,
-      "domainCount": 15,
+      "domainCount": 16,
       "grade": "경쟁높음",
       "why": "대형 플랫폼 3곳 상위",
       "incumbent": "전문사이트"
@@ -1460,9 +1424,9 @@
     {
       "keyword": "서프샤크",
       "from": "엑스프레스VPN",
-      "volume": 1370,
+      "volume": 1360,
       "volumePc": 910,
-      "volumeMobile": 460,
+      "volumeMobile": 450,
       "adComp": "중간",
       "adDepth": 1,
       "hasWebBlock": true,
@@ -1488,11 +1452,11 @@
           2
         ],
         [
-          "ko.wikipedia.org",
-          3
+          "www.youtube.com",
+          2
         ],
         [
-          "www.youtube.com",
+          "ko.wikipedia.org",
           3
         ],
         [
@@ -1501,7 +1465,7 @@
         ]
       ],
       "bigCount": 3,
-      "targeted": 24,
+      "targeted": 26,
       "ourRank": null,
       "domainCount": 8,
       "grade": "경쟁높음",
@@ -1536,7 +1500,7 @@
       "hasWebBlock": false,
       "top": [],
       "bigCount": 0,
-      "targeted": 1,
+      "targeted": 3,
       "ourRank": null,
       "domainCount": 0,
       "grade": "진입불가",
@@ -1545,9 +1509,9 @@
     {
       "keyword": "상하이VPN",
       "from": "VPN",
-      "volume": 230,
+      "volume": 220,
       "volumePc": 50,
-      "volumeMobile": 180,
+      "volumeMobile": 170,
       "adComp": "높음",
       "adDepth": 7,
       "hasWebBlock": false,
@@ -1562,15 +1526,15 @@
     {
       "keyword": "VPN앱",
       "from": "VPN",
-      "volume": 470,
+      "volume": 460,
       "volumePc": 60,
-      "volumeMobile": 410,
+      "volumeMobile": 400,
       "adComp": "높음",
       "adDepth": 10,
       "hasWebBlock": false,
       "top": [],
       "bigCount": 0,
-      "targeted": 11,
+      "targeted": 10,
       "ourRank": null,
       "domainCount": 0,
       "grade": "진입불가",
