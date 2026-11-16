@@ -58,7 +58,7 @@ export const VPN_LIST: VpnItem[] = [
       'Maximum discount requires a 2-year subscription plan',
       'Map-based interface can feel dense on smaller mobile screens'
     ],
-    dealUrl: 'https://lpweb.kr/click.php?m=nordvpn2&a=A100702444&l=0000&u_id=vpnmaindata',
+    dealUrl: 'https://lpweb.kr/click.php?m=nordvpn2&a=A100710018&l=0000&u_id=vpnmaindata',
     category: ['all', 'streaming', 'speed', 'security']
   },
   {
@@ -118,7 +118,7 @@ export const VPN_LIST: VpnItem[] = [
       'Higher latency occasionally observed on very distant edge servers',
       'Standard 1-month plan is significantly pricier than long-term deals'
     ],
-    dealUrl: 'https://lpweb.kr/click.php?m=surfshark&a=A100702444&l=9999&l_cd1=3&l_cd2=0&u_id=vpnmaindata&tu=https%3A%2F%2Fsurfshark.com%2Fko%2Fpricing',
+    dealUrl: 'https://lpweb.kr/click.php?m=surfshark&a=A100710018&l=9999&l_cd1=3&l_cd2=0&u_id=vpnmaindata&tu=https%3A%2F%2Fsurfshark.com%2Fko%2Fpricing',
     category: ['all', 'streaming', 'budget', 'unlimited']
   },
   {
@@ -230,7 +230,7 @@ export const VPN_LIST: VpnItem[] = [
     consEn: [
       'Higher monthly subscription cost compared to rivals'
     ],
-    dealUrl: 'https://lpweb.kr/click.php?m=exvpn&a=A100702444&l=9999&l_cd1=3&l_cd2=0&u_id=vpnmaindata&tu=https%3A%2F%2Fwww.expressvpn.com%2Fkr%2Fpricing%3Fproduct_type%3Dvpn',
+    dealUrl: 'https://lpweb.kr/click.php?m=exvpn&a=A100710018&l=9999&l_cd1=3&l_cd2=0&u_id=vpnmaindata&tu=https%3A%2F%2Fwww.expressvpn.com%2Fkr%2Fpricing%3Fproduct_type%3Dvpn',
     category: ['all', 'speed', 'security']
   }
 ];

@@ -1,6 +1,6 @@
-// 링크프라이스 VPN 제휴 링크 (사이트 코드 A100702444). app.ac 단축링크를 거치지 않고 직접 연결한다.
+// 링크프라이스 VPN 제휴 링크 (사이트 코드 A100710018). app.ac 단축링크를 거치지 않고 직접 연결한다.
 // u_id 는 영문·숫자만 (위치별 클릭 귀속용: vpnmain + 위치).
-const A = 'A100702444';
+const A = 'A100710018';
 const HOST = 'https://lpweb.kr/click.php';
 
 const BUILDERS: Record<string, (uid: string) => string> = {
