@@ -102,6 +102,11 @@ export function App() {
           <h2 className="font-['Hanken_Grotesk'] text-[22px] md:text-[26px] font-bold text-[#111111] mb-5">
             {lang === 'ko' ? '2026년 최고의 VPN 순위' : 'Top-Ranked VPNs for 2026'}
           </h2>
+          <p className="text-[12px] text-[#747878] mb-5">
+            {lang === 'ko'
+              ? '제휴 링크가 포함되어 있으며, 링크를 통해 가입하면 운영자가 수수료를 받을 수 있어요(구매 가격은 같아요). 가격과 조건은 수시로 바뀌니 결제 전 서비스 사이트에서 확인하세요.'
+              : 'This page contains affiliate links. We may earn a commission if you subscribe through them, at no extra cost to you. Prices and terms change, so check the service site before you pay.'}
+          </p>
           {filteredVpns.length === 0 ? (
             <div className="bg-white rounded-xl border border-[#E0E0E0] p-12 text-center my-8">
               <p className="text-base font-semibold text-[#111111] mb-2">

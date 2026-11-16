@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { X, Check, ArrowRight, Shield, Zap, Sparkles, Tv, Lock } from 'lucide-react';
 import { VpnItem, Language } from '../types';
+import { dealHref } from '../data/dealLinks';
 
 interface ComparisonModalProps {
   isOpen: boolean;
@@ -59,7 +60,7 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
                 {vpnList.map((vpn) => (
                   <th key={vpn.id} className="p-4 text-center min-w-[170px] bg-white">
                     <a 
-                      href={vpn.dealUrl}
+                      href={dealHref(vpn, 'compare')}
                       target="_blank"
                       rel="sponsored noopener noreferrer"
                       title={`${vpn.name} 공식 사이트 방문`}
@@ -218,7 +219,7 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
                 {vpnList.map((vpn) => (
                   <td key={vpn.id} className="p-4 text-center">
                     <a
-                      href={vpn.dealUrl}
+                      href={dealHref(vpn, 'compare')}
                       target="_blank"
                       rel="sponsored noopener noreferrer"
                       className="w-full py-2.5 px-3 bg-[#614abf] hover:bg-[#4930a6] text-white rounded-lg text-xs font-bold flex items-center justify-center gap-1 transition-all shadow-xs cursor-pointer"

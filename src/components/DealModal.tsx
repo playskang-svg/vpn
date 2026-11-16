@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { X, Sparkles, Copy, Check, ExternalLink, ShieldCheck, Clock } from 'lucide-react';
 import { VpnItem, Language } from '../types';
+import { dealHref } from '../data/dealLinks';
 
 interface DealModalProps {
   vpn: VpnItem | null;
@@ -118,7 +119,7 @@ export const DealModal: React.FC<DealModalProps> = ({
 
         {/* Action Button */}
         <a
-          href={vpn.dealUrl}
+          href={dealHref(vpn, 'deal')}
           target="_blank"
           rel="sponsored noopener noreferrer"
           onClick={() => onClose()}

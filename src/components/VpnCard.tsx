@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Star, CheckCircle2, ArrowRight, ExternalLink, Bookmark, Info, Sparkles } from 'lucide-react';
 import { VpnItem, Language } from '../types';
+import { dealHref } from '../data/dealLinks';
 
 interface VpnCardProps {
   vpn: VpnItem;
@@ -58,7 +59,7 @@ export const VpnCard: React.FC<VpnCardProps> = ({
 
         {/* Brand Image Logo Link */}
         <a 
-          href={vpn.dealUrl}
+          href={dealHref(vpn, 'card')}
           target="_blank"
           rel="sponsored noopener noreferrer"
           title={`${vpn.name} 공식 사이트 방문`}
@@ -147,7 +148,7 @@ export const VpnCard: React.FC<VpnCardProps> = ({
         {/* Primary CTA Button - Direct Link to Affiliate URL */}
         <a 
           id={`btn-visit-${vpn.id}`}
-          href={vpn.dealUrl}
+          href={dealHref(vpn, 'card')}
           target="_blank"
           rel="sponsored noopener noreferrer"
           className="w-full py-3 px-4 bg-[#614abf] hover:bg-[#4930a6] text-white rounded-lg font-['Inter'] text-[14px] font-bold transition-all flex items-center justify-center gap-2 group/btn shadow-xs shadow-[#614abf]/20 active:scale-98 cursor-pointer"

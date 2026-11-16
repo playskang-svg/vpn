@@ -1,6 +1,7 @@
 import React from 'react';
 import { X, Star, CheckCircle2, XCircle, ArrowRight, Shield, Zap, Server, Globe } from 'lucide-react';
 import { VpnItem, Language } from '../types';
+import { dealHref } from '../data/dealLinks';
 
 interface ReviewModalProps {
   vpn: VpnItem | null;
@@ -26,7 +27,7 @@ export const ReviewModal: React.FC<ReviewModalProps> = ({
         <div className="p-6 border-b border-[#E0E0E0] flex items-center justify-between sticky top-0 bg-white/95 backdrop-blur-xs z-20">
           <div className="flex items-center gap-4">
             <a
-              href={vpn.dealUrl}
+              href={dealHref(vpn, 'review')}
               target="_blank"
               rel="sponsored noopener noreferrer"
               title={`${vpn.name} 공식 사이트 방문`}
@@ -169,7 +170,7 @@ export const ReviewModal: React.FC<ReviewModalProps> = ({
               <span>{lang === 'ko' ? '쿠폰 코드 확인' : 'View Coupon'}</span>
             </button>
             <a
-              href={vpn.dealUrl}
+              href={dealHref(vpn, 'review')}
               target="_blank"
               rel="sponsored noopener noreferrer"
               className="py-2.5 px-5 bg-[#614abf] hover:bg-[#4930a6] text-white rounded-lg font-bold text-sm flex items-center justify-center gap-2 shadow-xs cursor-pointer flex-1 sm:flex-initial"

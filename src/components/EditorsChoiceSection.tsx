@@ -1,6 +1,7 @@
 import React from 'react';
 import { Star, Sparkles, ArrowRight, ShieldCheck } from 'lucide-react';
 import { VpnItem, Language } from '../types';
+import { dealHref } from '../data/dealLinks';
 
 interface EditorsChoiceSectionProps {
   vpnList: VpnItem[];
@@ -58,7 +59,7 @@ export const EditorsChoiceSection: React.FC<EditorsChoiceSectionProps> = ({
                 {/* Logo & Score */}
                 <div className="flex flex-col items-center mb-6 text-center">
                   <a
-                    href={vpn.dealUrl}
+                    href={dealHref(vpn, 'pick')}
                     target="_blank"
                     rel="sponsored noopener noreferrer"
                     title={`${vpn.name} 공식 사이트 방문`}
@@ -121,7 +122,7 @@ export const EditorsChoiceSection: React.FC<EditorsChoiceSectionProps> = ({
                 <div className="flex gap-2">
                   <a
                     id={`btn-choice-visit-${vpn.id}`}
-                    href={vpn.dealUrl}
+                    href={dealHref(vpn, 'pick')}
                     target="_blank"
                     rel="sponsored noopener noreferrer"
                     className={`flex-1 py-2.5 px-3 rounded-lg font-['Inter'] text-[13px] font-bold transition-all flex items-center justify-center gap-1.5 cursor-pointer ${

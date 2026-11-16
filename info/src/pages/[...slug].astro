@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { infoLinks } from '../lib/affiliate.mjs';
 
 export async function getStaticPaths() {
   const posts = await getCollection('posts');
@@ -27,11 +28,9 @@ const related = allPosts
   .slice(0, 4)
   .map((p) => p.post);
 
-const aff = [
-  { name: 'NordVPN', tag: '속도·균형 1위 추천', href: 'https://app.ac/jAw0hS593', color: '#4687ff' },
-  { name: 'Surfshark', tag: '기기 무제한·가성비', href: 'https://app.ac/tAG6xw563', color: '#1ebeb4' },
-  { name: 'ExpressVPN', tag: '초보자용 쉬운 앱', href: 'https://app.ac/ItVMzrM13', color: '#da3940' },
-];
+const affTop = infoLinks(post.id, 'top');
+const affBottom = infoLinks(post.id, 'end');
+const affMid = infoLinks(post.id, 'mid');
 
 const breadcrumbs = [
   { name: 'VPN Good Choice', path: '/' },
@@ -69,11 +68,11 @@ const breadcrumbs = [
 
 
     <div class="mb-8 rounded-2xl border border-[#d9d0ff] bg-[#f5f3ff] p-4">
-      <p class="text-[13px] font-bold text-[#4930a6] mb-2">이 글 읽기 전, 공식 가격부터 확인하세요</p>
+      <p class="text-[13px] font-bold text-[#4930a6] mb-2">이 글 읽기 전, 서비스별 현재 가격부터 확인하세요</p>
       <div class="grid grid-cols-3 gap-2">
-        {aff.map((a) => (
+        {affTop.map((a) => (
           <a href={a.href} target="_blank" rel="sponsored noopener noreferrer" class="text-center rounded-lg bg-white border border-[#E0E0E0] hover:border-[#614abf] px-1 py-2.5 text-[13px] font-bold text-[#111111]">
-            {a.name}<span class="block text-[10px] font-medium text-[#747878] mt-0.5">공식 가격 보기 →</span>
+            {a.name}<span class="block text-[10px] font-medium text-[#747878] mt-0.5">가격 확인하기 →</span>
           </a>
         ))}
       </div>
@@ -83,6 +82,37 @@ const breadcrumbs = [
     <div class="prose-content text-[#1a1c1c] text-[16px] leading-[1.8]">
       <Content />
     </div>
+    <div id="vpn-mid-cta" hidden class="my-8 rounded-2xl border border-[#d9d0ff] bg-[#f5f3ff] p-4 text-center">
+      <p class="text-[16px] font-extrabold text-[#4930a6] mb-1">표에서 마음에 든 서비스가 있다면, 지금 가격부터 확인해 보세요</p>
+      <p class="text-[13px] text-[#4930a6] mb-3">플랜별 요금과 환불 가능 기간은 시점마다 달라질 수 있어, 결제 전에 서비스 사이트에서 직접 확인하는 것이 안전해요.</p>
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-2">
+        {affMid.map((a) => (
+          <a href={a.href} target="_blank" rel="sponsored noopener noreferrer" class="block rounded-xl bg-white border-2 border-[#614abf] hover:bg-[#614abf] hover:text-white text-[#4930a6] px-3 py-3 font-extrabold text-[15px] transition-colors">
+            {a.name}<span class="block text-[11px] font-medium opacity-80 mt-0.5">{a.tag}</span><span class="block text-[12px] mt-1">가격 확인하기 →</span>
+          </a>
+        ))}
+      </div>
+      <p class="text-[11px] text-[#747878] mt-3">제휴 링크가 포함되어 있으며, 구매 시 운영자가 수수료를 받을 수 있어요(구매 가격은 같아요).</p>
+    </div>
+    <script is:inline>
+      // 비교표 바로 아래(표가 없으면 '결론' 소제목 위)로 CTA 를 옮긴다. 표도 결론도 없으면 숨김 유지.
+      (function () {
+        var cta = document.getElementById('vpn-mid-cta');
+        var body = document.querySelector('.prose-content');
+        if (!cta || !body) return;
+        var tables = body.querySelectorAll('table');
+        var anchor = null, before = false;
+        if (tables.length) { anchor = tables[tables.length - 1]; }
+        else {
+          var hs = body.querySelectorAll('h2');
+          for (var i = 0; i < hs.length; i++) { if (/^\s*결론/.test(hs[i].textContent)) { anchor = hs[i]; before = true; break; } }
+        }
+        if (!anchor) return;
+        if (before) anchor.parentNode.insertBefore(cta, anchor);
+        else anchor.parentNode.insertBefore(cta, anchor.nextSibling);
+        cta.hidden = false;
+      })();
+    </script>
   </article>
 
   {related.length > 0 && (
@@ -115,9 +145,9 @@ const breadcrumbs = [
 
   <div class="mt-12 pt-8 border-t border-[#E0E0E0] bg-[#e6deff] rounded-2xl p-6 text-center">
     <p class="text-[#4930a6] font-extrabold text-[18px] mb-1">읽었다면, 지금 가격만 확인해 보세요</p>
-    <p class="text-[#4930a6] text-[13px] mb-4">공식 사이트 이동 후 플랜별 가격과 환불 보장 기간을 바로 볼 수 있어요.</p>
+    <p class="text-[#4930a6] text-[13px] mb-4">서비스 사이트에서 플랜별 가격과 환불 가능 기간을 바로 볼 수 있어요.</p>
     <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
-      {aff.map((a) => (
+      {affBottom.map((a) => (
         <a href={a.href} target="_blank" rel="sponsored noopener noreferrer" class="block rounded-xl bg-white border-2 border-[#614abf] hover:bg-[#614abf] hover:text-white text-[#4930a6] px-3 py-3 font-extrabold text-[15px] transition-colors">
           {a.name}<span class="block text-[11px] font-medium opacity-80 mt-0.5">{a.tag}</span><span class="block text-[12px] mt-1">가격 확인하기 →</span>
         </a>
