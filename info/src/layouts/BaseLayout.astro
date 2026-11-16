@@ -12,9 +12,11 @@ interface Props {
   image?: string;
   /** Breadcrumb trail for BreadcrumbList structured data, home first. */
   breadcrumbs?: { name: string; path: string }[];
+  /** FAQPage structured data (question/answer pairs parsed from the post body). */
+  faq?: { q: string; a: string }[];
 }
 
-const { title, description, path, isArticle = false, publishedDate, image, breadcrumbs } = Astro.props;
+const { title, description, path, isArticle = false, publishedDate, image, breadcrumbs, faq } = Astro.props;
 const canonicalUrl = new URL(path, 'https://vpn.adbles.com').toString();
 const ogImage = new URL(image ?? '/info/og-image.png', 'https://vpn.adbles.com').toString();
 ---
@@ -72,6 +74,17 @@ const ogImage = new URL(image ?? '/info/og-image.png', 'https://vpn.adbles.com')
         mainEntityOfPage: canonicalUrl,
         image: ogImage,
         inLanguage: 'ko-KR',
+      })} />
+    )}
+    {faq && faq.length > 0 && (
+      <script type="application/ld+json" set:html={JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: faq.map((f) => ({
+          '@type': 'Question',
+          name: f.q,
+          acceptedAnswer: { '@type': 'Answer', text: f.a },
+        })),
       })} />
     )}
     {breadcrumbs && breadcrumbs.length > 0 && (

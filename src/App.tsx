@@ -143,6 +143,32 @@ export function App() {
           )}
         </section>
 
+        {/* 가격·비교 기준 가이드 (구매 전 확인용 내부 링크) */}
+        <section id="price-guide-section" className="px-4 lg:px-10 max-w-[1200px] mx-auto pb-16">
+          <h2 className="font-['Hanken_Grotesk'] text-[22px] md:text-[26px] font-bold text-[#111111] mb-2">
+            {lang === 'ko' ? '결제 전에 확인할 VPN 가격·비교 가이드' : 'Before you pay: VPN price and comparison guides'}
+          </h2>
+          <p className="text-[13px] text-[#747878] mb-5">
+            {lang === 'ko'
+              ? '월 요금만 보지 말고 첫 결제 총액·갱신가·기기 수·환불 기간을 함께 확인하세요. 가격은 2026년 11월 16일 공식 페이지 기준입니다.'
+              : 'Compare first-payment totals, renewal prices, device limits and refund windows, not just the monthly price. Prices checked on 16 Nov 2026.'}
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <a href="/info/vpn-price-comparison-2026/" className="block bg-white rounded-xl border border-[#E0E0E0] hover:border-[#614abf] p-5">
+              <p className="text-[15px] font-bold text-[#111111] mb-1">{lang === 'ko' ? 'VPN 가격 비교(2026.11)' : 'VPN price comparison (Nov 2026)'}</p>
+              <p className="text-[12px] text-[#747878]">{lang === 'ko' ? '월 요금 vs 2년 총액·갱신가 표' : 'Monthly price vs two-year total and renewal'}</p>
+            </a>
+            <a href="/info/paid-vpn-picking-criteria-2026/" className="block bg-white rounded-xl border border-[#E0E0E0] hover:border-[#614abf] p-5">
+              <p className="text-[15px] font-bold text-[#111111] mb-1">{lang === 'ko' ? '유료 VPN 추천 기준 5가지' : '5 criteria for choosing a paid VPN'}</p>
+              <p className="text-[12px] text-[#747878]">{lang === 'ko' ? '갱신가·기기 수·환불·부가 기능·약관' : 'Renewal, devices, refund, extras, terms'}</p>
+            </a>
+            <a href="/info/free-vs-paid-vpn/" className="block bg-white rounded-xl border border-[#E0E0E0] hover:border-[#614abf] p-5">
+              <p className="text-[15px] font-bold text-[#111111] mb-1">{lang === 'ko' ? '무료 VPN vs 유료 VPN 차이' : 'Free vs paid VPN'}</p>
+              <p className="text-[12px] text-[#747878]">{lang === 'ko' ? '돈 내야 할까? 항목별 비교표' : 'Is it worth paying? Item-by-item table'}</p>
+            </a>
+          </div>
+        </section>
+
         {/* Editors Choice Section */}
         <EditorsChoiceSection
           vpnList={VPN_LIST}

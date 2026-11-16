@@ -28,6 +28,13 @@ const related = allPosts
   .slice(0, 4)
   .map((p) => p.post);
 
+// 본문의 '**Q. 질문**\nA. 답' 블록을 FAQPage 구조화 데이터로 내보낸다(GEO·리치 결과).
+const faqItems = [...(post.body ?? '').matchAll(/\*\*Q\.\s*(.+?)\*\*\s*\r?\nA\.\s*(.+)/g)].map((m) => ({
+  q: m[1].trim(),
+  a: m[2].trim().replace(/\[([^\]]+)\]\([^)]*\)/g, '$1'),
+}));
+const midCta = post.data.cta ?? '표에서 마음에 든 서비스가 있다면, 지금 가격부터 확인해 보세요';
+
 const affTop = infoLinks(post.id, 'top');
 const affBottom = infoLinks(post.id, 'end');
 const affMid = infoLinks(post.id, 'mid');
@@ -47,6 +54,7 @@ const breadcrumbs = [
   publishedDate={post.data.date}
   image={post.data.thumbnail}
   breadcrumbs={breadcrumbs}
+  faq={faqItems}
 >
   <a href="/info/" class="text-sm font-semibold text-[#614abf] hover:underline mb-6 inline-block">← 전체 글 목록</a>
 
@@ -83,7 +91,7 @@ const breadcrumbs = [
       <Content />
     </div>
     <div id="vpn-mid-cta" hidden class="my-8 rounded-2xl border border-[#d9d0ff] bg-[#f5f3ff] p-4 text-center">
-      <p class="text-[16px] font-extrabold text-[#4930a6] mb-1">표에서 마음에 든 서비스가 있다면, 지금 가격부터 확인해 보세요</p>
+      <p class="text-[16px] font-extrabold text-[#4930a6] mb-1">{midCta}</p>
       <p class="text-[13px] text-[#4930a6] mb-3">플랜별 요금과 환불 가능 기간은 시점마다 달라질 수 있어, 결제 전에 서비스 사이트에서 직접 확인하는 것이 안전해요.</p>
       <div class="grid grid-cols-1 sm:grid-cols-3 gap-2">
         {affMid.map((a) => (

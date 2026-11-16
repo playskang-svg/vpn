@@ -9,6 +9,8 @@ const posts = defineCollection({
     date: z.coerce.date(),
     thumbnail: z.string(),
     tags: z.array(z.string()).default([]),
+    // 비교표 아래 CTA 상자의 질문형 문구(선택)
+    cta: z.string().optional(),
   }),
 });
 
