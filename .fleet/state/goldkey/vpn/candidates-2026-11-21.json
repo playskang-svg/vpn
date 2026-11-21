@@ -1,30 +1,30 @@
 {
   "site": "vpn",
-  "expandedAt": "2026-11-21T00:10:05.493Z",
+  "expandedAt": "2026-11-21T23:34:45.891Z",
   "candidates": [
     {
       "keyword": "VPN",
       "from": "VPN",
-      "volume": 32600,
-      "volumePc": 15900,
-      "volumeMobile": 16700,
+      "volume": 32000,
+      "volumePc": 15400,
+      "volumeMobile": 16600,
       "adComp": "높음",
       "adDepth": 10
     },
     {
       "keyword": "개인정보보호법",
       "from": "오픈VPN",
-      "volume": 21320,
-      "volumePc": 15300,
-      "volumeMobile": 6020,
+      "volume": 20570,
+      "volumePc": 14700,
+      "volumeMobile": 5870,
       "adComp": "높음",
       "adDepth": 10
     },
     {
       "keyword": "무료VPN",
       "from": "VPN",
-      "volume": 14680,
-      "volumePc": 7490,
+      "volume": 14480,
+      "volumePc": 7290,
       "volumeMobile": 7190,
       "adComp": "높음",
       "adDepth": 10
@@ -32,180 +32,180 @@
     {
       "keyword": "노드VPN",
       "from": "VPN",
-      "volume": 12700,
-      "volumePc": 6780,
-      "volumeMobile": 5920,
+      "volume": 12130,
+      "volumePc": 6350,
+      "volumeMobile": 5780,
       "adComp": "낮음",
       "adDepth": 1
     },
     {
       "keyword": "프로토콜",
       "from": "오픈VPN",
-      "volume": 8720,
-      "volumePc": 2820,
-      "volumeMobile": 5900,
-      "adComp": "높음",
+      "volume": 8540,
+      "volumePc": 2730,
+      "volumeMobile": 5810,
+      "adComp": "중간",
       "adDepth": 7
     },
     {
       "keyword": "PROTONVPN",
       "from": "VPN",
-      "volume": 6950,
-      "volumePc": 5330,
-      "volumeMobile": 1620,
+      "volume": 6750,
+      "volumePc": 5140,
+      "volumeMobile": 1610,
       "adComp": "낮음",
       "adDepth": 1
     },
     {
       "keyword": "NORDVPN",
       "from": "VPN",
-      "volume": 6510,
-      "volumePc": 3920,
-      "volumeMobile": 2590,
+      "volume": 6410,
+      "volumePc": 3800,
+      "volumeMobile": 2610,
       "adComp": "낮음",
       "adDepth": 1
     },
     {
       "keyword": "무료VPN추천",
       "from": "VPN",
-      "volume": 4200,
-      "volumePc": 1810,
-      "volumeMobile": 2390,
+      "volume": 4150,
+      "volumePc": 1770,
+      "volumeMobile": 2380,
       "adComp": "높음",
       "adDepth": 10
     },
     {
       "keyword": "중국VPN",
       "from": "VPN",
-      "volume": 4080,
-      "volumePc": 830,
-      "volumeMobile": 3250,
+      "volume": 4050,
+      "volumePc": 810,
+      "volumeMobile": 3240,
       "adComp": "높음",
       "adDepth": 10
     },
     {
       "keyword": "개인정보보호교육",
       "from": "오픈VPN",
-      "volume": 3910,
-      "volumePc": 3030,
-      "volumeMobile": 880,
+      "volume": 3800,
+      "volumePc": 2930,
+      "volumeMobile": 870,
       "adComp": "높음",
       "adDepth": 10
     },
     {
       "keyword": "컴퓨터VPN",
       "from": "VPN",
-      "volume": 3550,
-      "volumePc": 2360,
-      "volumeMobile": 1190,
+      "volume": 3450,
+      "volumePc": 2300,
+      "volumeMobile": 1150,
       "adComp": "높음",
       "adDepth": 10
     },
     {
       "keyword": "프로톤VPN",
       "from": "VPN",
-      "volume": 3550,
-      "volumePc": 2500,
-      "volumeMobile": 1050,
+      "volume": 3400,
+      "volumePc": 2360,
+      "volumeMobile": 1040,
       "adComp": "낮음",
       "adDepth": 1
     },
     {
       "keyword": "VPN추천",
       "from": "VPN",
-      "volume": 2520,
-      "volumePc": 1000,
-      "volumeMobile": 1520,
+      "volume": 2420,
+      "volumePc": 930,
+      "volumeMobile": 1490,
       "adComp": "높음",
       "adDepth": 10
     },
     {
       "keyword": "VPN사용법",
       "from": "VPN",
-      "volume": 2200,
-      "volumePc": 410,
-      "volumeMobile": 1790,
-      "adComp": "높음",
-      "adDepth": 10
-    },
-    {
-      "keyword": "개인정보보호",
-      "from": "오픈VPN",
-      "volume": 1830,
-      "volumePc": 1150,
-      "volumeMobile": 680,
+      "volume": 2180,
+      "volumePc": 400,
+      "volumeMobile": 1780,
       "adComp": "높음",
       "adDepth": 10
     },
     {
       "keyword": "JLVPN",
       "from": "VPN",
-      "volume": 1800,
+      "volume": 1810,
       "volumePc": 630,
-      "volumeMobile": 1170,
+      "volumeMobile": 1180,
       "adComp": "낮음",
-      "adDepth": 1
+      "adDepth": 2
     },
     {
-      "keyword": "VPN다운로드",
-      "from": "VPN",
+      "keyword": "개인정보보호",
+      "from": "오픈VPN",
       "volume": 1780,
-      "volumePc": 970,
-      "volumeMobile": 810,
+      "volumePc": 1100,
+      "volumeMobile": 680,
       "adComp": "높음",
       "adDepth": 10
     },
     {
-      "keyword": "IP주소변경",
+      "keyword": "VPN다운로드",
       "from": "VPN",
-      "volume": 1440,
-      "volumePc": 580,
-      "volumeMobile": 860,
+      "volume": 1740,
+      "volumePc": 920,
+      "volumeMobile": 820,
       "adComp": "높음",
       "adDepth": 10
     },
     {
       "keyword": "일본VPN",
       "from": "VPN",
-      "volume": 1430,
-      "volumePc": 540,
-      "volumeMobile": 890,
+      "volume": 1410,
+      "volumePc": 530,
+      "volumeMobile": 880,
       "adComp": "높음",
       "adDepth": 10
     },
     {
-      "keyword": "VPN무료",
+      "keyword": "IP주소변경",
       "from": "VPN",
-      "volume": 1420,
-      "volumePc": 750,
-      "volumeMobile": 670,
+      "volume": 1400,
+      "volumePc": 570,
+      "volumeMobile": 830,
       "adComp": "높음",
       "adDepth": 10
     },
     {
       "keyword": "서프샤크",
       "from": "엑스프레스VPN",
-      "volume": 1410,
-      "volumePc": 930,
-      "volumeMobile": 480,
+      "volume": 1380,
+      "volumePc": 910,
+      "volumeMobile": 470,
       "adComp": "중간",
       "adDepth": 1
     },
     {
+      "keyword": "VPN무료",
+      "from": "VPN",
+      "volume": 1370,
+      "volumePc": 710,
+      "volumeMobile": 660,
+      "adComp": "높음",
+      "adDepth": 10
+    },
+    {
       "keyword": "개인정보보호교육자료",
       "from": "오픈VPN",
-      "volume": 1310,
-      "volumePc": 1260,
-      "volumeMobile": 50,
+      "volume": 1260,
+      "volumePc": 1220,
+      "volumeMobile": 40,
       "adComp": "높음",
       "adDepth": 10
     },
     {
       "keyword": "킬스위치",
       "from": "VPN느림",
-      "volume": 1120,
-      "volumePc": 290,
-      "volumeMobile": 830,
+      "volume": 1080,
+      "volumePc": 280,
+      "volumeMobile": 800,
       "adComp": "낮음",
       "adDepth": 0
     },
@@ -219,55 +219,55 @@
       "adDepth": 10
     },
     {
-      "keyword": "컴퓨터VPN무료",
-      "from": "VPN",
-      "volume": 1010,
-      "volumePc": 750,
-      "volumeMobile": 260,
-      "adComp": "높음",
-      "adDepth": 7
-    },
-    {
       "keyword": "무료VPN어플",
       "from": "VPN",
-      "volume": 1010,
+      "volume": 1040,
       "volumePc": 210,
-      "volumeMobile": 800,
-      "adComp": "높음",
-      "adDepth": 7
+      "volumeMobile": 830,
+      "adComp": "중간",
+      "adDepth": 8
+    },
+    {
+      "keyword": "컴퓨터VPN무료",
+      "from": "VPN",
+      "volume": 1030,
+      "volumePc": 760,
+      "volumeMobile": 270,
+      "adComp": "중간",
+      "adDepth": 8
     },
     {
       "keyword": "해외에서한국VPN",
       "from": "VPN",
-      "volume": 950,
+      "volume": 940,
       "volumePc": 110,
-      "volumeMobile": 840,
+      "volumeMobile": 830,
       "adComp": "높음",
-      "adDepth": 9
+      "adDepth": 10
     },
     {
       "keyword": "중국VPN추천",
       "from": "VPN",
-      "volume": 910,
+      "volume": 900,
       "volumePc": 140,
-      "volumeMobile": 770,
+      "volumeMobile": 760,
       "adComp": "높음",
       "adDepth": 10
     },
     {
       "keyword": "한국VPN",
       "from": "VPN",
-      "volume": 770,
+      "volume": 780,
       "volumePc": 170,
-      "volumeMobile": 600,
+      "volumeMobile": 610,
       "adComp": "높음",
       "adDepth": 10
     },
     {
       "keyword": "PCVPN",
       "from": "VPN",
-      "volume": 650,
-      "volumePc": 390,
+      "volume": 630,
+      "volumePc": 370,
       "volumeMobile": 260,
       "adComp": "높음",
       "adDepth": 10
@@ -275,9 +275,9 @@
     {
       "keyword": "VPN우회",
       "from": "VPN",
-      "volume": 640,
+      "volume": 630,
       "volumePc": 210,
-      "volumeMobile": 430,
+      "volumeMobile": 420,
       "adComp": "높음",
       "adDepth": 10
     },
@@ -291,47 +291,47 @@
       "adDepth": 7
     },
     {
+      "keyword": "OPENVPN",
+      "from": "VPN",
+      "volume": 550,
+      "volumePc": 330,
+      "volumeMobile": 220,
+      "adComp": "중간",
+      "adDepth": 8
+    },
+    {
       "keyword": "인도VPN",
       "from": "VPN",
-      "volume": 590,
-      "volumePc": 180,
-      "volumeMobile": 410,
+      "volume": 550,
+      "volumePc": 160,
+      "volumeMobile": 390,
       "adComp": "중간",
-      "adDepth": 7
+      "adDepth": 6
     },
     {
       "keyword": "유료VPN추천",
       "from": "VPN",
-      "volume": 570,
-      "volumePc": 150,
-      "volumeMobile": 420,
+      "volume": 540,
+      "volumePc": 130,
+      "volumeMobile": 410,
       "adComp": "높음",
       "adDepth": 10
-    },
-    {
-      "keyword": "OPENVPN",
-      "from": "VPN",
-      "volume": 570,
-      "volumePc": 340,
-      "volumeMobile": 230,
-      "adComp": "중간",
-      "adDepth": 8
     },
     {
       "keyword": "NORDVPN환불",
       "from": "VPN",
       "volume": 530,
-      "volumePc": 240,
-      "volumeMobile": 290,
+      "volumePc": 230,
+      "volumeMobile": 300,
       "adComp": "중간",
       "adDepth": 2
     },
     {
       "keyword": "한국무료VPN",
       "from": "VPN",
-      "volume": 520,
-      "volumePc": 210,
-      "volumeMobile": 310,
+      "volume": 500,
+      "volumePc": 200,
+      "volumeMobile": 300,
       "adComp": "높음",
       "adDepth": 10
     },
@@ -339,8 +339,8 @@
       "keyword": "VPN앱",
       "from": "VPN",
       "volume": 450,
-      "volumePc": 70,
-      "volumeMobile": 380,
+      "volumePc": 60,
+      "volumeMobile": 390,
       "adComp": "높음",
       "adDepth": 10
     },
@@ -350,8 +350,8 @@
       "volume": 430,
       "volumePc": 170,
       "volumeMobile": 260,
-      "adComp": "높음",
-      "adDepth": 7
+      "adComp": "중간",
+      "adDepth": 8
     },
     {
       "keyword": "유료VPN",
@@ -363,58 +363,58 @@
       "adDepth": 10
     },
     {
-      "keyword": "VPN가격",
+      "keyword": "VPN무료체험",
       "from": "VPN",
-      "volume": 400,
-      "volumePc": 210,
-      "volumeMobile": 190,
+      "volume": 390,
+      "volumePc": 160,
+      "volumeMobile": 230,
       "adComp": "높음",
       "adDepth": 10
     },
     {
-      "keyword": "VPN무료체험",
+      "keyword": "컴퓨터무료VPN",
       "from": "VPN",
-      "volume": 400,
-      "volumePc": 170,
-      "volumeMobile": 230,
+      "volume": 380,
+      "volumePc": 160,
+      "volumeMobile": 220,
+      "adComp": "높음",
+      "adDepth": 10
+    },
+    {
+      "keyword": "VPN가격",
+      "from": "VPN",
+      "volume": 360,
+      "volumePc": 190,
+      "volumeMobile": 170,
       "adComp": "높음",
       "adDepth": 10
     },
     {
       "keyword": "노드VPN쿠폰",
       "from": "VPN",
-      "volume": 400,
-      "volumePc": 170,
-      "volumeMobile": 230,
-      "adComp": "중간",
-      "adDepth": 1
-    },
-    {
-      "keyword": "컴퓨터무료VPN",
-      "from": "VPN",
-      "volume": 380,
-      "volumePc": 170,
+      "volume": 360,
+      "volumePc": 150,
       "volumeMobile": 210,
-      "adComp": "높음",
-      "adDepth": 10
+      "adComp": "낮음",
+      "adDepth": 1
     },
     {
       "keyword": "중국여행VPN",
       "from": "VPN",
-      "volume": 350,
-      "volumePc": 90,
+      "volume": 340,
+      "volumePc": 80,
       "volumeMobile": 260,
-      "adComp": "높음",
-      "adDepth": 7
+      "adComp": "중간",
+      "adDepth": 8
     },
     {
       "keyword": "SSLVPN",
       "from": "VPN",
-      "volume": 340,
-      "volumePc": 250,
+      "volume": 330,
+      "volumePc": 240,
       "volumeMobile": 90,
-      "adComp": "높음",
-      "adDepth": 7
+      "adComp": "중간",
+      "adDepth": 8
     },
     {
       "keyword": "한전VPN",
@@ -437,19 +437,10 @@
     {
       "keyword": "와이어가드",
       "from": "VPN느림",
-      "volume": 280,
+      "volume": 270,
       "volumePc": 190,
-      "volumeMobile": 90,
+      "volumeMobile": 80,
       "adComp": "중간",
-      "adDepth": 1
-    },
-    {
-      "keyword": "노드VPN무료",
-      "from": "VPN",
-      "volume": 250,
-      "volumePc": 110,
-      "volumeMobile": 140,
-      "adComp": "낮음",
       "adDepth": 1
     },
     {
@@ -458,17 +449,17 @@
       "volume": 250,
       "volumePc": 70,
       "volumeMobile": 180,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
-      "keyword": "미국VPN",
+      "keyword": "VPN어플",
       "from": "VPN",
       "volume": 240,
-      "volumePc": 120,
-      "volumeMobile": 120,
-      "adComp": "높음",
-      "adDepth": 10
+      "volumePc": 80,
+      "volumeMobile": 160,
+      "adComp": "중간",
+      "adDepth": 7
     },
     {
       "keyword": "중국무료VPN",
@@ -489,47 +480,56 @@
       "adDepth": 1
     },
     {
-      "keyword": "VPN어플",
+      "keyword": "미국VPN",
       "from": "VPN",
       "volume": 230,
-      "volumePc": 80,
-      "volumeMobile": 150,
+      "volumePc": 120,
+      "volumeMobile": 110,
       "adComp": "높음",
-      "adDepth": 7
+      "adDepth": 10
+    },
+    {
+      "keyword": "노드VPN무료",
+      "from": "VPN",
+      "volume": 230,
+      "volumePc": 100,
+      "volumeMobile": 130,
+      "adComp": "낮음",
+      "adDepth": 1
+    },
+    {
+      "keyword": "공용와이파이",
+      "from": "유튜브프리미엄VPN",
+      "volume": 230,
+      "volumePc": 40,
+      "volumeMobile": 190,
+      "adComp": "높음",
+      "adDepth": 9
     },
     {
       "keyword": "FREEVPN",
       "from": "VPN",
-      "volume": 220,
-      "volumePc": 160,
+      "volume": 210,
+      "volumePc": 150,
       "volumeMobile": 60,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
       "keyword": "VPN장비",
       "from": "VPN",
-      "volume": 220,
+      "volume": 210,
       "volumePc": 120,
-      "volumeMobile": 100,
+      "volumeMobile": 90,
       "adComp": "높음",
       "adDepth": 8
-    },
-    {
-      "keyword": "공용와이파이",
-      "from": "유튜브프리미엄VPN",
-      "volume": 220,
-      "volumePc": 40,
-      "volumeMobile": 180,
-      "adComp": "높음",
-      "adDepth": 9
     },
     {
       "keyword": "아이폰무료VPN",
       "from": "VPN",
       "volume": 210,
-      "volumePc": 40,
-      "volumeMobile": 170,
+      "volumePc": 30,
+      "volumeMobile": 180,
       "adComp": "높음",
       "adDepth": 10
     },
@@ -539,26 +539,8 @@
       "volume": 210,
       "volumePc": 50,
       "volumeMobile": 160,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
-    },
-    {
-      "keyword": "개인정보보호지침",
-      "from": "오픈VPN",
-      "volume": 210,
-      "volumePc": 180,
-      "volumeMobile": 30,
-      "adComp": "높음",
-      "adDepth": 7
-    },
-    {
-      "keyword": "핸드폰VPN",
-      "from": "VPN",
-      "volume": 200,
-      "volumePc": 30,
-      "volumeMobile": 170,
-      "adComp": "높음",
-      "adDepth": 10
     },
     {
       "keyword": "한국VPN무료",
@@ -566,8 +548,26 @@
       "volume": 200,
       "volumePc": 50,
       "volumeMobile": 150,
-      "adComp": "높음",
+      "adComp": "중간",
+      "adDepth": 8
+    },
+    {
+      "keyword": "개인정보보호지침",
+      "from": "오픈VPN",
+      "volume": 200,
+      "volumePc": 170,
+      "volumeMobile": 30,
+      "adComp": "중간",
       "adDepth": 7
+    },
+    {
+      "keyword": "핸드폰VPN",
+      "from": "VPN",
+      "volume": 190,
+      "volumePc": 30,
+      "volumeMobile": 160,
+      "adComp": "높음",
+      "adDepth": 10
     },
     {
       "keyword": "무료VPN다운로드",
@@ -585,7 +585,7 @@
       "volumePc": 80,
       "volumeMobile": 110,
       "adComp": "중간",
-      "adDepth": 3
+      "adDepth": 4
     },
     {
       "keyword": "노트북VPN",
@@ -597,31 +597,13 @@
       "adDepth": 10
     },
     {
-      "keyword": "피시방VPN",
-      "from": "VPN",
-      "volume": 180,
-      "volumePc": 80,
-      "volumeMobile": 100,
-      "adComp": "높음",
-      "adDepth": 7
-    },
-    {
       "keyword": "유튜브VPN",
       "from": "VPN",
       "volume": 180,
       "volumePc": 40,
       "volumeMobile": 140,
-      "adComp": "높음",
-      "adDepth": 7
-    },
-    {
-      "keyword": "원격접속프로그램",
-      "from": "공공와이파이보안",
-      "volume": 170,
-      "volumePc": 130,
-      "volumeMobile": 40,
-      "adComp": "높음",
-      "adDepth": 10
+      "adComp": "중간",
+      "adDepth": 6
     },
     {
       "keyword": "모바일VPN",
@@ -638,8 +620,8 @@
       "volume": 160,
       "volumePc": 100,
       "volumeMobile": 60,
-      "adComp": "높음",
-      "adDepth": 7
+      "adComp": "중간",
+      "adDepth": 6
     },
     {
       "keyword": "고정아이피VPN",
@@ -651,21 +633,12 @@
       "adDepth": 7
     },
     {
-      "keyword": "베트남VPN",
-      "from": "VPN",
-      "volume": 160,
-      "volumePc": 60,
-      "volumeMobile": 100,
-      "adComp": "높음",
-      "adDepth": 10
-    },
-    {
-      "keyword": "PC방VPN",
+      "keyword": "피시방VPN",
       "from": "VPN",
       "volume": 160,
       "volumePc": 70,
       "volumeMobile": 90,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -674,8 +647,17 @@
       "volume": 160,
       "volumePc": 120,
       "volumeMobile": 40,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
+    },
+    {
+      "keyword": "원격접속프로그램",
+      "from": "공공와이파이보안",
+      "volume": 160,
+      "volumePc": 120,
+      "volumeMobile": 40,
+      "adComp": "높음",
+      "adDepth": 9
     },
     {
       "keyword": "무료한국VPN",
@@ -687,11 +669,11 @@
       "adDepth": 10
     },
     {
-      "keyword": "개인정보보호방법",
-      "from": "오픈VPN",
+      "keyword": "베트남VPN",
+      "from": "VPN",
       "volume": 150,
-      "volumePc": 90,
-      "volumeMobile": 60,
+      "volumePc": 50,
+      "volumeMobile": 100,
       "adComp": "높음",
       "adDepth": 10
     },
@@ -714,12 +696,21 @@
       "adDepth": 10
     },
     {
+      "keyword": "무료VPN사이트",
+      "from": "VPN",
+      "volume": 140,
+      "volumePc": 80,
+      "volumeMobile": 60,
+      "adComp": "중간",
+      "adDepth": 7
+    },
+    {
       "keyword": "VPN설치",
       "from": "VPN",
       "volume": 140,
       "volumePc": 100,
       "volumeMobile": 40,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -728,35 +719,35 @@
       "volume": 140,
       "volumePc": 90,
       "volumeMobile": 50,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
-      "keyword": "인도네시아VPN",
+      "keyword": "PC방VPN",
       "from": "VPN",
       "volume": 140,
       "volumePc": 60,
       "volumeMobile": 80,
       "adComp": "중간",
-      "adDepth": 3
-    },
-    {
-      "keyword": "무료VPN사이트",
-      "from": "VPN",
-      "volume": 130,
-      "volumePc": 70,
-      "volumeMobile": 60,
-      "adComp": "높음",
       "adDepth": 7
     },
     {
-      "keyword": "해외VPN",
-      "from": "VPN",
-      "volume": 130,
-      "volumePc": 40,
-      "volumeMobile": 90,
+      "keyword": "개인정보보호방법",
+      "from": "오픈VPN",
+      "volume": 140,
+      "volumePc": 80,
+      "volumeMobile": 60,
       "adComp": "높음",
       "adDepth": 10
+    },
+    {
+      "keyword": "인도네시아VPN",
+      "from": "VPN",
+      "volume": 130,
+      "volumePc": 50,
+      "volumeMobile": 80,
+      "adComp": "중간",
+      "adDepth": 3
     },
     {
       "keyword": "IPSECVPN",
@@ -764,7 +755,7 @@
       "volume": 130,
       "volumePc": 80,
       "volumeMobile": 50,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -777,13 +768,31 @@
       "adDepth": 3
     },
     {
+      "keyword": "해외VPN",
+      "from": "VPN",
+      "volume": 120,
+      "volumePc": 40,
+      "volumeMobile": 80,
+      "adComp": "높음",
+      "adDepth": 10
+    },
+    {
       "keyword": "노드브이피엔",
       "from": "VPN",
       "volume": 100,
       "volumePc": 70,
       "volumeMobile": 30,
-      "adComp": "중간",
+      "adComp": "낮음",
       "adDepth": 1
+    },
+    {
+      "keyword": "VPN프로그램",
+      "from": "VPN",
+      "volume": 100,
+      "volumePc": 80,
+      "volumeMobile": 20,
+      "adComp": "중간",
+      "adDepth": 7
     },
     {
       "keyword": "VPN순위",
@@ -791,7 +800,7 @@
       "volume": 100,
       "volumePc": 60,
       "volumeMobile": 40,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -801,7 +810,7 @@
       "volumePc": 20,
       "volumeMobile": 80,
       "adComp": "중간",
-      "adDepth": 5
+      "adDepth": 6
     },
     {
       "keyword": "중국에서VPN",
@@ -813,48 +822,12 @@
       "adDepth": 10
     },
     {
-      "keyword": "일본VPN추천",
-      "from": "VPN",
-      "volume": 100,
-      "volumePc": 40,
-      "volumeMobile": 60,
-      "adComp": "중간",
-      "adDepth": 5
-    },
-    {
-      "keyword": "노드VPN할인",
-      "from": "VPN",
-      "volume": 100,
-      "volumePc": 40,
-      "volumeMobile": 60,
-      "adComp": "중간",
-      "adDepth": 1
-    },
-    {
-      "keyword": "VPN프로그램",
-      "from": "VPN",
-      "volume": 90,
-      "volumePc": 80,
-      "volumeMobile": 10,
-      "adComp": "높음",
-      "adDepth": 7
-    },
-    {
-      "keyword": "윈도우VPN",
-      "from": "VPN",
-      "volume": 90,
-      "volumePc": 70,
-      "volumeMobile": 20,
-      "adComp": "높음",
-      "adDepth": 7
-    },
-    {
       "keyword": "컴퓨터VPN추천",
       "from": "VPN",
       "volume": 90,
       "volumePc": 60,
       "volumeMobile": 30,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -863,8 +836,8 @@
       "volume": 90,
       "volumePc": 30,
       "volumeMobile": 60,
-      "adComp": "높음",
-      "adDepth": 7
+      "adComp": "중간",
+      "adDepth": 8
     },
     {
       "keyword": "VPN설정",
@@ -872,17 +845,17 @@
       "volume": 90,
       "volumePc": 40,
       "volumeMobile": 50,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
-      "keyword": "게임용VPN",
+      "keyword": "일본VPN추천",
       "from": "VPN",
       "volume": 90,
-      "volumePc": 70,
-      "volumeMobile": 20,
-      "adComp": "높음",
-      "adDepth": 7
+      "volumePc": 40,
+      "volumeMobile": 50,
+      "adComp": "중간",
+      "adDepth": 5
     },
     {
       "keyword": "NORDVPN할인",
@@ -891,6 +864,15 @@
       "volumePc": 30,
       "volumeMobile": 60,
       "adComp": "중간",
+      "adDepth": 1
+    },
+    {
+      "keyword": "노드VPN할인",
+      "from": "VPN",
+      "volume": 90,
+      "volumePc": 30,
+      "volumeMobile": 60,
+      "adComp": "낮음",
       "adDepth": 1
     },
     {
@@ -918,7 +900,7 @@
       "volumePc": 30,
       "volumeMobile": 50,
       "adComp": "중간",
-      "adDepth": 6
+      "adDepth": 7
     },
     {
       "keyword": "VPN한국",
@@ -930,6 +912,15 @@
       "adDepth": 10
     },
     {
+      "keyword": "레드VPN",
+      "from": "VPN",
+      "volume": 80,
+      "volumePc": 70,
+      "volumeMobile": 10,
+      "adComp": "중간",
+      "adDepth": 3
+    },
+    {
       "keyword": "VPN공유기",
       "from": "VPN",
       "volume": 80,
@@ -939,13 +930,22 @@
       "adDepth": 8
     },
     {
+      "keyword": "게임용VPN",
+      "from": "VPN",
+      "volume": 80,
+      "volumePc": 60,
+      "volumeMobile": 20,
+      "adComp": "중간",
+      "adDepth": 7
+    },
+    {
       "keyword": "러시아VPN",
       "from": "VPN",
       "volume": 80,
       "volumePc": 20,
       "volumeMobile": 60,
-      "adComp": "높음",
-      "adDepth": 3
+      "adComp": "중간",
+      "adDepth": 2
     },
     {
       "keyword": "VPN중국",
@@ -953,8 +953,8 @@
       "volume": 80,
       "volumePc": 30,
       "volumeMobile": 50,
-      "adComp": "높음",
-      "adDepth": 7
+      "adComp": "중간",
+      "adDepth": 8
     },
     {
       "keyword": "NORDVPN쿠폰",
@@ -962,7 +962,7 @@
       "volume": 80,
       "volumePc": 40,
       "volumeMobile": 40,
-      "adComp": "중간",
+      "adComp": "낮음",
       "adDepth": 1
     },
     {
@@ -971,8 +971,8 @@
       "volume": 80,
       "volumePc": 20,
       "volumeMobile": 60,
-      "adComp": "높음",
-      "adDepth": 3
+      "adComp": "중간",
+      "adDepth": 2
     },
     {
       "keyword": "공공와이파이보안",
@@ -989,7 +989,16 @@
       "volume": 80,
       "volumePc": 40,
       "volumeMobile": 40,
-      "adComp": "높음",
+      "adComp": "중간",
+      "adDepth": 7
+    },
+    {
+      "keyword": "윈도우VPN",
+      "from": "VPN",
+      "volume": 70,
+      "volumePc": 60,
+      "volumeMobile": 10,
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -1007,7 +1016,7 @@
       "volume": 70,
       "volumePc": 30,
       "volumeMobile": 40,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -1016,7 +1025,7 @@
       "volume": 70,
       "volumePc": 40,
       "volumeMobile": 30,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -1026,16 +1035,7 @@
       "volumePc": 10,
       "volumeMobile": 60,
       "adComp": "높음",
-      "adDepth": 10
-    },
-    {
-      "keyword": "레드VPN",
-      "from": "VPN",
-      "volume": 70,
-      "volumePc": 60,
-      "volumeMobile": 10,
-      "adComp": "높음",
-      "adDepth": 3
+      "adDepth": 9
     },
     {
       "keyword": "필리핀VPN",
@@ -1065,21 +1065,12 @@
       "adDepth": 7
     },
     {
-      "keyword": "맥VPN",
-      "from": "VPN",
-      "volume": 60,
-      "volumePc": 50,
-      "volumeMobile": 10,
-      "adComp": "높음",
-      "adDepth": 7
-    },
-    {
       "keyword": "가성비VPN",
       "from": "VPN",
       "volume": 60,
       "volumePc": 50,
       "volumeMobile": 10,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -1088,7 +1079,16 @@
       "volume": 60,
       "volumePc": 50,
       "volumeMobile": 10,
-      "adComp": "높음",
+      "adComp": "중간",
+      "adDepth": 7
+    },
+    {
+      "keyword": "무료체험VPN",
+      "from": "VPN",
+      "volume": 60,
+      "volumePc": 20,
+      "volumeMobile": 40,
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -1097,7 +1097,7 @@
       "volume": 60,
       "volumePc": 20,
       "volumeMobile": 40,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -1106,7 +1106,7 @@
       "volume": 60,
       "volumePc": 50,
       "volumeMobile": 10,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -1124,16 +1124,7 @@
       "volume": 60,
       "volumePc": 30,
       "volumeMobile": 30,
-      "adComp": "높음",
-      "adDepth": 7
-    },
-    {
-      "keyword": "메이플VPN",
-      "from": "VPN",
-      "volume": 60,
-      "volumePc": 30,
-      "volumeMobile": 30,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -1142,7 +1133,7 @@
       "volume": 60,
       "volumePc": 20,
       "volumeMobile": 40,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -1151,7 +1142,7 @@
       "volume": 60,
       "volumePc": 10,
       "volumeMobile": 50,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 3
     },
     {
@@ -1169,16 +1160,16 @@
       "volume": 50,
       "volumePc": 40,
       "volumeMobile": 10,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
-      "keyword": "PCVPN추천",
+      "keyword": "맥VPN",
       "from": "VPN",
       "volume": 50,
       "volumePc": 40,
       "volumeMobile": 10,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -1187,16 +1178,7 @@
       "volume": 50,
       "volumePc": 20,
       "volumeMobile": 30,
-      "adComp": "높음",
-      "adDepth": 7
-    },
-    {
-      "keyword": "무료체험VPN",
-      "from": "VPN",
-      "volume": 50,
-      "volumePc": 20,
-      "volumeMobile": 30,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -1205,17 +1187,26 @@
       "volume": 50,
       "volumePc": 30,
       "volumeMobile": 20,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
-      "keyword": "국내VPN",
+      "keyword": "고정IPVPN",
       "from": "VPN",
       "volume": 50,
-      "volumePc": 30,
-      "volumeMobile": 20,
-      "adComp": "높음",
-      "adDepth": 10
+      "volumePc": 40,
+      "volumeMobile": 10,
+      "adComp": "중간",
+      "adDepth": 8
+    },
+    {
+      "keyword": "컴퓨터VPN우회",
+      "from": "VPN",
+      "volume": 50,
+      "volumePc": 40,
+      "volumeMobile": 10,
+      "adComp": "중간",
+      "adDepth": 7
     },
     {
       "keyword": "와이파이VPN",
@@ -1224,7 +1215,7 @@
       "volumePc": 10,
       "volumeMobile": 40,
       "adComp": "중간",
-      "adDepth": 3
+      "adDepth": 4
     },
     {
       "keyword": "VPN365",
@@ -1232,17 +1223,35 @@
       "volume": 50,
       "volumePc": 30,
       "volumeMobile": 20,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 3
     },
     {
-      "keyword": "거상VPN",
+      "keyword": "CHINAVPN",
+      "from": "VPN",
+      "volume": 50,
+      "volumePc": 20,
+      "volumeMobile": 30,
+      "adComp": "중간",
+      "adDepth": 3
+    },
+    {
+      "keyword": "메이플VPN",
       "from": "VPN",
       "volume": 50,
       "volumePc": 30,
       "volumeMobile": 20,
-      "adComp": "높음",
-      "adDepth": 3
+      "adComp": "중간",
+      "adDepth": 7
+    },
+    {
+      "keyword": "VPN사용방법",
+      "from": "VPN",
+      "volume": 50,
+      "volumePc": 30,
+      "volumeMobile": 20,
+      "adComp": "중간",
+      "adDepth": 7
     },
     {
       "keyword": "썬더VPN",
@@ -1252,15 +1261,6 @@
       "volumeMobile": 20,
       "adComp": "중간",
       "adDepth": 2
-    },
-    {
-      "keyword": "엑시트VPN",
-      "from": "VPN",
-      "volume": 50,
-      "volumePc": 40,
-      "volumeMobile": 10,
-      "adComp": "중간",
-      "adDepth": 1
     },
     {
       "keyword": "SOFTVPN",
@@ -1277,7 +1277,7 @@
       "volume": 50,
       "volumePc": 40,
       "volumeMobile": 10,
-      "adComp": "중간",
+      "adComp": "낮음",
       "adDepth": 1
     },
     {
@@ -1286,7 +1286,7 @@
       "volume": 50,
       "volumePc": 20,
       "volumeMobile": 30,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -1295,8 +1295,8 @@
       "volume": 50,
       "volumePc": 10,
       "volumeMobile": 40,
-      "adComp": "높음",
-      "adDepth": 7
+      "adComp": "중간",
+      "adDepth": 8
     },
     {
       "keyword": "인터넷VPN",
@@ -1304,7 +1304,16 @@
       "volume": 40,
       "volumePc": 20,
       "volumeMobile": 20,
-      "adComp": "높음",
+      "adComp": "중간",
+      "adDepth": 7
+    },
+    {
+      "keyword": "PCVPN추천",
+      "from": "VPN",
+      "volume": 40,
+      "volumePc": 30,
+      "volumeMobile": 10,
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -1313,7 +1322,7 @@
       "volume": 40,
       "volumePc": 30,
       "volumeMobile": 10,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -1322,7 +1331,7 @@
       "volume": 40,
       "volumePc": 30,
       "volumeMobile": 10,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -1335,12 +1344,21 @@
       "adDepth": 10
     },
     {
+      "keyword": "무료컴퓨터VPN",
+      "from": "VPN",
+      "volume": 40,
+      "volumePc": 30,
+      "volumeMobile": 10,
+      "adComp": "중간",
+      "adDepth": 7
+    },
+    {
       "keyword": "VPN속도",
       "from": "VPN",
       "volume": 40,
       "volumePc": 20,
       "volumeMobile": 20,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -1349,17 +1367,17 @@
       "volume": 40,
       "volumePc": 10,
       "volumeMobile": 30,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
-      "keyword": "고정IPVPN",
+      "keyword": "국내VPN",
       "from": "VPN",
       "volume": 40,
-      "volumePc": 30,
-      "volumeMobile": 10,
+      "volumePc": 20,
+      "volumeMobile": 20,
       "adComp": "높음",
-      "adDepth": 7
+      "adDepth": 10
     },
     {
       "keyword": "PC용무료VPN",
@@ -1367,16 +1385,7 @@
       "volume": 40,
       "volumePc": 30,
       "volumeMobile": 10,
-      "adComp": "높음",
-      "adDepth": 7
-    },
-    {
-      "keyword": "컴퓨터VPN우회",
-      "from": "VPN",
-      "volume": 40,
-      "volumePc": 30,
-      "volumeMobile": 10,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -1385,17 +1394,8 @@
       "volume": 40,
       "volumePc": 10,
       "volumeMobile": 30,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
-    },
-    {
-      "keyword": "CHINAVPN",
-      "from": "VPN",
-      "volume": 40,
-      "volumePc": 20,
-      "volumeMobile": 20,
-      "adComp": "높음",
-      "adDepth": 3
     },
     {
       "keyword": "VPN한달무료",
@@ -1403,17 +1403,8 @@
       "volume": 40,
       "volumePc": 10,
       "volumeMobile": 30,
-      "adComp": "높음",
-      "adDepth": 7
-    },
-    {
-      "keyword": "게이밍VPN",
-      "from": "VPN",
-      "volume": 40,
-      "volumePc": 30,
-      "volumeMobile": 10,
       "adComp": "중간",
-      "adDepth": 4
+      "adDepth": 7
     },
     {
       "keyword": "게임VPN추천",
@@ -1421,8 +1412,17 @@
       "volume": 40,
       "volumePc": 30,
       "volumeMobile": 10,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
+    },
+    {
+      "keyword": "거상VPN",
+      "from": "VPN",
+      "volume": 40,
+      "volumePc": 30,
+      "volumeMobile": 10,
+      "adComp": "중간",
+      "adDepth": 3
     },
     {
       "keyword": "차이나VPN",
@@ -1430,7 +1430,7 @@
       "volume": 40,
       "volumePc": 20,
       "volumeMobile": 20,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -1439,7 +1439,7 @@
       "volume": 40,
       "volumePc": 30,
       "volumeMobile": 10,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -1452,22 +1452,13 @@
       "adDepth": 3
     },
     {
-      "keyword": "VPN사용방법",
+      "keyword": "엑시트VPN",
       "from": "VPN",
       "volume": 40,
       "volumePc": 30,
       "volumeMobile": 10,
-      "adComp": "높음",
-      "adDepth": 7
-    },
-    {
-      "keyword": "PROXYVPN",
-      "from": "VPN",
-      "volume": 40,
-      "volumePc": 20,
-      "volumeMobile": 20,
-      "adComp": "높음",
-      "adDepth": 7
+      "adComp": "중간",
+      "adDepth": 2
     },
     {
       "keyword": "무료VPN한국",
@@ -1475,7 +1466,7 @@
       "volume": 40,
       "volumePc": 20,
       "volumeMobile": 20,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -1484,7 +1475,7 @@
       "volume": 30,
       "volumePc": 20,
       "volumeMobile": 10,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -1493,7 +1484,7 @@
       "volume": 30,
       "volumePc": 10,
       "volumeMobile": 20,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -1502,7 +1493,7 @@
       "volume": 30,
       "volumePc": 10,
       "volumeMobile": 20,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -1511,16 +1502,7 @@
       "volume": 30,
       "volumePc": 20,
       "volumeMobile": 10,
-      "adComp": "높음",
-      "adDepth": 7
-    },
-    {
-      "keyword": "무료컴퓨터VPN",
-      "from": "VPN",
-      "volume": 30,
-      "volumePc": 20,
-      "volumeMobile": 10,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -1530,7 +1512,7 @@
       "volumePc": 20,
       "volumeMobile": 10,
       "adComp": "중간",
-      "adDepth": 3
+      "adDepth": 4
     },
     {
       "keyword": "VPN고정IP",
@@ -1538,8 +1520,8 @@
       "volume": 30,
       "volumePc": 20,
       "volumeMobile": 10,
-      "adComp": "높음",
-      "adDepth": 7
+      "adComp": "중간",
+      "adDepth": 8
     },
     {
       "keyword": "회사VPN",
@@ -1547,7 +1529,7 @@
       "volume": 30,
       "volumePc": 10,
       "volumeMobile": 20,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -1565,7 +1547,7 @@
       "volume": 30,
       "volumePc": 10,
       "volumeMobile": 20,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -1592,7 +1574,7 @@
       "volume": 30,
       "volumePc": 20,
       "volumeMobile": 10,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -1614,12 +1596,21 @@
       "adDepth": 2
     },
     {
+      "keyword": "게이밍VPN",
+      "from": "VPN",
+      "volume": 30,
+      "volumePc": 20,
+      "volumeMobile": 10,
+      "adComp": "중간",
+      "adDepth": 4
+    },
+    {
       "keyword": "데스크탑VPN",
       "from": "VPN",
       "volume": 30,
       "volumePc": 20,
       "volumeMobile": 10,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -1647,7 +1638,7 @@
       "volumePc": 10,
       "volumeMobile": 20,
       "adComp": "중간",
-      "adDepth": 5
+      "adDepth": 6
     },
     {
       "keyword": "미국VPN추천",
@@ -1673,8 +1664,17 @@
       "volume": 30,
       "volumePc": 20,
       "volumeMobile": 10,
-      "adComp": "중간",
+      "adComp": "낮음",
       "adDepth": 1
+    },
+    {
+      "keyword": "PROXYVPN",
+      "from": "VPN",
+      "volume": 30,
+      "volumePc": 10,
+      "volumeMobile": 20,
+      "adComp": "중간",
+      "adDepth": 7
     },
     {
       "keyword": "개인정보보호컨설팅",
@@ -1682,7 +1682,7 @@
       "volume": 30,
       "volumePc": 20,
       "volumeMobile": 10,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -1691,7 +1691,7 @@
       "volume": 30,
       "volumePc": 10,
       "volumeMobile": 20,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -1700,7 +1700,7 @@
       "volume": 30,
       "volumePc": 10,
       "volumeMobile": 20,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 3
     },
     {
@@ -1718,7 +1718,7 @@
       "volume": 30,
       "volumePc": 20,
       "volumeMobile": 10,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -1728,7 +1728,7 @@
       "volumePc": 20,
       "volumeMobile": 10,
       "adComp": "중간",
-      "adDepth": 6
+      "adDepth": 7
     },
     {
       "keyword": "추천VPN",
@@ -1736,7 +1736,7 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -1754,7 +1754,7 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -1772,7 +1772,7 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -1781,7 +1781,7 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -1799,8 +1799,8 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "높음",
-      "adDepth": 7
+      "adComp": "중간",
+      "adDepth": 8
     },
     {
       "keyword": "리눅스VPN",
@@ -1808,7 +1808,7 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -1817,7 +1817,7 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 3
     },
     {
@@ -1826,8 +1826,8 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "높음",
-      "adDepth": 3
+      "adComp": "낮음",
+      "adDepth": 0
     },
     {
       "keyword": "MEGAVPN",
@@ -1871,7 +1871,7 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 3
     },
     {
@@ -1880,7 +1880,7 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 3
     },
     {
@@ -1889,7 +1889,7 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -1907,7 +1907,7 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -1916,7 +1916,7 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -1925,7 +1925,7 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -1952,7 +1952,7 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -2024,7 +2024,7 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -2043,7 +2043,7 @@
       "volumePc": 10,
       "volumeMobile": 10,
       "adComp": "중간",
-      "adDepth": 3
+      "adDepth": 6
     },
     {
       "keyword": "VPN주소",
@@ -2051,7 +2051,7 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -2087,8 +2087,8 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "높음",
-      "adDepth": 7
+      "adComp": "낮음",
+      "adDepth": 0
     },
     {
       "keyword": "VPN마스터",
@@ -2096,8 +2096,8 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "높음",
-      "adDepth": 3
+      "adComp": "낮음",
+      "adDepth": 0
     },
     {
       "keyword": "슈프림VPN",
@@ -2114,7 +2114,7 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 3
     },
     {
@@ -2124,7 +2124,7 @@
       "volumePc": 10,
       "volumeMobile": 10,
       "adComp": "높음",
-      "adDepth": 7
+      "adDepth": 8
     },
     {
       "keyword": "VPN신청",
@@ -2132,7 +2132,7 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -2150,7 +2150,7 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -2195,7 +2195,7 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 3
     },
     {
@@ -2213,7 +2213,7 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -2223,7 +2223,7 @@
       "volumePc": 10,
       "volumeMobile": 10,
       "adComp": "높음",
-      "adDepth": 7
+      "adDepth": 8
     },
     {
       "keyword": "VPN요금",
@@ -2231,7 +2231,7 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -2249,8 +2249,8 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "높음",
-      "adDepth": 3
+      "adComp": "낮음",
+      "adDepth": 0
     },
     {
       "keyword": "365VPN",
@@ -2303,8 +2303,8 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "중간",
-      "adDepth": 1
+      "adComp": "낮음",
+      "adDepth": 0
     },
     {
       "keyword": "VPN기계",
@@ -2313,7 +2313,7 @@
       "volumePc": 10,
       "volumeMobile": 10,
       "adComp": "높음",
-      "adDepth": 7
+      "adDepth": 8
     },
     {
       "keyword": "넥슨VPN",
@@ -2348,7 +2348,7 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "중간",
+      "adComp": "낮음",
       "adDepth": 1
     },
     {
@@ -2366,8 +2366,8 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "낮음",
-      "adDepth": 0
+      "adComp": "높음",
+      "adDepth": 7
     },
     {
       "keyword": "다계정VPN",
@@ -2384,8 +2384,8 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "중간",
-      "adDepth": 2
+      "adComp": "낮음",
+      "adDepth": 1
     },
     {
       "keyword": "게임전용VPN",
@@ -2393,7 +2393,7 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -2411,7 +2411,7 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -2421,7 +2421,7 @@
       "volumePc": 10,
       "volumeMobile": 10,
       "adComp": "높음",
-      "adDepth": 7
+      "adDepth": 8
     },
     {
       "keyword": "배틀그라운드VPN",
@@ -2456,7 +2456,7 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 3
     },
     {
@@ -2501,7 +2501,7 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -2511,7 +2511,7 @@
       "volumePc": 10,
       "volumeMobile": 10,
       "adComp": "중간",
-      "adDepth": 5
+      "adDepth": 3
     },
     {
       "keyword": "브라질VPN",
@@ -2519,8 +2519,8 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "중간",
-      "adDepth": 1
+      "adComp": "낮음",
+      "adDepth": 0
     },
     {
       "keyword": "VPN서버구축",
@@ -2555,7 +2555,7 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "중간",
+      "adComp": "낮음",
       "adDepth": 1
     },
     {
@@ -2564,8 +2564,8 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "낮음",
-      "adDepth": 0
+      "adComp": "높음",
+      "adDepth": 4
     },
     {
       "keyword": "NORDVPN한국",
@@ -2573,7 +2573,7 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "중간",
+      "adComp": "낮음",
       "adDepth": 1
     },
     {
@@ -2582,7 +2582,7 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "중간",
+      "adComp": "낮음",
       "adDepth": 1
     },
     {
@@ -2601,7 +2601,7 @@
       "volumePc": 10,
       "volumeMobile": 10,
       "adComp": "높음",
-      "adDepth": 3
+      "adDepth": 4
     },
     {
       "keyword": "무료미국VPN",
@@ -2619,7 +2619,7 @@
       "volumePc": 10,
       "volumeMobile": 10,
       "adComp": "중간",
-      "adDepth": 5
+      "adDepth": 6
     },
     {
       "keyword": "중국유료VPN",
@@ -2627,7 +2627,7 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -2645,7 +2645,7 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 3
     },
     {
@@ -2690,7 +2690,7 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 3
     },
     {
@@ -2699,7 +2699,7 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -2726,8 +2726,8 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "중간",
-      "adDepth": 1
+      "adComp": "낮음",
+      "adDepth": 0
     },
     {
       "keyword": "VPNAUCTION",
@@ -2780,7 +2780,7 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -2807,7 +2807,7 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 3
     },
     {
@@ -2816,8 +2816,8 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "중간",
-      "adDepth": 5
+      "adComp": "높음",
+      "adDepth": 3
     },
     {
       "keyword": "개인정보보호솔루션",
@@ -2825,7 +2825,7 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -2834,8 +2834,8 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "높음",
-      "adDepth": 3
+      "adComp": "낮음",
+      "adDepth": 0
     },
     {
       "keyword": "메가VPN",
@@ -2844,7 +2844,7 @@
       "volumePc": 10,
       "volumeMobile": 10,
       "adComp": "중간",
-      "adDepth": 4
+      "adDepth": 5
     },
     {
       "keyword": "VPN해지",
@@ -2906,8 +2906,8 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "높음",
-      "adDepth": 7
+      "adComp": "중간",
+      "adDepth": 6
     },
     {
       "keyword": "VPN연결오류",
@@ -2925,7 +2925,7 @@
       "volumePc": 10,
       "volumeMobile": 10,
       "adComp": "높음",
-      "adDepth": 3
+      "adDepth": 4
     },
     {
       "keyword": "VPN느림",
@@ -2943,7 +2943,7 @@
       "volumePc": 10,
       "volumeMobile": 10,
       "adComp": "중간",
-      "adDepth": 2
+      "adDepth": 1
     },
     {
       "keyword": "온라인추적",
@@ -2960,7 +2960,7 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "높음",
+      "adComp": "중간",
       "adDepth": 7
     },
     {
@@ -2997,7 +2997,7 @@
       "volumePc": 10,
       "volumeMobile": 10,
       "adComp": "낮음",
-      "adDepth": 0
+      "adDepth": 1
     },
     {
       "keyword": "개인정보보호조치",
@@ -3023,8 +3023,8 @@
       "volume": 20,
       "volumePc": 10,
       "volumeMobile": 10,
-      "adComp": "중간",
-      "adDepth": 2
+      "adComp": "낮음",
+      "adDepth": 0
     },
     {
       "keyword": "토렌트VPN안전",
