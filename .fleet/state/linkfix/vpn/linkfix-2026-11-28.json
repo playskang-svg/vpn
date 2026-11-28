@@ -1,0 +1,69 @@
+{
+  "site": "vpn",
+  "label": "VPN",
+  "domain": "vpn.adbles.com",
+  "repo": "playskang-svg/vpn",
+  "scannedAt": "2026-11-28T04:06:32.244Z",
+  "pagesCrawled": 138,
+  "sitemapUrls": 72,
+  "externalChecked": 1400,
+  "summary": {
+    "medium": 3,
+    "low": 2
+  },
+  "occurrences": 5,
+  "findings": [
+    {
+      "severity": "medium",
+      "kind": "no-meta-description",
+      "page": "https://vpn.adbles.com/info/japan-vpn-server-direction-guide"
+    },
+    {
+      "severity": "medium",
+      "kind": "no-meta-description",
+      "page": "https://vpn.adbles.com/info/youtube-vpn-three-different-problems"
+    },
+    {
+      "severity": "medium",
+      "kind": "dead-external-link",
+      "page": "https://vpn.adbles.com/info/youtube-vpn-three-different-problems",
+      "href": "https://support.google.com/youtube",
+      "status": 404,
+      "refs": 1,
+      "text": "유튜브 고객센터",
+      "note": "외부 링크가 죽었다. 대체 출처를 찾거나 링크를 걷어낸다"
+    },
+    {
+      "severity": "low",
+      "kind": "title-too-long",
+      "page": "https://vpn.adbles.com/info/vpn-brands-comparison-chart",
+      "title": "VPN 4개 브랜드 한눈에 비교: NordVPN·Surfshark·CyberGhost·ExpressVPN | VPN Good Choice",
+      "length": 76
+    },
+    {
+      "severity": "low",
+      "kind": "external-unreachable",
+      "page": "https://vpn.adbles.com/info/computer-vpn-pc-setup-3-ways",
+      "href": "https://support.apple.com/ko-kr/guide/mac-help/mchlp2963/mac",
+      "status": 429,
+      "error": null,
+      "note": "429 — 일시적일 수 있어 다음 회차에 다시 본다"
+    }
+  ],
+  "detail": {},
+  "autoFixable": [
+    "dead-anchor",
+    "empty-href",
+    "javascript-void",
+    "placeholder-url",
+    "http-to-https",
+    "double-slash"
+  ],
+  "reportOnly": [
+    "dead-external-link",
+    "external-unreachable",
+    "orphan-page",
+    "redirect-chain",
+    "noindex"
+  ]
+}
